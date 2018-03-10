@@ -16,7 +16,6 @@
 		$cats = array();
 		$cats = wp_get_object_terms($post, 'section-category');
 
-		var_dump(get_terms('section-category'));
 		$curCat = $cats[0]->slug;
 
 		// $blockWidth = get_field('block_width', $key);
@@ -29,7 +28,7 @@
 		$fullArr[$key]['id'] = $post;
 		$fullArr[$key]['cat_id'] = $curCat;
 		$fullArr[$key]['type'] = get_post_type($post);
-		var_dump($post);
+		var_dump($curCat);
 	}
 
 	foreach ($fullArr as $key => $single) {
