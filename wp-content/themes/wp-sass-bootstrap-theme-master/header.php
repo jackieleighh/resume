@@ -16,14 +16,21 @@
 
     <body <?php body_class(); ?>>
 
-    <header>
-      <a id="cd-logo" href="<?php bloginfo( 'url' ); ?>"><?php bloginfo( 'name' ); ?></a>
-      <!-- <nav id="cd-top-nav">
-        <ul>
-          <li><a href="#0">Tour</a></li>
-          <li><a href="#0">Login</a></li>
-        </ul>
-      </nav> -->
-      <a id="cd-menu-trigger" href="#0"><span class="cd-menu-text">Menu</span><span class="cd-menu-icon"></span></a>
-    </header>
-    <main class="cd-main-content">
+    <div class="l-site">
+      <div class="l-nav">
+        <nav class="nav">
+          <ul>
+            <li class="nav-primary"><a href="#">Home</a></li>
+            <li class="nav-primary"><a href="#">Approach</a></li>
+            <li class="nav-primary"><a href="#">Work</a></li>
+            <li class="nav-primary"><a href="#">People</a></li>
+            <li class="nav-secondary"><a href="#">Jobs</a></li>
+            <li class="nav-secondary"><a href="#">Blog</a></li>
+            <li class="nav-secondary"><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="l-page">
+        <div class="menu">
+          <div class="menu-hamburger"></div>
+        </div>
