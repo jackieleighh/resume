@@ -20,13 +20,17 @@
       <div class="l-nav">
         <nav class="nav">
           <ul>
-            <li class="nav-primary"><a href="#">Home</a></li>
-            <li class="nav-primary"><a href="#">Approach</a></li>
-            <li class="nav-primary"><a href="#">Work</a></li>
-            <li class="nav-primary"><a href="#">People</a></li>
-            <li class="nav-secondary"><a href="#">Jobs</a></li>
-            <li class="nav-secondary"><a href="#">Blog</a></li>
-            <li class="nav-secondary"><a href="#">Contact</a></li>
+          <?php 
+          $menuLocations = get_nav_menu_locations(); // Get our nav locations (set in our theme, usually functions.php)
+          var_dump($menuLocations);
+          $menuID = $menuLocations['primary']; // Get the *primary* menu ID
+          $primaryNav = wp_get_nav_menu_items($menuID); // Get the array of wp objects, the nav items for our queried location.
+
+          foreach ( $primaryNav as $navItem ) {
+
+              echo '<li class="nav-primary"><a href="'.$navItem->url.'" title="'.$navItem->title.'">'.$navItem->title.'</a></li>';
+
+          } ?>
           </ul>
         </nav>
       </div>
