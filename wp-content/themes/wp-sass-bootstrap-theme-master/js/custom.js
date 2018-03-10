@@ -26,9 +26,9 @@ function parallax() {
 		  element: $(this),
 		  handler: function(direction, element) {
 		  	if(direction == 'up'){
-		  		$('#' + this.element.id).parent('section-wrapper').removeClass('stuck');
+		  		$('#' + this.element.id).parent('.section-wrapper').removeClass('stuck');
 		  	} else {
-		  		$('#' + this.element.id).parent('section-wrapper').addClass('stuck');
+		  		$('#' + this.element.id).parent('.section-wrapper').addClass('stuck');
 		  	}
 		  }
 		});
