@@ -21,14 +21,14 @@ function sidebarMenu() {
 }
 
 function parallax() {
-	$('section-wrapper').each( function() {
+	$('section').each( function() {
 		var waypoint = new Waypoint({
 		  element: $(this),
 		  handler: function(direction, element) {
 		  	if(direction == 'up'){
-		  		$('#' + this.element[0].id).removeClass('stuck');
+		  		$('#' + this.element.id).parent('section-wrapper').removeClass('stuck');
 		  	} else {
-		  		$('#' + this.element[0].id).addClass('stuck');
+		  		$('#' + this.element.id).parent('section-wrapper').addClass('stuck');
 		  	}
 		  }
 		});
