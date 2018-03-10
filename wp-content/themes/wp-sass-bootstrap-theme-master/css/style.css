@@ -197,7 +197,6 @@ body {
   background: #5d676c; }
 
 section {
-  height: 400px;
   display: table;
   width: 100%;
   padding: 30px;
@@ -214,7 +213,6 @@ section {
 
 .section-wrapper {
   position: relative;
-  height: 400px;
   width: 100%; }
 
 /*# sourceMappingURL=style.css.map */
