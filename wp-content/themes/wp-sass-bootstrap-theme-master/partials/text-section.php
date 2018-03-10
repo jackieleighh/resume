@@ -12,9 +12,9 @@ $image = get_field('image', $postID);
 <div class="section-wrapper">
     <section id="<?php echo get_the_title(); ?>" class="block text-block" style="background-color: <?php echo $background_color; ?>">
         <div class="section-inner">
-            <?php if($type == 'no_image'): ?>
+            <?php if($type == 'no-image'): ?>
                 <?php echo $text; ?>
-            <?php elseif($type == 'image_left'): ?>
+            <?php elseif($type == 'image-left'): ?>
                 <div class="col-sm-4">
                     <img src="<?php echo $image; ?>"/>
                 </div>
