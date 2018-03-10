@@ -7,12 +7,14 @@ body {
 }
 
 section {
-	.block-inner {
-		padding: 100px 10px;
+	height: 400px;
+	display: table;
+	.section-inner {
+		display: table-cell;
+		vertical-align: middle;
 	}
 	&.stuck {
 		position: fixed;
-		height: 400px;
 		width: 100%;
 		top: 0;
 		z-index: -1;

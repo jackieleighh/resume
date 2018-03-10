@@ -196,14 +196,17 @@ body {
   padding: 0;
   background: #5d676c; }
 
-section .block-inner {
-  padding: 100px 10px; }
-section.stuck {
-  position: fixed;
+section {
   height: 400px;
-  width: 100%;
-  top: 0;
-  z-index: -1; }
+  display: table; }
+  section .section-inner {
+    display: table-cell;
+    vertical-align: middle; }
+  section.stuck {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: -1; }
 
 .section-wrapper {
   position: relative;
