@@ -196,12 +196,23 @@ body {
   margin: 0;
   padding: 0;
   background: white;
-  font-family: "Quattrocento Sans", sans-serif; }
+  font-family: "Quattrocento Sans", sans-serif;
+  font-size: 16px;
+  line-height: 20px; }
+
+p {
+  font-size: 16px;
+  line-height: 20px; }
+
+h1 {
+  font-size: 50px; }
 
 .l-nav {
   background: white; }
-  .l-nav nav a {
-    color: #383838; }
+  .l-nav nav {
+    width: 240px; }
+    .l-nav nav a {
+      color: #383838; }
 
 .vertical-align {
   display: table;
