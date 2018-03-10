@@ -30,8 +30,8 @@ function parallax() {
 		$(this).css('height', $(this).parent('.section-wrapper').height());
 		$(this).parent('.section-wrapper').css('height', $(this).outerHeight());
 		if($(this).hasClass('main-block')){
-			$(this).children('section-inner').css('position', 'absolute');
-			$(this).children('section-inner').css('width', '100%');
+			$(this).children('.section-inner').css('position', 'absolute');
+			$(this).children('.section-inner').css('width', '100%');
 		}
 	})
 	$('section').each( function() {
