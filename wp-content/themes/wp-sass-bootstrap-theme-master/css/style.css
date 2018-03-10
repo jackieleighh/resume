@@ -200,7 +200,10 @@ section {
   height: 400px;
   display: table;
   width: 100%;
-  padding: 30px; }
+  padding: 30px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
   section .section-inner {
     display: table-cell;
     vertical-align: middle; }
