@@ -34,6 +34,8 @@
 			include(locate_template('partials/text-section.php'));
 		} else if ($single['cat_id'] == 'main') {
 			include(locate_template('partials/main-section.php'));
+		} else if ($single['cat_id'] == 'parallax-text') {
+			include(locate_template('partials/parallax-section.php'));
 		} 
 	}
 
