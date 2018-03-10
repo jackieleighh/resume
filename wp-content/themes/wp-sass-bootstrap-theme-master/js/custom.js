@@ -26,6 +26,8 @@ function sidebarMenu() {
 
 function parallax() {
 	$('section').css('width', $('.section-wrapper').width());
+	$('section').css('height', $('.section-wrapper').height());
+	$('section-wrapper').css('height', $('.section').height());
 	$('section').each( function() {
 		var waypoint = new Waypoint({
 		  element: $(this),
