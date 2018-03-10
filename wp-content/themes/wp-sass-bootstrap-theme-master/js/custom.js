@@ -25,8 +25,11 @@ function sidebarMenu() {
 }
 
 function parallax() {
-	$('section').css('width', $('.section-wrapper').width());
-	$('section').css('height', $('.section-wrapper').height());
+	$('section').each( function() {
+		$(this).css('width', $('.section-wrapper').width());
+		$(this).css('height', $('.section-wrapper').height());
+		$(this).parent('.section-wrapper').css('height', $(this).outerHeight());
+	})
 	$('section').each( function() {
 		var waypoint = new Waypoint({
 		  element: $(this),
