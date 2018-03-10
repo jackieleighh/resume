@@ -9,13 +9,14 @@ body {
 section {
 	height: 400px;
 	display: table;
+	width: 100%;
+	padding: 30px;
 	.section-inner {
 		display: table-cell;
 		vertical-align: middle;
 	}
 	&.stuck {
 		position: fixed;
-		width: 100%;
 		top: 0;
 		z-index: -1;
 	}

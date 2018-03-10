@@ -198,13 +198,14 @@ body {
 
 section {
   height: 400px;
-  display: table; }
+  display: table;
+  width: 100%;
+  padding: 30px; }
   section .section-inner {
     display: table-cell;
     vertical-align: middle; }
   section.stuck {
     position: fixed;
-    width: 100%;
     top: 0;
     z-index: -1; }
 
