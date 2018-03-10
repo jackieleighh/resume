@@ -63,4 +63,9 @@ function create_widget($name, $id, $description) {
 // sidebar Widgets	
 
 	create_widget( 'Sidebar Widgets', 'sidebar-widget', 'Display on the page sidebar' );
+
+// register custom post type
+	require_once('lib/section-post-type.php');
+
+	
 ?>
