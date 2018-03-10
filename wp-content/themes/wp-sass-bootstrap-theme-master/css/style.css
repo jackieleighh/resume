@@ -227,9 +227,9 @@ section {
   height: 100%; }
 .main-block h1 {
   color: white; }
-  .main-block h1.first {
+  .main-block h1 .first {
     color: #D65780; }
-  .main-block h1.second {
+  .main-block h1 .second {
     color: #DBFE87; }
 .main-block h2 {
   color: white; }
