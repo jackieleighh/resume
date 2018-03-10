@@ -264,4 +264,156 @@ section {
   width: 100%;
   height: auto; }
 
+.bg {
+  background-color: #ffe4c7;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 0; }
+
+.layer {
+  background-position: top center;
+  background-repeat: no-repeat;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  min-height: 400px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 100; }
+
+.parallax {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  perspective: 1px; }
+
+.parallax-group {
+  height: 100vh;
+  position: relative;
+  transform-style: preserve-3d; }
+
+.content {
+  background-color: transparent;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  letter-spacing: 10px;
+  line-height: 40px;
+  margin-top: 1000px;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  width: 100%;
+  transform: translateZ(-2px) scale(3);
+  z-index: 10; }
+
+.parallax-group div:nth-child(1) {
+  background-color: #ffe4c7;
+  margin-top: 600px;
+  background-color: #e0ccb4;
+  transform: translateZ(-12px) scale(13); }
+  .parallax-group div:nth-child(1):before {
+    background-image: linear-gradient(135deg, transparent 66%, #e0ccb4 66.01%), linear-gradient(45deg, #e0ccb4 34%, transparent 34.01%);
+    background-position: 130px 0;
+    background-repeat: repeat-x;
+    background-size: 200px 100%;
+    content: "";
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    bottom: 100%;
+    left: 0; }
+
+.parallax-group div:nth-child(2) {
+  background-color: #ffe4c7;
+  margin-top: 900px;
+  background-color: #c1b5a0;
+  transform: translateZ(-10px) scale(11); }
+  .parallax-group div:nth-child(2):before {
+    background-image: linear-gradient(135deg, transparent 66%, #c1b5a0 66.01%), linear-gradient(45deg, #c1b5a0 34%, transparent 34.01%);
+    background-position: 290px 0;
+    background-repeat: repeat-x;
+    background-size: 200px 100%;
+    content: "";
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    bottom: 100%;
+    left: 0; }
+
+.parallax-group div:nth-child(3) {
+  background-color: #ffe4c7;
+  margin-top: 1200px;
+  background-color: #a19d8d;
+  transform: translateZ(-8px) scale(9); }
+  .parallax-group div:nth-child(3):before {
+    background-image: linear-gradient(135deg, transparent 66%, #a19d8d 66.01%), linear-gradient(45deg, #a19d8d 34%, transparent 34.01%);
+    background-position: 64px 0;
+    background-repeat: repeat-x;
+    background-size: 200px 100%;
+    content: "";
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    bottom: 100%;
+    left: 0; }
+
+.parallax-group div:nth-child(4) {
+  background-color: #ffe4c7;
+  margin-top: 1500px;
+  background-color: #828579;
+  transform: translateZ(-6px) scale(7); }
+  .parallax-group div:nth-child(4):before {
+    background-image: linear-gradient(135deg, transparent 66%, #828579 66.01%), linear-gradient(45deg, #828579 34%, transparent 34.01%);
+    background-position: 36px 0;
+    background-repeat: repeat-x;
+    background-size: 200px 100%;
+    content: "";
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    bottom: 100%;
+    left: 0; }
+
+.parallax-group div:nth-child(5) {
+  background-color: #ffe4c7;
+  margin-top: 1800px;
+  background-color: #636e66;
+  transform: translateZ(-4px) scale(5); }
+  .parallax-group div:nth-child(5):before {
+    background-image: linear-gradient(135deg, transparent 66%, #636e66 66.01%), linear-gradient(45deg, #636e66 34%, transparent 34.01%);
+    background-position: 202px 0;
+    background-repeat: repeat-x;
+    background-size: 200px 100%;
+    content: "";
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    bottom: 100%;
+    left: 0; }
+
+.parallax-group div:nth-child(6) {
+  background-color: #ffe4c7;
+  margin-top: 2100px;
+  background-color: #445652;
+  transform: translateZ(-2px) scale(3); }
+  .parallax-group div:nth-child(6):before {
+    background-image: linear-gradient(135deg, transparent 66%, #445652 66.01%), linear-gradient(45deg, #445652 34%, transparent 34.01%);
+    background-position: 18px 0;
+    background-repeat: repeat-x;
+    background-size: 200px 100%;
+    content: "";
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    bottom: 100%;
+    left: 0; }
+
+.fill {
+  height: 80%; }
+
 /*# sourceMappingURL=style.css.map */
