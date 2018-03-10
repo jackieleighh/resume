@@ -217,7 +217,9 @@ section {
 
 .main-block .section-inner {
   padding: 100px 30px;
-  text-align: center; }
+  text-align: center;
+  width: 100%;
+  position: absolute; }
 .main-block .bg {
   opacity: .7;
   background: #2bacb1;
