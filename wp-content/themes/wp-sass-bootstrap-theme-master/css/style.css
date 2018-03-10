@@ -196,4 +196,8 @@ body {
   padding: 0;
   background: #5d676c; }
 
+.parallax-window {
+  min-height: 400px;
+  background: transparent; }
+
 /*# sourceMappingURL=style.css.map */
