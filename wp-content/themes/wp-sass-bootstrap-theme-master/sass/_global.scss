@@ -3,8 +3,17 @@ html,
 body {
   margin: 0;
   padding: 0;
-  background: #5d676c;
+  background: white;
   font-family: $quattro;
+}
+
+.l-nav {
+	background: white;
+	nav {
+		a {
+			color: #383838;
+		}
+	}
 }
 
 .vertical-align {
