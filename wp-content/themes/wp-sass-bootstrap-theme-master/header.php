@@ -22,8 +22,7 @@
           <ul>
           <?php 
           $menuLocations = get_nav_menu_locations(); // Get our nav locations (set in our theme, usually functions.php)
-          var_dump($menuLocations);
-          $menuID = $menuLocations['primary']; // Get the *primary* menu ID
+          $menuID = $menuLocations['header_menu']; // Get the *primary* menu ID
           $primaryNav = wp_get_nav_menu_items($menuID); // Get the array of wp objects, the nav items for our queried location.
 
           foreach ( $primaryNav as $navItem ) {
