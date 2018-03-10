@@ -220,13 +220,17 @@ section {
   text-align: center; }
 .main-block .bg {
   opacity: .5;
-  background: #49BEB7;
+  background: #383838;
   position: absolute;
   top: 0;
   width: 100%;
   height: 100%; }
 .main-block h1 {
   color: white; }
+  .main-block h1.first {
+    color: #D65780; }
+  .main-block h1.second {
+    color: #DBFE87; }
 .main-block h2 {
   color: white; }
 
