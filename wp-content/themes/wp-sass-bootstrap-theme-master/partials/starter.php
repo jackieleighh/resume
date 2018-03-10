@@ -32,6 +32,8 @@
 	foreach ($fullArr as $key => $single) {
 		if ($single['cat_id'] == 'text') {
 			include(locate_template('partials/text-section.php'));
+		} else if ($single['cat_id'] == 'main') {
+			include(locate_template('partials/main-section.php'));
 		} 
 	}
 
