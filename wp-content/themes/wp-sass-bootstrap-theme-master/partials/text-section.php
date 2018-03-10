@@ -12,7 +12,7 @@ $background_image = get_field('background_image', $postID);
             <?php if($background_image): ?>
                 <div class="background-image" style="background-image: url('<?php echo $background_image; ?>');"></div>
             <?php endif; ?>
-            <?php echo $text; ?>
+            <?php var_dump($text); ?>
         </div>
     </div>
 </section>
