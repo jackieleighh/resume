@@ -15,7 +15,7 @@
   </head>
 
     <body <?php body_class(); ?>>
-
+    
     <div class="l-site">
       <div class="l-nav">
         <nav class="nav">
@@ -34,3 +34,5 @@
         <div class="menu">
           <div class="menu-hamburger"></div>
         </div>
+
+        <div class="parallax">
