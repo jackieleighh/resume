@@ -7,14 +7,19 @@ $subtitle = get_field('subtitle', $postID);
 $background_image = get_field('background_image', $postID);
 ?>
 
-<div class="parallax__group">
+<section class="band main-block parallax__group">
     <div class="parallax__layer parallax__layer--back">
-    	back
+    	<img src="<?php echo $background_image; ?>" alt="background" />
     </div>
     <div class="parallax__layer parallax__layer--base">
-    	base
+    	<div class="band-container">
+	        <div class="band-inner">
+	        	<h1><i class="fas fa-angle-left"></i><?php echo $title; ?><i class="fas fa-angle-right"></i></h1>
+	        	<h2><?php echo $subtitle; ?></h2>
+	        </div>
+	    </div>
     </div>
-</div>
+</section>
 	<!-- <section id="<?php echo get_the_title(); ?>" class="band main-block" style="background-image: url('<?php echo $background_image; ?>');">
 	    <div class="band-container">
 	        <div class="band-inner">
