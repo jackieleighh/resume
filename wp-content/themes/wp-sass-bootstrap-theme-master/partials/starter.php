@@ -14,10 +14,8 @@
 	foreach ($posts as $key => $post) {
 		//echo "<pre>"; var_dump($post); echo "</pre>";
 		$cats = array();
-
-		var_dump(wp_get_object_terms($post));
-		$cats = wp_get_object_terms($post, 'section-category');
-
+		wp_get_object_terms($post, $cats, 'section-category');
+		var_dump($cats);
 		var_dump(get_terms('section-category'));
 		$curCat = $cats[0]->slug;
 
