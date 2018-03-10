@@ -180,7 +180,7 @@ function twentyseventeen_setup() {
 		'nav_menus' => array(
 			// Assign a menu to the "top" location.
 			'top' => array(
-				'name' => __( 'Top Menu', 'twentyseventeen' ),
+				'name' => __( 'Main Menu', 'twentyseventeen' ),
 				'items' => array(
 					'link_home', // Note that the core "home" page is actually a link in case a static front page is not used.
 					'page_about',
