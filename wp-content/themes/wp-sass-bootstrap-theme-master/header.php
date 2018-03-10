@@ -16,29 +16,14 @@
 
     <body <?php body_class(); ?>>
 
-    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Direct naar de inhoud</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="<?php bloginfo( 'url' ); ?>"><?php bloginfo( 'name' ); ?></a>
-        </div>
-        <div class="navbar-collapse collapse">
-
-        <?php 
-
-        $args = array(
-            'menu'        => 'header_menu',
-            'menu_class'  => 'nav navbar-nav',
-            'container'   => 'false'
-          );
-          wp_nav_menu($args);
-        ?>
-
-        </div><!--/.navbar-collapse -->
-      </div>
-    </div>
+    <header>
+      <a id="cd-logo" href="<?php bloginfo( 'url' ); ?>"><?php bloginfo( 'name' ); ?></a>
+      <!-- <nav id="cd-top-nav">
+        <ul>
+          <li><a href="#0">Tour</a></li>
+          <li><a href="#0">Login</a></li>
+        </ul>
+      </nav> -->
+      <a id="cd-menu-trigger" href="#0"><span class="cd-menu-text">Menu</span><span class="cd-menu-icon"></span></a>
+    </header>
+    <main class="cd-main-content">
