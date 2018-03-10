@@ -18,17 +18,33 @@ $image = get_field('image', $postID);
                 </div>
             <?php elseif($type == 'image-left'): ?>
                 <div class="col-sm-4 matchHeight img-col">
-                    <img src="<?php echo $image; ?>"/>
+                    <div class="vertical-align">
+                        <div class="inner">
+                            <img src="<?php echo $image; ?>"/>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-sm-8 matchHeight">
-                    <?php echo $text; ?>
+                    <div class="vertical-align">
+                        <div class="inner">
+                            <?php echo $text; ?>
+                        </div>
+                    </div>
                 </div>
             <?php else: ?>
                 <div class="col-sm-8 matchHeight">
-                    <?php echo $text; ?>
+                    <div class="vertical-align">
+                        <div class="inner">
+                            <?php echo $text; ?>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-sm-4 matchHeight img-col">
-                    <img src="<?php echo $image; ?>"/>
+                    <div class="vertical-align">
+                        <div class="inner">
+                            <img src="<?php echo $image; ?>"/>
+                        </div>
+                    </div>
                 </div>
             <?php endif; ?>
         </div>

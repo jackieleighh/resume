@@ -198,6 +198,14 @@ body {
   background: #5d676c;
   font-family: "Quattrocento Sans", sans-serif; }
 
+.vertical-align {
+  display: table;
+  width: 100%;
+  height: 100%; }
+  .vertical-align .inner {
+    display: table-cell;
+    vertical-align: middle; }
+
 section {
   display: table;
   width: 100%;
