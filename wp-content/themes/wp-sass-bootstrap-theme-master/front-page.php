@@ -35,4 +35,5 @@
       </div>
 
       <hr>
+    </div>
 <?php get_footer(); ?>      
