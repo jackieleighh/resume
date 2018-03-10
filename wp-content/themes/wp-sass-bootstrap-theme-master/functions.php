@@ -67,5 +67,19 @@ function create_widget($name, $id, $description) {
 // register custom post type
 	require_once('lib/section-post-type.php');
 
-	
+// register custom taxonomies
+	function section_taxonomy() {
+    	register_taxonomy(
+	        'section-category',
+	        'section',
+	        array(
+	            'label' => __( 'Section Category' ),
+	            'rewrite' => array( 'slug' => 'section-category' ),
+	            'hierarchical' => true,
+	        )
+	    );
+	}
+
+	add_action( 'init', 'section_taxonomy' );
+
 ?>
