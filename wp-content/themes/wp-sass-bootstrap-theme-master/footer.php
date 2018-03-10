@@ -1,5 +1,4 @@
-				
-				</main> <!-- cd-main-content -->
+				</div>
 			</div>
 		</div>
 	    <footer>
