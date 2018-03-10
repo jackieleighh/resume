@@ -9,7 +9,6 @@ body {
 section {
 	height: 400px;
 	display: table;
-	position: relative;
 	width: 100%;
 	padding: 30px;
 	background-position: center;
@@ -30,9 +29,4 @@ section {
 	position: relative;
 	height: 400px;
 	width: 100%;
-	&.stuck {
-		position: fixed;
-		top: 0;
-		z-index: -1;
-	}
 }
