@@ -236,4 +236,8 @@ section {
 .main-block h2 {
   color: white; }
 
+.text-block .img-col img {
+  width: 100%;
+  height: auto; }
+
 /*# sourceMappingURL=style.css.map */
