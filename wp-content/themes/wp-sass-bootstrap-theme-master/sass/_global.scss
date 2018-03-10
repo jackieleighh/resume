@@ -11,7 +11,16 @@ section {
 		padding: 100px 10px;
 	}
 	&.stuck {
-		position: absolute;
+		position: fixed;
+		height: 400px;
+		width: 100%;
 		top: 0;
+		z-index: -1;
 	}
+}
+
+.section-wrapper {
+	position: relative;
+	height: 400px;
+	width: 100%;
 }
