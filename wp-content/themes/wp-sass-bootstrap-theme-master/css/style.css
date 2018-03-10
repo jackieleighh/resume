@@ -200,10 +200,7 @@ section {
   height: 400px;
   display: table;
   width: 100%;
-  padding: 30px;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat; }
+  padding: 30px; }
   section .section-inner {
     display: table-cell;
     vertical-align: middle; }
@@ -215,6 +212,9 @@ section {
 .section-wrapper {
   position: relative;
   height: 400px;
-  width: 100%; }
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
 
 /*# sourceMappingURL=style.css.map */
