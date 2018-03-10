@@ -7,6 +7,10 @@ $(document).ready( function() {
 	parallax();
 });
 
+$(window).resize(function() {
+	parallax();
+});
+
 
 function sidebarMenu() {
 	$('.menu').on('click', function(){
@@ -21,6 +25,7 @@ function sidebarMenu() {
 }
 
 function parallax() {
+	$('section').css('width', $('.section-wrapper').width());
 	$('section').each( function() {
 		var waypoint = new Waypoint({
 		  element: $(this),
