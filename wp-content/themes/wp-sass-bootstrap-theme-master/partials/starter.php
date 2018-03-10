@@ -12,7 +12,7 @@
 	$hasSlide = false;
 
 	foreach ($posts as $key => $post) {
-		//echo "<pre>"; var_dump($post); echo "</pre>";
+		echo "<pre>"; var_dump($post); echo "</pre>";
 		$cats = array();
 		$cats = wp_get_object_terms($post, 'section-category');
 

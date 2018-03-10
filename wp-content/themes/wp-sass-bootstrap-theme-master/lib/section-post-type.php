@@ -35,7 +35,7 @@ function section_post() {
 		'labels'                => $labels,
 		'supports'              => array( 'title', 'thumbnail', 'revisions'),
 		'hierarchical'          => false,
-		'taxonomies'            => array( 'category' ),
+		//'taxonomies'            => array( 'category' ),
 		'public'                => true,
 		'show_ui'               => true,
 		'show_in_menu'          => true,
