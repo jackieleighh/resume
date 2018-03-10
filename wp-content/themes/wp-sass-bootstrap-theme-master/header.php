@@ -37,6 +37,3 @@
         <div class="menu">
           <div class="menu-hamburger"></div>
         </div>
-
-        <div class="bg"></div>
-        <div class="parallax">
