@@ -24,11 +24,11 @@ function parallax() {
 	$('section').each( function() {
 		var waypoint = new Waypoint({
 		  element: $(this),
-		  handler: function(direction) {
+		  handler: function(direction, element) {
 		  	if(direction == 'up'){
-		  		$(this).removeClass('stuck');
+		  		$('#' + this.element[0].id).removeClass('stuck');
 		  	} else {
-		  		$(this).addClass('stuck');
+		  		$('#' + this.element[0].id).addClass('stuck');
 		  	}
 		  }
 		});
