@@ -23,5 +23,7 @@ $background_image = get_field('background_image', $postID);
   </div>
 </div>
 
-<div class="parallax-container" data-parallax="scroll" data-position="top" data-bleed="10" data-image-src="<?php echo $background_image; ?>" data-natural-width="1400" data-natural-height="900">
+<div class="block">
+  <img src="<?php echo $background_image; ?>" data-speed="-0.25" class="img-parallax">
+  <h2>Parallax Speed -0.25</h2>
 </div>
