@@ -4,6 +4,7 @@ function theme_styles() {
 
 	wp_enqueue_style( 'bootstrap_css', get_template_directory_uri() . '/bootstrap/css/styles.css' );
 	wp_enqueue_style('print_css', get_template_directory_uri() . '/bootstrap/css/print.css' );
+	wp_enqueue_style('menu-reset.css', get_template_directory_uri() . '/secondary-expandable-navigation/css/reset.css');
 	wp_enqueue_style('menu-style.css', get_template_directory_uri() . '/secondary-expandable-navigation/css/style.css');
 }
 
