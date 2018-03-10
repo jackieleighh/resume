@@ -15,3 +15,4 @@ $background_image = get_field('background_image', $postID);
         </div>
     </div>
 </section>
+<div class="parallax-window" data-parallax="scroll" data-image-src="<?php echo $background_image; ?>"></div>

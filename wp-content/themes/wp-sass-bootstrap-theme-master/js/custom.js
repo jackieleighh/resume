@@ -18,7 +18,7 @@ function sidebarMenu() {
 	});
 }
 
-$(window).scroll(function(){\
+$(window).scroll(function(){
   // Add parallax scrolling to all images in .parallax-section container
   $('.parallax-section').each(function(){
     // only put top value if the window scroll has gone beyond the top of the image
