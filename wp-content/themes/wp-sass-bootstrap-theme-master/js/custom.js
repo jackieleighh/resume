@@ -26,8 +26,8 @@ function sidebarMenu() {
 
 function parallax() {
 	$('section').each( function() {
-		$(this).css('width', $('.section-wrapper').width());
-		$(this).css('height', $('.section-wrapper').height());
+		$(this).css('width', $(this).parent('.section-wrapper').width());
+		$(this).css('height', $(this).parent('.section-wrapper').height());
 		$(this).parent('.section-wrapper').css('height', $(this).outerHeight());
 		if($(this).hasClass('main-block')){
 			$(this).children('section-inner').css('position', 'absolute');
