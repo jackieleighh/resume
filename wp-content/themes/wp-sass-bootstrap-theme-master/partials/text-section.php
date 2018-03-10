@@ -17,17 +17,17 @@ $image = get_field('image', $postID);
                     <?php echo $text; ?>
                 </div>
             <?php elseif($type == 'image-left'): ?>
-                <div class="col-sm-4 img-col">
+                <div class="col-sm-4 matchHeight img-col">
                     <img src="<?php echo $image; ?>"/>
                 </div>
-                <div class="col-sm-8">
+                <div class="col-sm-8 matchHeight">
                     <?php echo $text; ?>
                 </div>
             <?php else: ?>
-                <div class="col-sm-8">
+                <div class="col-sm-8 matchHeight">
                     <?php echo $text; ?>
                 </div>
-                <div class="col-sm-4 img-col">
+                <div class="col-sm-4 matchHeight img-col">
                     <img src="<?php echo $image; ?>"/>
                 </div>
             <?php endif; ?>

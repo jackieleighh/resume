@@ -7,6 +7,9 @@ $(document).ready( function() {
 	parallax();
 
 	smoothScroll();
+
+	$('.matchHeight').matchHeight();
+	
 });
 
 $(window).resize(function() {
