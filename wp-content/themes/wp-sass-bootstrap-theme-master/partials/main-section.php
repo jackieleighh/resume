@@ -16,3 +16,17 @@ $background_image = get_field('background_image', $postID);
 	    </div>
 	</section>
 </div>
+
+<div class="parallax">
+  <div class="parallax__group">
+    <div class="parallax__layer parallax__layer--back">
+      ...
+    </div>
+    <div class="parallax__layer parallax__layer--base">
+      ...
+    </div>
+  </div>
+  <div class="parallax__group">
+    ...
+  </div>
+</div>
