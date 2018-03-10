@@ -7,7 +7,7 @@ $subtitle = get_field('subtitle', $postID);
 $background_image = get_field('background_image', $postID);
 ?>
 
-<div class="section-wrapper">
+<!-- <div class="section-wrapper">
     <section id="<?php echo get_the_title(); ?>" class="block main-block">
 	  <div class="parallax-group">
 	    <div class="layer"></div>
@@ -23,9 +23,9 @@ $background_image = get_field('background_image', $postID);
 	  </div>
 	</section>
 </div>
+ -->
 
-
-<!-- <div class="section-wrapper">
+<div class="section-wrapper">
 	<section id="<?php echo get_the_title(); ?>" class="block main-block" style="background-image: url('<?php echo $background_image; ?>');">
 		<div class="bg"></div>
 		<div class="section-inner">
@@ -33,4 +33,4 @@ $background_image = get_field('background_image', $postID);
 			<h2><?php echo $subtitle; ?></h2>
 		</div>
 	</section>
-</div> -->
+</div>
