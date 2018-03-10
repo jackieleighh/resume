@@ -26,7 +26,6 @@
 <div id="page" class="site">
 	
 	<div id="navigation" class="col-sm-3">
-		<?php wp_nav_menu( 'theme_location' => 'top_menu'); ?>
 	</div>
 
 	<div id="content" class="site-content col-sm-9">
