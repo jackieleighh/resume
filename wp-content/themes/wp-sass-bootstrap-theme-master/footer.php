@@ -1,12 +1,10 @@
-				</div>
-			</div>
-		</div>
-	    <footer>
-	        <p>&copy; <?php bloginfo( 'name' ); ?> <?php echo date('Y'); ?></p>
-	    </footer>
-    </div> <!-- /container -->
 
-  
+		    <footer>
+		        <p>&copy; <?php bloginfo( 'name' ); ?> <?php echo date('Y'); ?></p>
+		    </footer>
+	    </div>
+	</div>
+
     <?php wp_footer(); ?>
     
 	</body>
