@@ -215,4 +215,12 @@ section {
   position: relative;
   width: 100%; }
 
+.main-block {
+  padding: 100px 30px;
+  text-align: center; }
+  .main-block h1 {
+    color: white; }
+  .main-block h2 {
+    color: white; }
+
 /*# sourceMappingURL=style.css.map */
