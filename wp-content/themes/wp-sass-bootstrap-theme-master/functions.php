@@ -5,6 +5,7 @@ function theme_styles() {
 	wp_enqueue_style( 'bootstrap_css', get_template_directory_uri() . '/bootstrap/css/styles.css' );
 	wp_enqueue_style('print_css', get_template_directory_uri() . '/bootstrap/css/print.css' );
 	wp_enqueue_style('style.css', get_template_directory_uri() . '/css/style.css');
+	wp_enqueue_style('fontawesome.css', get_template_directory_uri() . '/font-awesome/fontawesome.min.css');
 }
 
 	add_action('wp_enqueue_scripts', 'theme_styles' );
