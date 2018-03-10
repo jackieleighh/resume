@@ -2,7 +2,7 @@
 
 $postID = $single['id'];
 $post = get_post($postID);
-
+var_dump($post);
 $text = get_field('text', $postID);
 ?>
 

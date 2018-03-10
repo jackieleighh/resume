@@ -29,7 +29,6 @@
 		$fullArr[$key]['id'] = $post;
 		$fullArr[$key]['cat_id'] = $curCat;
 		$fullArr[$key]['type'] = get_post_type($post);
-		var_dump($post);
 	}
 
 	foreach ($fullArr as $key => $single) {
