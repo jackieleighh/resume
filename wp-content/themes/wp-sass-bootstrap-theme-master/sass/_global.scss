@@ -6,8 +6,21 @@ body {
   background: #5d676c;
 }
 
-.main-block {
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
+.parallax-section {
+  padding-top: 50%;
+  position: relative;
+}
+.parallax-section section {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
+.bottom {
+  height: 500px;
+  background: #fff;
+  position: relative;
+  z-index: 1;
 }
