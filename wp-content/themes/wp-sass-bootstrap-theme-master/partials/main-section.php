@@ -7,8 +7,7 @@ $subtitle = get_field('subtitle', $postID);
 $background_image = get_field('background_image', $postID);
 ?>
 
-<section id="<?php echo get_the_title(); ?>" class="block main-block">
-	<img src="<?php echo $background_image; ?>" data-speed=".25" class="img-parallax">
+<section id="<?php echo get_the_title(); ?>" class="block main-block" style="background-image: url('<?php echo $background_image; ?>');">
 	<div class="block-inner">
 		<h1><?php echo $title; ?></h1>
 		<h2><?php echo $subtitle; ?></h2>
