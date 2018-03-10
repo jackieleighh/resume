@@ -16,5 +16,12 @@ $background_image = get_field('background_image', $postID);
     </div>
 </section>
 
+<div class="parallax-window">
+  <div class="parallax-slider">
+    <span style="position:absolute; top: 400px; left: 400px;">Some Text</span>
+	<p>Some other Content</p>
+  </div>
+</div>
+
 <div class="parallax-container" data-parallax="scroll" data-position="top" data-bleed="10" data-image-src="<?php echo $background_image; ?>" data-natural-width="1400" data-natural-height="900">
 </div>
