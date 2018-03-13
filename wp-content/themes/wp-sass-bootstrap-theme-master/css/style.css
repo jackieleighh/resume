@@ -284,7 +284,7 @@ section {
 
 .parallax_layer-0 {
   -webkit-transform: translateZ(0);
-  transform: translate3d(0, 200px, 0) scale(1); }
+  transform: translate3d(0, 350px, -1px) scale(2); }
 
 .parallax_layer-1 {
   -webkit-transform: translateZ(-1px);
@@ -299,12 +299,12 @@ section {
   transform: translateZ(-3px) scale(4); }
 
 .parallax_layer-4 {
-  -webkit-transform: translateZ(-24x);
+  -webkit-transform: translateZ(-4px);
   transform: translateZ(-4px) scale(5); }
 
 .parallax_layer-title {
-  -webkit-transform: translateZ(1);
-  transform: translateZ(-1px) scale(3); }
+  -webkit-transform: translateZ(0);
+  transform: translate3d(0, -350px, 0) scale(1.5); }
   .parallax_layer-title h1, .parallax_layer-title h2 {
     color: white; }
 
