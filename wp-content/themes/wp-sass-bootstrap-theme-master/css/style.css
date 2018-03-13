@@ -269,7 +269,8 @@ section {
   overflow-x: hidden;
   overflow-y: auto;
   -webkit-perspective: 1px;
-  perspective: 1px; }
+  perspective: 1px;
+  background: black; }
 
 .parallax_layer {
   position: absolute;
@@ -303,6 +304,7 @@ section {
   transform: translateZ(-4px) scale(5); }
 
 .parallax_layer-title {
+  text-align: center;
   -webkit-transform: translateZ(0);
   transform: translate3d(0, -350px, 0) scale(1.5); }
   .parallax_layer-title h1, .parallax_layer-title h2 {
