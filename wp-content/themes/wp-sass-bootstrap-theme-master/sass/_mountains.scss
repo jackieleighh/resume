@@ -1,33 +1,31 @@
 
 .mountains {
 	position: relative;
-	height: 650px;
+	perspective: 1px;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
 	.layer {
 		position: absolute;
-		width: 100%;
-		height: auto;
-		z-index: 0;
-		left: 0;
+		top: 0;
 		right: 0;
+		bottom: 0;
+		left: 0;
 		&.road {
-			bottom: 0;
-			transform: translate3d(0, 0, 100px);
+			transform: translateZ(0);
 		}
 		&.layer-1 {
-			bottom: 0;
-			transform: translate3d(0, 0, 80px);
+			transform: translateZ(-1px);
 		}
 		&.layer-2 {
-			bottom: 0;
-			transform: translate3d(0, 0, 50px);
+			display: none;
 		}
 		&.layer-3 {
-			bottom: 0;
-			transform: translate3d(0, 0, 30px);
+			display: none;
 		}
 		&.layer-4 {
-			bottom: 0;
-			transform: translate3d(0, 0, 0);
+			display: none;
 		}
 	}
 }
+
