@@ -214,7 +214,7 @@ h1 {
     .l-nav nav a {
       color: #383838; }
 
-.l-page {
+.l-page-inner {
   position: absolute;
   display: block;
   top: 0;
@@ -226,7 +226,7 @@ h1 {
   overflow-x: hidden;
   transform: rotate(-90deg) translateY(100%);
   transform-origin: right top; }
-  .l-page > .section-wrapper {
+  .l-page-inner > .section-wrapper {
     display: block;
     padding: 5px;
     transform: rotate(90deg);
