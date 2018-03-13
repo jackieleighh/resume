@@ -29,29 +29,29 @@ function sidebarMenu() {
 	});
 }
 
-function parallax() {
-	$('section').each( function() {
-		$(this).css('width', $(this).parent('.section-wrapper').width());
-		$(this).css('height', $(this).parent('.section-wrapper').height());
-		$(this).parent('.section-wrapper').css('height', $(this).outerHeight());
-		if($(this).hasClass('main-block')){
-			$(this).children('.section-inner').css('position', 'absolute');
-			$(this).children('.section-inner').css('width', '100%');
-		}
-	})
-	$('section').each( function() {
-		var waypoint = new Waypoint({
-		  element: $(this),
-		  handler: function(direction, element) {
-		  	if(direction == 'up'){
-		  		$('#' + this.element[0].id).removeClass('stuck');
-		  	} else {
-		  		$('#' + this.element[0].id).addClass('stuck');
-		  	}
-		  }
-		});
-	});
-}
+// function parallax() {
+// 	$('section').each( function() {
+// 		$(this).css('width', $(this).parent('.section-wrapper').width());
+// 		$(this).css('height', $(this).parent('.section-wrapper').height());
+// 		$(this).parent('.section-wrapper').css('height', $(this).outerHeight());
+// 		if($(this).hasClass('main-block')){
+// 			$(this).children('.section-inner').css('position', 'absolute');
+// 			$(this).children('.section-inner').css('width', '100%');
+// 		}
+// 	})
+// 	$('section').each( function() {
+// 		var waypoint = new Waypoint({
+// 		  element: $(this),
+// 		  handler: function(direction, element) {
+// 		  	if(direction == 'up'){
+// 		  		$('#' + this.element[0].id).removeClass('stuck');
+// 		  	} else {
+// 		  		$('#' + this.element[0].id).addClass('stuck');
+// 		  	}
+// 		  }
+// 		});
+// 	});
+// }
 
 function smoothScroll() {
 	$('a[href^="#"]').on('click', function(event) {

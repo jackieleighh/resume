@@ -9,9 +9,9 @@ $type = get_field('type', $postID);
 $image = get_field('image', $postID);
 ?>
 
-<div class="section-wrapper">
+<div class="section-wrapper parallax_layer">
     <section id="<?php echo get_the_title(); ?>" class="block text-block" <?php if($background_image): ?> style="background-image: url('<?php echo $background_image;?>');" <?php else: ?> style="background-color: <?php echo $background_color; ?>" <?php endif; ?>>
-        <div class="section-inner">
+        <div class="section-inner layer">
             <?php if($type == 'no-image'): ?>
                 <div class="col-sm-12">
                     <?php echo $text; ?>
