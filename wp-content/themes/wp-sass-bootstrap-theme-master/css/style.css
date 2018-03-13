@@ -269,10 +269,25 @@ section {
   height: 650px; }
   .mountains .layer {
     position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     height: auto;
-    z-index: 0; }
+    z-index: 0;
+    left: 0;
+    right: 0; }
+    .mountains .layer.road {
+      bottom: 0;
+      transform: translate3d(0, 0, 100px); }
+    .mountains .layer.layer-1 {
+      bottom: 0;
+      transform: translate3d(0, 0, 80px); }
+    .mountains .layer.layer-2 {
+      bottom: 0;
+      transform: translate3d(0, 0, 50px); }
+    .mountains .layer.layer-3 {
+      bottom: 0;
+      transform: translate3d(0, 0, 30px); }
+    .mountains .layer.layer-4 {
+      bottom: 0;
+      transform: translate3d(0, 0, 0); }
 
 /*# sourceMappingURL=style.css.map */

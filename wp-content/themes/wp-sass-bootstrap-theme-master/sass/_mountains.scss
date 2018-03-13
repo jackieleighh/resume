@@ -4,20 +4,30 @@
 	height: 650px;
 	.layer {
 		position: absolute;
-		top: 0;
-		left: 0;
 		width: 100%;
 		height: auto;
 		z-index: 0;
+		left: 0;
+		right: 0;
 		&.road {
+			bottom: 0;
+			transform: translate3d(0, 0, 100px);
 		}
 		&.layer-1 {
+			bottom: 0;
+			transform: translate3d(0, 0, 80px);
 		}
 		&.layer-2 {
+			bottom: 0;
+			transform: translate3d(0, 0, 50px);
 		}
 		&.layer-3 {
+			bottom: 0;
+			transform: translate3d(0, 0, 30px);
 		}
 		&.layer-4 {
+			bottom: 0;
+			transform: translate3d(0, 0, 0);
 		}
 	}
 }
