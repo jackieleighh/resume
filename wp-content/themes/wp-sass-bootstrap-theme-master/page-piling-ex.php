@@ -1,4 +1,12 @@
-<?php ?>
+<?php /* Template Name: Pagepiling JS Example Template */ ?>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+	<?php wp_head(); ?>
+	
 	<script type="text/javascript">
 		$(document).ready(function() {
 			/*
@@ -64,6 +72,8 @@
 
 </style>
 
+</head>
+<body>
 	<ul id="menu">
 		<li data-menuanchor="page1" class="active"><a href="#page1">Page 1</a></li>
 		<li data-menuanchor="page2"><a href="#page2">Page 2</a></li>
@@ -95,3 +105,6 @@
 	    	</div>
 	    </div>
 	</div>
+
+</body>
+</html>

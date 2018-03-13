@@ -4,17 +4,17 @@ $(document).ready( function() {
 	
 	sidebarMenu();
 
-	parallax();
+	//parallax();
 
 	smoothScroll();
 
 	$('.matchHeight').matchHeight();
-	
+
 });
 
-$(window).resize(function() {
-	parallax();
-});
+// $(window).resize(function() {
+// 	parallax();
+// });
 
 
 function sidebarMenu() {
