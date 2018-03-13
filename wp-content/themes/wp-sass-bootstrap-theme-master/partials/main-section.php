@@ -31,8 +31,8 @@ $background_image = get_field('background_image', $postID);
 	<img class="layer layer-3" src="/wp-content/themes/wp-sass-bootstrap-theme-master/img/layer3.png" />
 	<img class="layer layer-4" src="/wp-content/themes/wp-sass-bootstrap-theme-master/img/layer4.png" />
 </div> -->
-<div class="section-wrapper parallax_layer">
-	<section id="<?php echo get_the_title(); ?>" class="block main-block layer" style="background-image: url('<?php echo $background_image; ?>');">
+<div class="parallax_layer">
+	<section id="<?php echo get_the_title(); ?>" class="layer" style="background-image: url('<?php echo $background_image; ?>');">
 		<div class="section-inner">
 			<h1><?php echo $title; ?></h1>
 			<h2><?php echo $subtitle; ?></h2>
