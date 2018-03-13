@@ -264,72 +264,38 @@ section {
   width: 100%;
   height: auto; }
 
-.parallax {
+#container .section-wrapper {
+  width: 100vw;
   height: 100vh;
-  overflow-x: hidden;
-  overflow-y: auto;
-  -webkit-perspective: 1px;
-  perspective: 1px;
-  background: black; }
+  display: inline-block;
+  position: relative; }
 
-.parallax_layer {
+#container .section-wrapper > section {
+  width: 100px;
+  height: 100px;
+  font-size: 96px;
+  color: #FFF;
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0; }
-  .parallax_layer .layer {
-    width: 100%; }
-    .parallax_layer .layer img {
-      width: 100%; }
+  top: 50%;
+  left: 50%;
+  margin: -50px 0 0 -50px;
+  line-height: .7;
+  font-weight: bold; }
 
-.parallax_layer-0 {
-  -webkit-transform: translateZ(0);
-  transform: translate3d(0, 350px, -1px) scale(2); }
+#container {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  transform: rotate(270deg) translateX(-100%);
+  transform-origin: top left;
+  background-color: #999;
+  position: absolute;
+  width: 100vh;
+  height: 100vw; }
 
-.parallax_layer-1 {
-  -webkit-transform: translateZ(-1px);
-  transform: translateZ(-1px) scale(2); }
-
-.parallax_layer-2 {
-  -webkit-transform: translateZ(-2px);
-  transform: translateZ(-2px) scale(3); }
-
-.parallax_layer-3 {
-  -webkit-transform: translateZ(-3px);
-  transform: translateZ(-3px) scale(4); }
-
-.parallax_layer-4 {
-  -webkit-transform: translateZ(-4px);
-  transform: translateZ(-4px) scale(5); }
-
-.parallax_layer-title {
-  text-align: center;
-  -webkit-transform: translateZ(0);
-  transform: translate3d(0, -300px, -1px) scale(3); }
-  .parallax_layer-title h1, .parallax_layer-title h2 {
-    color: white; }
-
-/* demo styles
---------------------------------------------- */
-* {
-  margin: 0;
-  padding: 0; }
-
-/* add some padding to force scrollbars */
-.parallax_layer {
-  padding: 100vh 0;
-  /* centre the content in the parallax layers */ }
-  .parallax_layer .layer {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%); }
-
-.parallax_group {
-  position: relative;
-  height: 100vh;
-  transform-style: preserve-3d; }
+#container2 {
+  transform: rotate(90deg) translateY(-100vh);
+  transform-origin: top left;
+  white-space: nowrap;
+  font-size: 0; }
 
 /*# sourceMappingURL=style.css.map */
