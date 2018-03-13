@@ -6,8 +6,9 @@
 
     <?php
         if (count(get_field('sections')) > 0) {
-            include(locate_template('partials/starter.php'));
+            //include(locate_template('partials/starter.php'));
         }
+        include(locate_template('partials/pagepilingex.php'));
     ?>
 
     <?php endwhile; ?>
