@@ -7,7 +7,7 @@ $subtitle = get_field('subtitle', $postID);
 $background_image = get_field('background_image', $postID);
 ?>
 
-<div class="parallax">
+<div class="parallax_group">
     <div class="parallax_layer parallax_layer-4">
       <div class="layer"><img src="/wp-content/themes/wp-sass-bootstrap-theme-master/img/layer4.png" /></div>
     </div>
@@ -23,8 +23,6 @@ $background_image = get_field('background_image', $postID);
     <div class="parallax_layer parallax_layer-0">
       <div class="layer"><img src="/wp-content/themes/wp-sass-bootstrap-theme-master/img/road.png" /></div>
     </div>
-    <div class="cover">
-    </div>
 </div>
 
 <!-- <div class="mountains">
@@ -34,11 +32,13 @@ $background_image = get_field('background_image', $postID);
 	<img class="layer layer-3" src="/wp-content/themes/wp-sass-bootstrap-theme-master/img/layer3.png" />
 	<img class="layer layer-4" src="/wp-content/themes/wp-sass-bootstrap-theme-master/img/layer4.png" />
 </div> -->
-<div class="section-wrapper">
-	<section id="<?php echo get_the_title(); ?>" class="block main-block" style="background-image: url('<?php echo $background_image; ?>');">
-		<div class="section-inner">
-			<h1><?php echo $title; ?></h1>
-			<h2><?php echo $subtitle; ?></h2>
-		</div>
-	</section>
+<div class="parallax_group">
+	<div class="parallax_layer section-wrapper">
+		<section id="<?php echo get_the_title(); ?>" class="layer block main-block" style="background-image: url('<?php echo $background_image; ?>');">
+			<div class="section-inner">
+				<h1><?php echo $title; ?></h1>
+				<h2><?php echo $subtitle; ?></h2>
+			</div>
+		</section>
+	</div>
 </div>
