@@ -21,7 +21,7 @@
 }
 .parallax_layer-0 {
     -webkit-transform: translateZ(0);
-    transform: translateZ(0) scale(1);
+    transform: translate3d(0, 200px, 0) scale(1);
 }
 .parallax_layer-1 {
     -webkit-transform: translateZ(-1px);
