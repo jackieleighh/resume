@@ -8,18 +8,24 @@ $background_image = get_field('background_image', $postID);
 ?>
 
 <div class="parallax">
-    <div class="parallax_layer parallax_layer-back">
-      <div class="title"><img class="layer layer-1" src="/wp-content/themes/wp-sass-bootstrap-theme-master/img/layer1.png" /></div>
+    <div class="parallax_layer parallax_layer-4">
+      <div class="layer"><img src="/wp-content/themes/wp-sass-bootstrap-theme-master/img/layer4.png" /></div>
     </div>
-    <div class="parallax_layer parallax_layer-middle">
-      <div class="title"><img class="layer layer-1" src="/wp-content/themes/wp-sass-bootstrap-theme-master/img/layer2.png" /></div>
+    <div class="parallax_layer parallax_layer-3">
+      <div class="layer"><img src="/wp-content/themes/wp-sass-bootstrap-theme-master/img/layer3.png" /></div>
     </div>
-    <div class="parallax_layer parallax_layer-front">
-      <div class="title"><img class="layer layer-1" src="/wp-content/themes/wp-sass-bootstrap-theme-master/img/layer3.png" /></div>
+    <div class="parallax_layer parallax_layer-2">
+      <div class="layer"><img src="/wp-content/themes/wp-sass-bootstrap-theme-master/img/layer2.png" /></div>
     </div>
-      <div class="cover">
+    <div class="parallax_layer parallax_layer-1">
+      <div class="layer"><img src="/wp-content/themes/wp-sass-bootstrap-theme-master/img/layer1.png" /></div>
     </div>
-  </div>
+    <div class="parallax_layer parallax_layer-0">
+      <div class="layer"><img src="/wp-content/themes/wp-sass-bootstrap-theme-master/img/road.png" /></div>
+    </div>
+    <div class="cover">
+    </div>
+</div>
 
 <!-- <div class="mountains">
 	<img class="layer road" src="/wp-content/themes/wp-sass-bootstrap-theme-master/img/road.png" />

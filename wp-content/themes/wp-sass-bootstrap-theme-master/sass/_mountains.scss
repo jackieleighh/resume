@@ -1,95 +1,68 @@
 
-.mountains {
-	position: relative;
-	perspective: 1px;
-	-webkit-perspective: 1px;
-    height: 100vh;
-    overflow-x: hidden;
-    overflow-y: auto;
-	.layer {
-		position: absolute;
-		top: 0;
-		right: 0;
-		bottom: 0;
-		left: 0;
-		width: 100%;
-
-		&.road {
-			-webkit-transform: translateZ(0);
-		    transform: translateZ(0) scale(1.6);
-		}
-		&.layer-1 {
-			 -webkit-transform: translateZ(-1px);
-		    transform: translateZ(-1px) scale(3.2);
-		}
-		&.layer-2 {
-			-webkit-transform: translateZ(-2px);
-		    transform: translateZ(-2px) scale(6.4);
-		}
-		&.layer-3 {
-			display: none;
-		}
-		&.layer-4 {
-			display: none;
-		}
-	}
-}
-
-   .parallax {
+.parallax {
     height: 100vh;
     overflow-x: hidden;
     overflow-y: auto;
     -webkit-perspective: 1px;
     perspective: 1px;
-  }
-  .parallax_layer {
+}
+.parallax_layer {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    .title {
-    	width: 100;
+    .layer {
+    	width: 100%;
 	    img {
 	    	width: 100%;
 	    }
 	}
-  }
-  .parallax_layer-front {
+}
+.parallax_layer-layer0 {
     -webkit-transform: translateZ(0);
     transform: translateZ(0) scale(1.6);
-  }
-  .parallax_layer-middle {
+}
+.parallax_layer-layer1 {
     -webkit-transform: translateZ(-1px);
     transform: translateZ(-1px) scale(3.2);
-  }
-  .parallax_layer-back {
+}
+.parallax_layer-layer2 {
     -webkit-transform: translateZ(-2px);
     transform: translateZ(-2px) scale(6.4);
-  }
+}
+.parallax_layer-layer3 {
+    -webkit-transform: translateZ(-3px);
+    transform: translateZ(-3px) scale(6.4);
+}
+.parallax_layer-layer4 {
+    -webkit-transform: translateZ(-24x);
+    transform: translateZ(-4px) scale(6.4);
+}
 
   /* demo styles
   --------------------------------------------- */
-  * {
+* {
     margin:0;
     padding:0;
-  }
+}
    /* add some padding to force scrollbars */
-  .parallax_layer {
+.parallax_layer {
     padding: 100vh 0;
-  }
-   /* centre the content in the parallax layers */
-  .title {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-  }
-  .cover{
+    /* centre the content in the parallax layers */
+	.layer {
+	    position: absolute;
+	    left: 50%;
+	    top: 50%;
+	    -webkit-transform: translate(-50%, -50%);
+	    transform: translate(-50%, -50%);
+	}
+}
+   
+.cover{
     position: fixed;
     background-color: #2B4C80;
     width: 100%;
     height: 140vh;
     top: 140vh;
-  }
+}
