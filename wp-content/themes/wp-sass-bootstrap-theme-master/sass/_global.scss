@@ -39,7 +39,7 @@ h1 {
   // padding-top: $scrollBarHeight;
   overflow-y: auto;
   overflow-x: hidden;
-  transform: rotate(-90deg) translateY(-$finalHeight);
+  transform: rotate(-90deg) translateY(100%);
   transform-origin: right top;
   & > .section-wrapper {
     display: block;
