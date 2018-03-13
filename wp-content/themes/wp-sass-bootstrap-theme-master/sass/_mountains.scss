@@ -48,9 +48,12 @@
     left: 0;
     right: 0;
     bottom: 0;
-    img {
-    	width: 100%;
-    }
+    .title {
+    	width: 100;
+	    img {
+	    	width: 100%;
+	    }
+	}
   }
   .parallax_layer-front {
     -webkit-transform: translateZ(0);
