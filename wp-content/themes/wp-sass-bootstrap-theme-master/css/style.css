@@ -282,23 +282,23 @@ section {
     .parallax_layer .layer img {
       width: 100%; }
 
-.parallax_layer-layer-0 {
+.parallax_layer-0 {
   -webkit-transform: translateZ(0);
   transform: translateZ(0) scale(1.6); }
 
-.parallax_layer-layer-1 {
+.parallax_layer-1 {
   -webkit-transform: translateZ(-1px);
   transform: translateZ(-1px) scale(3.2); }
 
-.parallax_layer-layer-2 {
+.parallax_layer-2 {
   -webkit-transform: translateZ(-2px);
   transform: translateZ(-2px) scale(6.4); }
 
-.parallax_layer-layer-3 {
+.parallax_layer-3 {
   -webkit-transform: translateZ(-3px);
   transform: translateZ(-3px) scale(6.4); }
 
-.parallax_layer-layer-4 {
+.parallax_layer-4 {
   -webkit-transform: translateZ(-24x);
   transform: translateZ(-4px) scale(6.4); }
 
