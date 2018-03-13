@@ -37,5 +37,4 @@
         <div class="menu">
           <div class="menu-hamburger"></div>
         </div>
-        <div id="container">
-          <div id="container2">
+        

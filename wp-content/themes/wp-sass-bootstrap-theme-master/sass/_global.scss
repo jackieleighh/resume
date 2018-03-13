@@ -28,6 +28,15 @@ h1 {
 	}
 }
 
+.l-page {
+	overflow-x: scroll;
+	overflow-y: hidden;
+	white-space: nowrap;
+	.section-wrapper {
+		display: inline-block;
+	}
+}
+
 .vertical-align {
 	display: table;
 	width: 100%;
