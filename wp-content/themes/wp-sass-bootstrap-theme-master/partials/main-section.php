@@ -21,11 +21,13 @@ $background_image = get_field('background_image', $postID);
       <div class="layer"><img src="/wp-content/themes/wp-sass-bootstrap-theme-master/img/layer1.png" /></div>
     </div>
     <div class="parallax_layer parallax_layer-0">
+      <div class="layer"><img src="/wp-content/themes/wp-sass-bootstrap-theme-master/img/road.png" /></div>
+    </div>
+    <div class="parallax_layer parallax_layer-title">
       <div class="layer">
-      	<img src="/wp-content/themes/wp-sass-bootstrap-theme-master/img/road.png" />
-      	<h1><?php echo $title; ?>
-      	<h2><?php echo $subtitle; ?>
-      </div>
+      	<h1><?php echo $title; ?></h1>
+		<h2><?php echo $subtitle; ?></h2>
+	  </div>
     </div>
 </div>
 

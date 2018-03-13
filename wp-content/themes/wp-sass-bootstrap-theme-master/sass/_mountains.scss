@@ -39,6 +39,13 @@
     -webkit-transform: translateZ(-24x);
     transform: translateZ(-4px) scale(5);
 }
+.parallax_layer-title {
+	-webkit-transform: translateZ(1);
+    transform: translateZ(0) scale(1);
+    h1, h2 {
+    	color: white;
+    }
+}
 
   /* demo styles
   --------------------------------------------- */
