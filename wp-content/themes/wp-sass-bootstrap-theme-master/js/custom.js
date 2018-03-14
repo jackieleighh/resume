@@ -10,6 +10,30 @@ $(document).ready( function() {
 
 	$('.matchHeight').matchHeight();
 
+	var anchor_ids = array();
+	$('section').each(function () {
+		anchor_ids.push($(this).id);
+	});
+
+	$('#pagepiling').pagepiling({
+      	direction: 'horizontal',
+		menu: '#menu',
+		anchors: anchor_ids,
+	    navigation: {
+	    	'position': 'right',
+	   	},
+	    // afterRender: function(){
+	    // 	$('#pp-nav').addClass('custom');
+	    // },
+	    // afterLoad: function(anchorLink, index){
+	    // 	if(index>1){
+	    // 		$('#pp-nav').removeClass('custom');
+	    // 	}else{
+	    // 		$('#pp-nav').addClass('custom');
+	    // 	}
+	    // }
+	});
+
 });
 
 // $(window).resize(function() {
