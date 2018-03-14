@@ -34,7 +34,7 @@
 			include(locate_template('partials/text-section.php'));
 		} else if ($single['cat_id'] == 'main') {
 			include(locate_template('partials/main-section.php'));
-		} else if ($single['cat_id'] == 'column') {
+		} else if ($single['cat_id'] == 'columns') {
 			include(locate_template('partials/column-section.php'));
 		} 
 	}
