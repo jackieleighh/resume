@@ -22,16 +22,16 @@ $(document).ready( function() {
 	    navigation: {
 	    	'position': 'right',
 	   	},
-	    // afterRender: function(){
-	    // 	$('#pp-nav').addClass('custom');
-	    // },
-	    // afterLoad: function(anchorLink, index){
-	    // 	if(index>1){
-	    // 		$('#pp-nav').removeClass('custom');
-	    // 	}else{
-	    // 		$('#pp-nav').addClass('custom');
-	    // 	}
-	    // }
+	    afterRender: function(){
+	    	$('#pp-nav').addClass('custom');
+	    },
+	    afterLoad: function(anchorLink, index){
+	    	if(index>1){
+	    		$('#pp-nav').removeClass('custom');
+	    	}else{
+	    		$('#pp-nav').addClass('custom');
+	    	}
+	    }
 	});
 
 });
