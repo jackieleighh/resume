@@ -15,7 +15,7 @@
   </head>
 
     <body <?php body_class(); ?>>
-      <ul id="pagepiling-menu" class="nav navbar-nav">
+      <ul id="pagepiling-menu">
         <?php 
         $menuLocations = get_nav_menu_locations(); // Get our nav locations (set in our theme, usually functions.php)
         $menuID = $menuLocations['header_menu']; // Get the *primary* menu ID
