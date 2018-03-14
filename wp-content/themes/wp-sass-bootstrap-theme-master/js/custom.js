@@ -17,7 +17,7 @@ $(document).ready( function() {
 	});
 
 	$('#pagepiling').pagepiling({
-      	direction: 'horizontal',
+      	direction: 'vertical',
 		menu: '#pagepiling-menu',
 		anchors: anchor_ids,
 	    navigation: {
