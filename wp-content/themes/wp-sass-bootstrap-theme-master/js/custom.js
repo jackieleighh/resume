@@ -2,11 +2,11 @@ $ = jQuery;
 
 $(document).ready( function() {
 	
-	sidebarMenu();
+	//sidebarMenu();
 
 	//parallax();
 
-	smoothScroll();
+	//smoothScroll();
 
 	$('.matchHeight').matchHeight();
 
@@ -19,19 +19,9 @@ $(document).ready( function() {
       	direction: 'horizontal',
 		menu: '#pagepiling-menu',
 		anchors: anchor_ids,
-	    // navigation: {
-	    // 	'position': 'right',
-	   	// },
-	    // afterRender: function(){
-	    // 	$('#pp-nav').addClass('custom');
-	    // },
-	    // afterLoad: function(anchorLink, index){
-	    // 	if(index>1){
-	    // 		$('#pp-nav').removeClass('custom');
-	    // 	}else{
-	    // 		$('#pp-nav').addClass('custom');
-	    // 	}
-	    // }
+	    navigation: {
+	    	'position': 'right',
+	   	}
 	});
 
 });
