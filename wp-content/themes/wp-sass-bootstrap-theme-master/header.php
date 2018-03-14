@@ -15,6 +15,25 @@
   </head>
 
     <body <?php body_class(); ?>>
-      <ul id="pagepiling-menu">
-      </ul>
-      <div id="pagepiling">
+    
+    <div class="l-site">
+      <div class="l-nav">
+        <nav class="nav">
+          <ul>
+          <?php 
+          $menuLocations = get_nav_menu_locations(); // Get our nav locations (set in our theme, usually functions.php)
+          $menuID = $menuLocations['header_menu']; // Get the *primary* menu ID
+          $primaryNav = wp_get_nav_menu_items($menuID); // Get the array of wp objects, the nav items for our queried location.
+
+          foreach ( $primaryNav as $navItem ) {
+
+              echo '<li class="nav-primary"><a href="'.$navItem->url.'" title="'.$navItem->title.'">'.$navItem->title.'</a></li>';
+
+          } ?>
+          </ul>
+        </nav>
+      </div>
+      <div class="l-page">
+        <div class="menu">
+          <div class="menu-hamburger"></div>
+        </div>
