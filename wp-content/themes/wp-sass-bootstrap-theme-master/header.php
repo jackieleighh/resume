@@ -39,7 +39,7 @@
               foreach ( $primaryNav as $navItem ) {
                   echo '<li ';
                   if($i == 0) echo 'class="active" ';
-                  echo 'menuanchor="'.$navItem->url.'"><a href="'.$navItem->url.'" title="'.$navItem->title.'">'.$navItem->title.'</a></li>';
+                  echo 'menuanchor="'.$navItem->url.'"><a href="#" title="'.$navItem->title.'">'.$navItem->title.'</a></li>';
                   $i++;
               } ?>
             </ul>
