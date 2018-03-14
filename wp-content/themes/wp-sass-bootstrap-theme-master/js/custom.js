@@ -10,7 +10,7 @@ $(document).ready( function() {
 
 	$('.matchHeight').matchHeight();
 
-	var anchor_ids = new array();
+	var anchor_ids = [];
 	$('section').each(function () {
 		anchor_ids.push($(this).id);
 	});
