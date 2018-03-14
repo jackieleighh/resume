@@ -24,7 +24,7 @@
         foreach ( $primaryNav as $navItem ) {
             echo '<li ';
             if($i == 0) echo 'class="active" ';
-            echo 'data-menuanchor="'.$navItem->url.'"><a href="#'.$navItem->url.'" title="'.$navItem->title.'">'.$navItem->title.'</a></li>';
+            echo 'data-menuanchor="'.substr($navItem->url, 1, strlen($navItem->url)).'"><a href="'.$navItem->url.'" title="'.$navItem->title.'">'.$navItem->title.'</a></li>';
             $i++;
         } ?>
       </ul>
