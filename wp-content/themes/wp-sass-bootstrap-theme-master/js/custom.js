@@ -2,19 +2,19 @@ $ = jQuery;
 
 $(document).ready( function() {
 	
-	//sidebarMenu();
+	sidebarMenu();
 
 	//parallax();
 
-	//smoothScroll();
+	smoothScroll();
 
 	$('.matchHeight').matchHeight();
 
-	var anchor_ids = [];
-	var anchor_menu = '';
-	$('section').each(function () {
-		anchor_ids.push($(this)[0].id);
-	});
+	// var anchor_ids = [];
+	// var anchor_menu = '';
+	// $('section').each(function () {
+	// 	anchor_ids.push($(this)[0].id);
+	// });
 
 	// $('#pagepiling').pagepiling({
  //      	direction: 'vertical',
