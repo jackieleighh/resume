@@ -17,7 +17,7 @@ $(document).ready( function() {
 
 	$('#pagepiling').pagepiling({
       	direction: 'horizontal',
-		menu: '#menu',
+		menu: '#pagepiling-menu',
 		anchors: anchor_ids,
 	    navigation: {
 	    	'position': 'right',
