@@ -12,7 +12,7 @@ $(document).ready( function() {
 
 	var anchor_ids = [];
 	$('section').each(function () {
-		anchor_ids.push($(this).id);
+		anchor_ids.push($(this)[0].id);
 	});
 
 	$('#pagepiling').pagepiling({
