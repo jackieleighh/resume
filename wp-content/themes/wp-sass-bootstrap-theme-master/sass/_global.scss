@@ -29,6 +29,7 @@ h1 {
 }
 
 section {
+	background: white;
 	display: table;
 	width: 100%;
 	background-position: center;
@@ -85,5 +86,11 @@ section {
 			width: 100%;
 			height: auto;
 		}
+	}
+}
+
+.column-block {
+	img {
+		width: 100%;
 	}
 }

@@ -277,6 +277,7 @@ h1 {
     vertical-align: middle; }
 
 section {
+  background: white;
   display: table;
   width: 100%;
   background-position: center;
@@ -317,5 +318,8 @@ section {
 .text-block .img-col img {
   width: 100%;
   height: auto; }
+
+.column-block img {
+  width: 100%; }
 
 /*# sourceMappingURL=style.css.map */
