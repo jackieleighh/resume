@@ -11,6 +11,7 @@ $(document).ready( function() {
 	$('.matchHeight').matchHeight();
 
 	var anchor_ids = [];
+	var anchor_menu = '';
 	$('section').each(function () {
 		anchor_ids.push($(this)[0].id);
 	});

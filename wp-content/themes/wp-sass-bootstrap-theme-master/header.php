@@ -16,17 +16,5 @@
 
     <body <?php body_class(); ?>>
       <ul id="pagepiling-menu">
-        <?php 
-        $menuLocations = get_nav_menu_locations(); // Get our nav locations (set in our theme, usually functions.php)
-        $menuID = $menuLocations['header_menu']; // Get the *primary* menu ID
-        $primaryNav = wp_get_nav_menu_items($menuID); // Get the array of wp objects, the nav items for our queried location.
-        $i = 0;
-        foreach ( $primaryNav as $navItem ) {
-            $url = substr($navItem->url, 1, strlen($navItem->url));
-            echo '<li ';
-            if($i == 0) echo 'class="active" ';
-            echo 'data-menuanchor="'.$url.'"><a href="#'.$url.'" title="'.$navItem->title.'">'.$navItem->title.'</a></li>';
-            $i++;
-        } ?>
       </ul>
       <div id="pagepiling">
