@@ -37,8 +37,8 @@
               $primaryNav = wp_get_nav_menu_items($menuID); // Get the array of wp objects, the nav items for our queried location.
               $i = 0;
               foreach ( $primaryNav as $navItem ) {
-                  echo '<li class="nav-primary';
-                  if($i == 0) echo 'active';
+                  echo '<li ';
+                  if($i == 0) echo 'class="active"';
                   echo '" menuanchor="'.$navItem->url.'"><a href="'.$navItem->url.'" title="'.$navItem->title.'">'.$navItem->title.'</a></li>';
                   $i++;
               } ?>
