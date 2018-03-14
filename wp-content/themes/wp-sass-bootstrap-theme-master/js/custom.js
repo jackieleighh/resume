@@ -16,14 +16,14 @@ $(document).ready( function() {
 		anchor_ids.push($(this)[0].id);
 	});
 
-	$('#pagepiling').pagepiling({
-      	direction: 'vertical',
-		menu: '#pagepiling-menu',
-		anchors: anchor_ids,
-	    navigation: {
-	    	'position': 'right',
-	   	}
-	});
+	// $('#pagepiling').pagepiling({
+ //      	direction: 'vertical',
+	// 	menu: '#pagepiling-menu',
+	// 	anchors: anchor_ids,
+	//     navigation: {
+	//     	'position': 'right',
+	//    	}
+	// });
 
 });
 
