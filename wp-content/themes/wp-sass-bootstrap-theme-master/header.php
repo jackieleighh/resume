@@ -21,8 +21,8 @@
         $menuID = $menuLocations['header_menu']; // Get the *primary* menu ID
         $primaryNav = wp_get_nav_menu_items($menuID); // Get the array of wp objects, the nav items for our queried location.
         $i = 0;
-        $url = substr($navItem->url, 1, strlen($navItem->url));
         foreach ( $primaryNav as $navItem ) {
+            $url = substr($navItem->url, 1, strlen($navItem->url));
             echo '<li ';
             if($i == 0) echo 'class="active" ';
             echo 'data-menuanchor="'.$url.'"><a href="#'.$url.'" title="'.$navItem->title.'">'.$navItem->title.'</a></li>';
