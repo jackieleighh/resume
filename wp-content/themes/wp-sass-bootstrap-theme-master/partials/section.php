@@ -33,7 +33,7 @@
 		<?php endif; ?>
 	</div>
 <?php else: ?>
-	<div class="section half">
+	<div class="section half matchHeight">
 		<?php if($has_image): ?>
 			<?php if($image_position == 'top'): ?>
 				<div class="row image top">
