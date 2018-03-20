@@ -207,61 +207,11 @@ p {
 h1 {
   font-size: 50px; }
 
-.vertical-align {
-  display: table;
-  width: 100%;
-  height: 100%; }
-  .vertical-align .inner {
-    display: table-cell;
-    vertical-align: middle; }
-
-section {
-  background: white;
-  display: table;
-  width: 100%;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat; }
-  section .section-inner {
-    padding: 30px;
-    display: table-cell;
-    vertical-align: middle; }
-  section.stuck {
-    position: fixed;
-    top: 0;
-    z-index: -1; }
-
-.section-wrapper {
-  position: relative;
-  width: 100%; }
-
-.main-block {
-  min-height: 100vh;
-  background-attachment: fixed; }
-  .main-block .section-inner {
-    padding: 100px 30px;
-    text-align: center; }
-  .main-block .bg {
-    opacity: .5;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100%; }
-  .main-block h1 {
-    color: white;
-    font-family: 'Courier New', serif; }
-    .main-block h1 .first {
-      color: #D65780; }
-    .main-block h1 .second {
-      color: #DBFE87; }
-  .main-block h2 {
-    color: white; }
-
-.text-block .img-col img {
+.section.half {
+  width: 50%;
+  float: left; }
+.section .image img {
   width: 100%;
   height: auto; }
-
-.column-block img {
-  width: 100%; }
 
 /*# sourceMappingURL=style.css.map */
