@@ -25,14 +25,14 @@
 
           <?php if($count == 1): ?>
             </div>
-          <?php $count = 0; ?>
+            <?php $count = 0; ?>
           <?php else: 
             $count++;
             endif; 
           ?>
-          
+
         <?php wp_reset_query(); endwhile; ?>
-        <?php if($count == 0): ?>
+        <?php if($count == 1): ?>
           </div>
         <?php endif; ?>
       <?php 
@@ -62,7 +62,7 @@
             endif; 
           ?>
         <?php wp_reset_query(); endwhile; ?>
-        <?php if($count == 0): ?>
+        <?php if($count == 1): ?>
           </div>
         <?php endif; ?>
     <?php endwhile; ?>
