@@ -12,17 +12,17 @@
 	<div class="section full">
 		<?php if($has_image): ?>
 			<?php if($image_side == 'left'): ?>
-				<div class="image left">
+				<div class="col-sm-4 image left">
 					<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>">
 				</div>
-				<div class="text right">
+				<div class="col-sm-8 text right">
 					<?php echo $text; ?>
 				</div>
 			<?php else: ?>
-				<div class="text left">
+				<div class="col-sm-8 text left">
 					<?php echo $text; ?>
 				</div>
-				<div class="image right">
+				<div class="col-sm-4 image right">
 					<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>">
 				</div>
 			<?php endif; ?>
@@ -36,17 +36,17 @@
 	<div class="section half">
 		<?php if($has_image): ?>
 			<?php if($image_position == 'top'): ?>
-				<div class="image top">
+				<div class="row image top">
 					<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>">
 				</div>
-				<div class="text bottom">
+				<div class="row text bottom">
 					<?php echo $text; ?>
 				</div>
 			<?php else: ?>
-				<div class="text top">
+				<div class="row text top">
 					<?php echo $text; ?>
 				</div>
-				<div class="image bottom">
+				<div class="row image bottom">
 					<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>">
 				</div>
 			<?php endif; ?>
