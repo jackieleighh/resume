@@ -10,7 +10,8 @@
             'post_type' => 'section',
             'posts_per_page' => -1,
             'meta_key' => 'order',
-            'order_by' => 'meta_value'
+            'order_by' => 'meta_value',
+            'order' => 'DESC'
           )
         );
         while ( $section_query-> have_posts() ) : $section_query->the_post();  ?>
@@ -25,7 +26,8 @@
             'post_type' => 'experience',
             'posts_per_page' => -1,
             'meta_key' => 'order',
-            'order_by' => 'meta_value'
+            'order_by' => 'meta_value',
+            'order' => 'DESC'
           )
         );
         while ( $experience_query-> have_posts() ) : $experience_query->the_post();  ?>
