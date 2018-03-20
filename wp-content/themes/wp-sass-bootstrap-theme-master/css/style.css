@@ -19,9 +19,6 @@ h1 {
   margin-left: 0;
   margin-right: 0; }
 
-.section.half {
-  width: 50%;
-  float: left; }
 .section .image img {
   width: 100%;
   height: auto; }
