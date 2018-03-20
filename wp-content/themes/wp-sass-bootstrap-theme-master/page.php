@@ -11,7 +11,7 @@
             'posts_per_page' => -1,
             'meta_key' => 'order',
             'order_by' => 'meta_value',
-            'order' => 'DESC'
+            'order' => 'ASC'
           )
         );
         while ( $section_query-> have_posts() ) : $section_query->the_post();  ?>
@@ -27,7 +27,7 @@
             'posts_per_page' => -1,
             'meta_key' => 'order',
             'order_by' => 'meta_value',
-            'order' => 'DESC'
+            'order' => 'ASC'
           )
         );
         while ( $experience_query-> have_posts() ) : $experience_query->the_post();  ?>
