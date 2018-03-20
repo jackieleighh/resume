@@ -53,6 +53,8 @@ section {
 }
 
 .main-block {
+	min-height: 100vh;
+    background-attachment: fixed;
 	.section-inner {
 		padding: 100px 30px;
 		text-align: center;
