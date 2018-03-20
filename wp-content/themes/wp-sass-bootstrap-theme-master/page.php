@@ -19,6 +19,21 @@
 
         <?php wp_reset_query(); endwhile; ?>
 
+      <?php 
+        $experience_query = new WP_Query(
+          array(
+            'post_type' => 'experience',
+            'posts_per_page' => -1,
+            'meta_key' => 'order',
+            'order_by' => 'meta_value'
+          )
+        );
+        while ( $experience_query-> have_posts() ) : $experience_query->the_post();  ?>
+
+          <?php include(locate_template('partials/section.php')); ?>
+
+        <?php wp_reset_query(); endwhile; ?>
+
     <?php endwhile; ?>
     <?php else: ?>
 
