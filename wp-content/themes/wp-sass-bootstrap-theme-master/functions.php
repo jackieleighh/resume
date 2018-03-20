@@ -73,6 +73,9 @@ function create_widget($name, $id, $description) {
 
 // register custom post type
 	require_once('lib/section-post-type.php');
+	require_once('lib/experience-post-type.php');
+	require_once('lib/skill-post-type.php');
+	require_once('lib/portfolio-post-type.php');
 
 // register custom taxonomies
 	function section_taxonomy() {
