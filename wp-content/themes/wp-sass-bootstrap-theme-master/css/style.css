@@ -15,6 +15,10 @@ p {
 h1 {
   font-size: 50px; }
 
+.row {
+  margin-left: 0;
+  margin-right: 0; }
+
 .section.half {
   width: 50%;
   float: left; }
