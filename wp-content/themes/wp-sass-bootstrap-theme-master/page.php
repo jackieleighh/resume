@@ -14,12 +14,27 @@
             'order' => 'ASC'
           )
         );
+        $count = 0;
         while ( $section_query-> have_posts() ) : $section_query->the_post();  ?>
+
+          <?php if($count == 0): ?>
+            <div class="row">
+          <?php endif; ?>
 
           <?php include(locate_template('partials/section.php')); ?>
 
+          <?php if($count == 1): ?>
+            </div>
+          <?php $count = 0; ?>
+          <?php else: 
+            $count++;
+            endif; 
+          ?>
+          
         <?php wp_reset_query(); endwhile; ?>
-
+        <?php if($count == 0): ?>
+          </div>
+        <?php endif; ?>
       <?php 
         $experience_query = new WP_Query(
           array(
@@ -30,12 +45,26 @@
             'order' => 'ASC'
           )
         );
+        $count = 0;
         while ( $experience_query-> have_posts() ) : $experience_query->the_post();  ?>
+          
+          <?php if($count == 0): ?>
+            <div class="row">
+          <?php endif; ?>
 
           <?php include(locate_template('partials/section.php')); ?>
 
+          <?php if($count == 1): ?>
+            </div>
+          <?php $count = 0; ?>
+          <?php else: 
+            $count++;
+            endif; 
+          ?>
         <?php wp_reset_query(); endwhile; ?>
-
+        <?php if($count == 0): ?>
+          </div>
+        <?php endif; ?>
     <?php endwhile; ?>
     <?php else: ?>
 
