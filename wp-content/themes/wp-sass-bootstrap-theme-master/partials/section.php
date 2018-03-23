@@ -10,7 +10,7 @@
 
 <?php if($type == 'full'): ?>
 	<div class="col-sm-12 section full">
-		<div class="inner">
+		<div class="row inner">
 			<?php if($has_image): ?>
 				<?php if($image_side == 'left'): ?>
 					<div class="col-sm-4 image left">
@@ -36,7 +36,7 @@
 	</div>
 <?php else: ?>
 	<div class="col-sm-6 section half matchHeight">
-		<div class="inner">
+		<div class="row inner">
 			<?php if($has_image): ?>
 				<?php if($image_position == 'top'): ?>
 					<div class="row image top">
