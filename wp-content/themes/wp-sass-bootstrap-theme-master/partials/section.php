@@ -9,7 +9,7 @@
 ?>
 
 <?php if($type == 'full'): ?>
-	<div class="section full">
+	<div class="col-sm-12 section full">
 		<div class="inner">
 			<?php if($has_image): ?>
 				<?php if($image_side == 'left'): ?>
