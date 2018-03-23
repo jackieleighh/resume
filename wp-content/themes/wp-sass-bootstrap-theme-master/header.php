@@ -26,7 +26,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">&lt;hello-jackie/&gt;</a>
+            <a class="navbar-brand" href="#Main">&lt;hello-jackie/&gt;</a>
           </div>
 
           <!-- Collect the nav links, forms, and other content for toggling -->
