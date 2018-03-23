@@ -57,6 +57,16 @@ h1 {
 	}
 	&.half {
 		padding: 15px;
+		transition: transform .3s;
+		&:nth-of-type(odd) {
+		    transform: translateX(-1200px);
+		}
+		&:nth-of-type(even) {
+		    transform: translateX(1200px);
+		}
+	    &.show {
+	    	transform: translateX(0);
+	    }
 		.image {
 			text-align: center;
 			img {

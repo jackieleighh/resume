@@ -44,7 +44,14 @@ h1 {
       float: none;
       vertical-align: middle; }
 .section.half {
-  padding: 15px; }
+  padding: 15px;
+  transition: transform .3s; }
+  .section.half:nth-of-type(odd) {
+    transform: translateX(-1200px); }
+  .section.half:nth-of-type(even) {
+    transform: translateX(1200px); }
+  .section.half.show {
+    transform: translateX(0); }
   .section.half .image {
     text-align: center; }
     .section.half .image img {

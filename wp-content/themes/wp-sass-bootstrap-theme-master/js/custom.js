@@ -10,6 +10,8 @@ $(document).ready( function() {
 
 	$('.matchHeight').matchHeight();
 
+	slideBlock();
+	
 	// var anchor_ids = [];
 	// var anchor_menu = '';
 	// $('section').each(function () {
@@ -26,6 +28,21 @@ $(document).ready( function() {
 	// });
 
 });
+
+function slideBlock() {
+    var waypoint = $('.section.half').waypoint(function(direction) {
+        //check the direction
+        if(direction == 'down') {
+            //add the class to start the animation
+            $(this.element).addClass('show');
+            //then destroy this waypoint, we don't need it anymore
+            this.destroy();
+        }
+    }, {
+        //Set the offset
+        offset: '80%'
+    });
+}
 
 // $(window).resize(function() {
 // 	parallax();
