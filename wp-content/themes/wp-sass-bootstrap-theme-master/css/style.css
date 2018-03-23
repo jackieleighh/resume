@@ -50,6 +50,26 @@ h1 {
     transform: translateX(-1200px); }
   .section.half:nth-of-type(even) {
     transform: translateX(1200px); }
+  @media (max-width: 1920px) {
+    .section.half:nth-of-type(odd) {
+      transform: translateX(-1000px); }
+    .section.half:nth-of-type(even) {
+      transform: translateX(1000px); } }
+  @media (max-width: 1450px) {
+    .section.half:nth-of-type(odd) {
+      transform: translateX(-800px); }
+    .section.half:nth-of-type(even) {
+      transform: translateX(80px); } }
+  @media (max-width: 1024px) {
+    .section.half:nth-of-type(odd) {
+      transform: translateX(-600px); }
+    .section.half:nth-of-type(even) {
+      transform: translateX(600px); } }
+  @media (max-width: 768px) {
+    .section.half:nth-of-type(odd) {
+      transform: translateX(-400px); }
+    .section.half:nth-of-type(even) {
+      transform: translateX(400px); } }
   .section.half.show {
     transform: translateX(0); }
   .section.half .image {
