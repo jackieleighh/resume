@@ -4,7 +4,8 @@
 
     if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
-      <?php 
+      <section id="about">
+        <?php 
         $section_query = new WP_Query(
           array(
             'post_type' => 'section',
@@ -35,7 +36,9 @@
         <?php if($count == 1): ?>
           </div>
         <?php endif; ?>
-      <?php 
+      </section>
+      <section id="experience">
+        <?php 
         $experience_query = new WP_Query(
           array(
             'post_type' => 'experience',
@@ -65,7 +68,8 @@
         <?php if($count == 1): ?>
           </div>
         <?php endif; ?>
-    <?php endwhile; ?>
+      <?php endwhile; ?>
+    </section>
     <?php else: ?>
 
         <?php get_404_template(); ?>
