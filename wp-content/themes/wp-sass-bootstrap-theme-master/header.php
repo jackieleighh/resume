@@ -16,24 +16,33 @@
 
     <body <?php body_class(); ?>>
     
-    <div class="l-site">
-      <div class="l-nav">
-        <nav class="nav">
-          <ul>
-          <?php 
-          $menuLocations = get_nav_menu_locations(); // Get our nav locations (set in our theme, usually functions.php)
-          $menuID = $menuLocations['header_menu']; // Get the *primary* menu ID
-          $primaryNav = wp_get_nav_menu_items($menuID); // Get the array of wp objects, the nav items for our queried location.
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">&lt;hello-jackie/&gt;</a>
+          </div>
 
-          foreach ( $primaryNav as $navItem ) {
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <?php 
+                $menuLocations = get_nav_menu_locations(); // Get our nav locations (set in our theme, usually functions.php)
+                $menuID = $menuLocations['header_menu']; // Get the *primary* menu ID
+                $primaryNav = wp_get_nav_menu_items($menuID); // Get the array of wp objects, the nav items for our queried location.
 
-              echo '<li class="nav-primary"><a href="'.$navItem->url.'" title="'.$navItem->title.'">'.$navItem->title.'</a></li>';
+                foreach ( $primaryNav as $navItem ) {
 
-          } ?>
-          </ul>
-        </nav>
-      </div>
-      <div class="l-page">
-        <div class="menu">
-          <div class="menu-hamburger"></div>
-        </div>
+                    echo '<li><a href="'.$navItem->url.'" title="'.$navItem->title.'">'.$navItem->title.'</a></li>';
+
+                } ?>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>      
