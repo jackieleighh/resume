@@ -30,6 +30,15 @@ $(document).ready( function() {
 });
 
 function slideBlock() {
+	var i = 0;
+	$('.section.half').each( function() {
+		if(i%2 == 0) {
+			$(this).css('transform', 'translateX(-' + $(window).width() + 100 + ')');
+		} else {
+			$(this).css('transform', 'translateX(' + $(window).width() + 100 + ')');
+		}
+		i++;
+	});
     var waypoint = $('.section.half').waypoint(function(direction) {
         //check the direction
         if(direction == 'down') {
