@@ -45,7 +45,7 @@ h1 {
       vertical-align: middle; }
 .section.half {
   padding: 15px;
-  transition: transform .3s; }
+  transition: transform 1s; }
   .section.half:nth-of-type(odd) {
     transform: translateX(-1200px); }
   .section.half:nth-of-type(even) {
