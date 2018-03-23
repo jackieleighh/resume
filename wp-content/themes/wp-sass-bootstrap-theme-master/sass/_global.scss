@@ -9,6 +9,10 @@ body {
   line-height: 20px;
 }
 
+body {
+	margin-top: 50px;
+}
+
 p {
 	font-size: 16px;
   	line-height: 20px;
@@ -25,9 +29,11 @@ h1 {
 
 .section {
 	.inner {
-		background: #eee;
+		background: #5ebbc1;
 		padding: 15px;
 		height: 100%;
+		color: #ffffff;
+		text-align: center;
 	}
 	&.full {
 		padding: 15px;
