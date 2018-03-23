@@ -27,10 +27,17 @@ h1 {
 	&.full {
 	}
 	&.half {
-		padding: 30px;
+		padding: 15px;
 		.inner {
-			padding: 30px;
+			padding: 15px;
 			background: #eee;
+			.image {
+				text-align: center;
+				img {
+					width: auto;
+					height: 150px;
+				}
+			}
 		}
 	}
 	.image {

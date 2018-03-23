@@ -20,10 +20,15 @@ h1 {
   margin-right: 0; }
 
 .section.half {
-  padding: 30px; }
+  padding: 15px; }
   .section.half .inner {
-    padding: 30px;
+    padding: 15px;
     background: #eee; }
+    .section.half .inner .image {
+      text-align: center; }
+      .section.half .inner .image img {
+        width: auto;
+        height: 150px; }
 .section .image img {
   width: 100%;
   height: auto; }
