@@ -30,6 +30,19 @@ h1 {
   text-align: center; }
 .section.full {
   padding: 15px; }
+  .section.full .inner {
+    display: table; }
+    .section.full .inner .image {
+      display: table-cell;
+      float: none;
+      vertical-align: middle; }
+      .section.full .inner .image img {
+        width: 100%;
+        height: auto; }
+    .section.full .inner .text {
+      display: table-cell;
+      float: none;
+      vertical-align: middle; }
 .section.half {
   padding: 15px; }
   .section.half .image {
@@ -37,8 +50,5 @@ h1 {
     .section.half .image img {
       width: auto;
       height: 150px; }
-.section .image img {
-  width: 100%;
-  height: auto; }
 
 /*# sourceMappingURL=style.css.map */

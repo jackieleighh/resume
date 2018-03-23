@@ -37,6 +37,23 @@ h1 {
 	}
 	&.full {
 		padding: 15px;
+		.inner {
+			display: table;
+			.image {
+				display: table-cell;
+				float: none;
+				vertical-align: middle;
+				img {
+					width: 100%;
+					height: auto;
+				}
+			}
+			.text {
+				display: table-cell;
+				float: none;
+				vertical-align: middle;
+			}
+		}
 	}
 	&.half {
 		padding: 15px;
@@ -47,14 +64,5 @@ h1 {
 				height: 150px;
 			}
 		}
-	}
-	.image {
-		img {
-			width: 100%;
-			height: auto;
-		}
-	}
-	.text {
-
 	}
 }
