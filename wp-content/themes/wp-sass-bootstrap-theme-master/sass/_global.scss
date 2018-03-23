@@ -79,7 +79,7 @@ h1 {
 			&:nth-of-type(even) {
 			    transform: translateX(80px);
 			}
-		}
+		} 
 		@media(max-width: 1024px) {
 			&:nth-of-type(odd) {
 			    transform: translateX(-600px);
