@@ -27,6 +27,11 @@ h1 {
 	&.full {
 	}
 	&.half {
+		padding: 30px;
+		.inner {
+			padding: 30px;
+			background: #eee;
+		}
 	}
 	.image {
 		img {

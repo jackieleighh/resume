@@ -34,26 +34,28 @@
 	</div>
 <?php else: ?>
 	<div class="col-sm-6 section half matchHeight">
-		<?php if($has_image): ?>
-			<?php if($image_position == 'top'): ?>
-				<div class="row image top">
-					<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>">
-				</div>
-				<div class="row text bottom">
-					<?php echo $text; ?>
-				</div>
+		<div class="inner">
+			<?php if($has_image): ?>
+				<?php if($image_position == 'top'): ?>
+					<div class="row image top">
+						<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>">
+					</div>
+					<div class="row text bottom">
+						<?php echo $text; ?>
+					</div>
+				<?php else: ?>
+					<div class="row text top">
+						<?php echo $text; ?>
+					</div>
+					<div class="row image bottom">
+						<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>">
+					</div>
+				<?php endif; ?>
 			<?php else: ?>
-				<div class="row text top">
+				<div class="text no-image">
 					<?php echo $text; ?>
-				</div>
-				<div class="row image bottom">
-					<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>">
 				</div>
 			<?php endif; ?>
-		<?php else: ?>
-			<div class="text no-image">
-				<?php echo $text; ?>
-			</div>
-		<?php endif; ?>
+		</div>
 	</div>
 <?php endif; ?>
