@@ -19,16 +19,19 @@ h1 {
   margin-left: 0;
   margin-right: 0; }
 
+.section .inner {
+  background: #eee;
+  padding: 15px;
+  height: 100%; }
+.section.full {
+  padding: 15px; }
 .section.half {
   padding: 15px; }
-  .section.half .inner {
-    padding: 15px;
-    background: #eee; }
-    .section.half .inner .image {
-      text-align: center; }
-      .section.half .inner .image img {
-        width: auto;
-        height: 150px; }
+  .section.half .image {
+    text-align: center; }
+    .section.half .image img {
+      width: auto;
+      height: 150px; }
 .section .image img {
   width: 100%;
   height: auto; }

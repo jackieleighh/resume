@@ -10,27 +10,29 @@
 
 <?php if($type == 'full'): ?>
 	<div class="section full">
-		<?php if($has_image): ?>
-			<?php if($image_side == 'left'): ?>
-				<div class="col-sm-4 image left">
-					<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>">
-				</div>
-				<div class="col-sm-8 text right">
-					<?php echo $text; ?>
-				</div>
+		<div class="inner">
+			<?php if($has_image): ?>
+				<?php if($image_side == 'left'): ?>
+					<div class="col-sm-4 image left">
+						<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>">
+					</div>
+					<div class="col-sm-8 text right">
+						<?php echo $text; ?>
+					</div>
+				<?php else: ?>
+					<div class="col-sm-8 text left">
+						<?php echo $text; ?>
+					</div>
+					<div class="col-sm-4 image right">
+						<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>">
+					</div>
+				<?php endif; ?>
 			<?php else: ?>
-				<div class="col-sm-8 text left">
+				<div class="text no-image">
 					<?php echo $text; ?>
-				</div>
-				<div class="col-sm-4 image right">
-					<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>">
 				</div>
 			<?php endif; ?>
-		<?php else: ?>
-			<div class="text no-image">
-				<?php echo $text; ?>
-			</div>
-		<?php endif; ?>
+		</div>
 	</div>
 <?php else: ?>
 	<div class="col-sm-6 section half matchHeight">

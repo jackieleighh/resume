@@ -24,19 +24,21 @@ h1 {
 }
 
 .section {
+	.inner {
+		background: #eee;
+		padding: 15px;
+		height: 100%;
+	}
 	&.full {
+		padding: 15px;
 	}
 	&.half {
 		padding: 15px;
-		.inner {
-			padding: 15px;
-			background: #eee;
-			.image {
-				text-align: center;
-				img {
-					width: auto;
-					height: 150px;
-				}
+		.image {
+			text-align: center;
+			img {
+				width: auto;
+				height: 150px;
 			}
 		}
 	}
