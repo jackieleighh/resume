@@ -69,27 +69,28 @@
         <?php if($count == 1): ?>
           </div>
         <?php endif; ?>
+      </section>
+
+      <section id="portfolio">
+          <?php 
+          $portfolio_query = new WP_Query(
+            array(
+              'post_type' => 'portfolio',
+              'posts_per_page' => -1,
+              'meta_key' => 'order',
+              'order_by' => 'meta_value',
+              'order' => 'ASC'
+            )
+          );
+          while ( $portfolio_query-> have_posts() ) : $portfolio_query->the_post();  ?>
+
+            <?php include(locate_template('partials/portfolio-section.php')); ?>
+
+          <?php wp_reset_query(); endwhile; ?>
+        <?php endwhile; ?>
+      </section> 
+
       <?php endwhile; ?>
-    </section>
-
-    <section id="portfolio">
-        <?php 
-        $portfolio_query = new WP_Query(
-          array(
-            'post_type' => 'experience',
-            'posts_per_page' => -1,
-            'meta_key' => 'order',
-            'order_by' => 'meta_value',
-            'order' => 'ASC'
-          )
-        );
-        while ( $portfolio_query-> have_posts() ) : $portfolio_query->the_post();  ?>
-
-          <?php include(locate_template('partials/portfolio-section.php')); ?>
-
-        <?php wp_reset_query(); endwhile; ?>
-      <?php endwhile; ?>
-    </section> 
 
     <?php else: ?>
 
