@@ -37,7 +37,7 @@
           </div>
         <?php endif; ?>
       </section>
-
+      
       <section id="experience">
         <?php 
         $experience_query = new WP_Query(
@@ -72,7 +72,7 @@
       <?php endwhile; ?>
     </section>
 
-    <section id="portfolio">
+    <!-- <section id="portfolio">
         <?php 
         $portfolio_query = new WP_Query(
           array(
@@ -85,10 +85,11 @@
         );
         while ( $portfolio_query-> have_posts() ) : $portfolio_query->the_post();  ?>
 
+          <?php include(locate_template('partials/portfolio-section.php')); ?>
 
         <?php wp_reset_query(); endwhile; ?>
       <?php endwhile; ?>
-    </section>
+    </section> -->
 
     <?php else: ?>
 
