@@ -150,12 +150,57 @@ h1 {
 		}
 	}
 	&.portfolio {
+		width: 50%;
+		padding: 15px;
+		transition: transform 1s;
 		a {
+			padding: 15px;
 			display: block;
 			img {
 				width: 100%;
 				height: auto;
 			}
 		}
+		&:nth-of-type(odd) {
+		    transform: translateX(-1200px);
+		}
+		&:nth-of-type(even) {
+		    transform: translateX(1200px);
+		}
+		@media(max-width: 1920px) {
+			&:nth-of-type(odd) {
+			    transform: translateX(-1000px);
+			}
+			&:nth-of-type(even) {
+			    transform: translateX(1000px);
+			}
+		}
+		@media(max-width: 1450px) {
+			&:nth-of-type(odd) {
+			    transform: translateX(-800px);
+			}
+			&:nth-of-type(even) {
+			    transform: translateX(80px);
+			}
+		} 
+		@media(max-width: 1024px) {
+			&:nth-of-type(odd) {
+			    transform: translateX(-600px);
+			}
+			&:nth-of-type(even) {
+			    transform: translateX(600px);
+			}
+		}
+		@media(max-width: 768px) {
+			&:nth-of-type(odd) {
+			    transform: translateX(-400px);
+			}
+			&:nth-of-type(even) {
+			    transform: translateX(400px);
+			}
+		}
+	    &.show {
+	    	transform: translateX(0);
+	    }
 	}
 }
