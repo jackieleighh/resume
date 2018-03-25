@@ -37,6 +37,48 @@ h1 {
 	}
 	&.full {
 		padding: 15px;
+		transition: transform 1s;
+		&.left {
+		    transform: translateX(-1200px);
+		}
+		&.right {
+		    transform: translateX(1200px);
+		}
+		@media(max-width: 1920px) {
+			&.left {
+			    transform: translateX(-1000px);
+			}
+			&.right {
+			    transform: translateX(1000px);
+			}
+		}
+		@media(max-width: 1450px) {
+			&.left {
+			    transform: translateX(-800px);
+			}
+			&.right {
+			    transform: translateX(800px);
+			}
+		} 
+		@media(max-width: 1024px) {
+			&.left {
+			    transform: translateX(-600px);
+			}
+			&.right {
+			    transform: translateX(600px);
+			}
+		}
+		@media(max-width: 768px) {
+			&.left {
+			    transform: translateX(-400px);
+			}
+			&.right {
+			    transform: translateX(400px);
+			}
+		}
+	    &.show {
+	    	transform: translateX(0);
+	    }
 		.inner {
 			display: table;
 			.image {
