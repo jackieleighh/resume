@@ -5,7 +5,7 @@
     $link = get_field('link');
 ?>
 
-<div class="col-sm-12 section half portfolio">
+<div class="col-sm-6 section full portfolio">
 	<a href="<?php echo $link; ?>" target="_blank">
 		<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
 		<div class="row inner">
