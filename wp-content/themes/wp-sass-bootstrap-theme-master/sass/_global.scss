@@ -38,41 +38,41 @@ h1 {
 	&.full {
 		padding: 15px;
 		transition: transform 1s;
-		&:nth-of-type(odd) {
+		&.left {
 		    transform: translateX(-1200px);
 		}
-		&:nth-of-type(even) {
+		&.right {
 		    transform: translateX(1200px);
 		}
 		@media(max-width: 1920px) {
-			&:nth-of-type(odd) {
+			&.left {
 			    transform: translateX(-1000px);
 			}
-			&:nth-of-type(even) {
+			&.right {
 			    transform: translateX(1000px);
 			}
 		}
 		@media(max-width: 1450px) {
-			&:nth-of-type(odd) {
+			&.left {
 			    transform: translateX(-800px);
 			}
-			&:nth-of-type(even) {
+			&.right {
 			    transform: translateX(800px);
 			} 
 		} 
 		@media(max-width: 1024px) {
-			&:nth-of-type(odd) {
+			&.left {
 			    transform: translateX(-600px);
 			}
-			&:nth-of-type(even) {
+			&.right {
 			    transform: translateX(600px);
 			}
 		}
 		@media(max-width: 768px) {
-			&:nth-of-type(odd) {
+			&.left {
 			    transform: translateX(-400px);
 			}
-			&:nth-of-type(even) {
+			&.right {
 			    transform: translateX(400px);
 			}
 		}

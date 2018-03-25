@@ -31,29 +31,29 @@ h1 {
 .section.full {
   padding: 15px;
   transition: transform 1s; }
-  .section.full:nth-of-type(odd) {
+  .section.full.left {
     transform: translateX(-1200px); }
-  .section.full:nth-of-type(even) {
+  .section.full.right {
     transform: translateX(1200px); }
   @media (max-width: 1920px) {
-    .section.full:nth-of-type(odd) {
+    .section.full.left {
       transform: translateX(-1000px); }
-    .section.full:nth-of-type(even) {
+    .section.full.right {
       transform: translateX(1000px); } }
   @media (max-width: 1450px) {
-    .section.full:nth-of-type(odd) {
+    .section.full.left {
       transform: translateX(-800px); }
-    .section.full:nth-of-type(even) {
+    .section.full.right {
       transform: translateX(800px); } }
   @media (max-width: 1024px) {
-    .section.full:nth-of-type(odd) {
+    .section.full.left {
       transform: translateX(-600px); }
-    .section.full:nth-of-type(even) {
+    .section.full.right {
       transform: translateX(600px); } }
   @media (max-width: 768px) {
-    .section.full:nth-of-type(odd) {
+    .section.full.left {
       transform: translateX(-400px); }
-    .section.full:nth-of-type(even) {
+    .section.full.right {
       transform: translateX(400px); } }
   .section.full.show {
     transform: translateX(0); }
