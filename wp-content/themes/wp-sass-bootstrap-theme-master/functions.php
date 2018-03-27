@@ -28,6 +28,7 @@ function theme_js() {
 	wp_enqueue_script( 'bootstrap_js', get_template_directory_uri() . '/bootstrap/js/bootstrap.min.js', array('jquery'), '', true );
 	wp_enqueue_script('waypoint.js', get_template_directory_uri() . '/js/jquery.waypoints.min.js');
 	wp_enqueue_script('matchheight.js', get_template_directory_uri() . '/js/jquery-match-height.js');
+	wp_enqueue_script('fontawesome.js', 'https://use.fontawesome.com/releases/v5.0.8/js/all.js');
 	//wp_enqueue_script('pagepiling.js', get_template_directory_uri() . '/js/jquery.pagepiling.js');
 	wp_enqueue_script('custom.js', get_template_directory_uri() . '/js/custom.js');
 }
