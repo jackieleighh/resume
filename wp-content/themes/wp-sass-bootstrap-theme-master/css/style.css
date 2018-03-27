@@ -137,9 +137,11 @@ a {
     height: auto; }
 .section.footer .inner-table {
   display: table;
-  width: 80%; }
+  width: 80%;
+  margin: 0 auto; }
 .section.footer .contact-link {
-  display: table-cell; }
+  display: table-cell;
+  vertical-align: middle; }
   .section.footer .contact-link a {
     font-size: 50px;
     line-height: 60px;

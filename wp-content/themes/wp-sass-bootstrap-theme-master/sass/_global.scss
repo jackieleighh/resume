@@ -171,9 +171,11 @@ a {
 		.inner-table {
 			display: table;
 			width: 80%;
+			margin: 0 auto;
 		}
 		.contact-link {
 			display: table-cell;
+			vertical-align: middle;
 			a {
 				font-size: 50px;
 				line-height: 60px;
