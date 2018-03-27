@@ -170,15 +170,13 @@ a {
 	.contact-link {
 		font-size: 50px;
 		line-height: 60px;
-		a {
-			color: #fff;
-			margin-right: 15px;
-			&:last-of-type {
-				margin-right: 0;
-			}
-			&:hover {
-				color: #000;
-			}
+		color: #fff;
+		margin-right: 15px;
+		&:last-of-type {
+			margin-right: 0;
+		}
+		&:hover {
+			color: #000;
 		}
 	}
 }
