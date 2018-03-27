@@ -1,5 +1,5 @@
 				<section id="contact">
-					<div class="col-sm-12 section full left">
+					<div class="col-sm-12 section footer full left">
 						<div class="row inner">
 							<?php 
 			                $menuLocations = get_nav_menu_locations(); // Get our nav locations (set in our theme, usually functions.php)
@@ -8,7 +8,7 @@
 
 			                foreach ( $primaryNav as $navItem ) {
 
-			                    echo '<a class="contact-link" href="'.$navItem->url.'" title="'.$navItem->title.'"><i class="'.$navItem->title.'"></i></a>';
+			                    echo '<div class="contact-link"><a class="contact-link" href="'.$navItem->url.'" title="'.$navItem->title.'"><i class="'.$navItem->title.'"></i></a><div>';
 
 			                } ?>
 						</div>

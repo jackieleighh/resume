@@ -167,16 +167,20 @@ a {
 			}
 		}
 	}
-	.contact-link {
-		font-size: 50px;
-		line-height: 60px;
-		color: #fff;
-		margin-right: 15px;
-		&:last-of-type {
-			margin-right: 0;
-		}
-		&:hover {
-			color: #000;
+	.footer {
+		display: table;
+		width: 80%;
+		.contact-link {
+			display: table-cell;
+			a {
+				font-size: 50px;
+				line-height: 60px;
+				color: #fff;
+				margin-right: 15px;
+				&:hover {
+					color: #000;
+				}
+			}
 		}
 	}
 }
