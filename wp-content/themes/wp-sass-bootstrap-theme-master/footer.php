@@ -8,7 +8,7 @@
 
 			                foreach ( $primaryNav as $navItem ) {
 
-			                    echo '<li><a href="'.$navItem->url.'" title="'.$navItem->title.'"><i class="'.$navItem->title.'"></i></a></li>';
+			                    echo '<a class="contact-link" href="'.$navItem->url.'" title="'.$navItem->title.'"><i class="'.$navItem->title.'"></i></a>';
 
 			                } ?>
 						</div>
