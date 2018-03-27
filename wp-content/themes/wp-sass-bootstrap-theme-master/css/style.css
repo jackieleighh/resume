@@ -135,7 +135,7 @@ a {
   .section.portfolio a img {
     width: 100%;
     height: auto; }
-.section.footer .inner {
+.section.footer .inner-table {
   display: table;
   width: 80%; }
 .section.footer .contact-link {

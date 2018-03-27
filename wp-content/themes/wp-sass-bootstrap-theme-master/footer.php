@@ -1,6 +1,7 @@
 				<section id="contact">
 					<div class="col-sm-12 section footer full left">
 						<div class="row inner">
+							<div class="inner-table">
 							<?php 
 			                $menuLocations = get_nav_menu_locations(); // Get our nav locations (set in our theme, usually functions.php)
 			                $menuID = $menuLocations['footer_menu']; // Get the *primary* menu ID
@@ -11,6 +12,7 @@
 			                    echo '<div class="contact-link"><a class="contact-link" href="'.$navItem->url.'" title="'.$navItem->title.'"><i class="'.$navItem->title.'"></i></a><div>';
 
 			                } ?>
+			                </div>
 						</div>
 					</div>
 				</section>
