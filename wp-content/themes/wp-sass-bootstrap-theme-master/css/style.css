@@ -135,17 +135,17 @@ a {
   .section.portfolio a img {
     width: 100%;
     height: auto; }
-.section .footer {
+.section.footer {
   display: table;
   width: 80%; }
-  .section .footer .contact-link {
+  .section.footer .contact-link {
     display: table-cell; }
-    .section .footer .contact-link a {
+    .section.footer .contact-link a {
       font-size: 50px;
       line-height: 60px;
       color: #fff;
       margin-right: 15px; }
-      .section .footer .contact-link a:hover {
+      .section.footer .contact-link a:hover {
         color: #000; }
 
 /*# sourceMappingURL=style.css.map */
