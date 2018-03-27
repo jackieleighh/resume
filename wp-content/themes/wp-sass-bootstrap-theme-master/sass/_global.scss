@@ -46,7 +46,7 @@ a {
 	}
 	&.full {
 		padding: 15px;
-		transition: transform 1s;
+		transition: transform .5s;
 		&.left {
 		    transform: translateX(-1200px);
 		}
@@ -108,7 +108,7 @@ a {
 	}
 	&.half {
 		padding: 15px;
-		transition: transform 1s;
+		transition: transform .5s;
 		&:nth-of-type(odd) {
 		    transform: translateX(-1200px);
 		}

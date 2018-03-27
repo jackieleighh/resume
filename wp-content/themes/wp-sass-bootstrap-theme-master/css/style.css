@@ -56,7 +56,7 @@ a {
   width: 100%; }
 .section.full {
   padding: 15px;
-  transition: transform 1s; }
+  transition: transform .5s; }
   .section.full.left {
     transform: translateX(-1200px); }
   .section.full.right {
@@ -98,7 +98,7 @@ a {
       vertical-align: middle; }
 .section.half {
   padding: 15px;
-  transition: transform 1s; }
+  transition: transform .5s; }
   .section.half:nth-of-type(odd) {
     transform: translateX(-1200px); }
   .section.half:nth-of-type(even) {
