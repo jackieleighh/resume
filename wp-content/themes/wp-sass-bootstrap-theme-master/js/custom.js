@@ -30,7 +30,7 @@ $(document).ready( function() {
 });
 
 function slideBlock() {
-    var waypoint = $('.section.half').waypoint(function(direction) {
+    var waypoint = $('.section').waypoint(function(direction) {
         //check the direction
         if(direction == 'down') {
             //add the class to start the animation
