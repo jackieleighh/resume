@@ -65,6 +65,7 @@
             $count++;
             endif; 
           ?>
+
         <?php wp_reset_query(); endwhile; ?>
         <?php if($count == 1): ?>
           </div>
@@ -82,11 +83,28 @@
             'order' => 'ASC'
           )
         );
+        $count = 0;
         while ( $portfolio_query-> have_posts() ) : $portfolio_query->the_post();  ?>
+
+          <?php if($count == 0): ?>
+            <div class="row">
+          <?php endif; ?>
 
           <?php include(locate_template('partials/portfolio-section.php')); ?>
 
+          <?php if($count == 1): ?>
+            </div>
+          <?php $count = 0; ?>
+          <?php else: 
+            $count++;
+            endif; 
+          ?>
+
         <?php wp_reset_query(); endwhile; ?>
+
+        <?php if($count == 1): ?>
+          </div>
+        <?php endif; ?>
       </section> 
 
       <?php endwhile; ?>
