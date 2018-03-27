@@ -139,7 +139,10 @@ a {
   font-size: 50px;
   line-height: 60px; }
   .section .contact-link a {
-    color: #fff; }
+    color: #fff;
+    margin-right: 15px; }
+    .section .contact-link a:last-of-type {
+      margin-right: 0; }
     .section .contact-link a:hover {
       color: #000; }
 
