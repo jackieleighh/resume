@@ -22,6 +22,14 @@ h1 {
 	font-size: 50px;
 }
 
+a {
+	transition: .5s all ease-in-out;
+	-webkit-transition: .5s all ease-in-out;
+	-moz-transition: .5s all ease-in-out;
+	-ms-transition: .5s all ease-in-out;
+	-o-transition: .5s all ease-in-out;
+}
+
 .row {
 	margin-left: 0;
 	margin-right: 0;
@@ -156,6 +164,16 @@ h1 {
 			img {
 				width: 100%;
 				height: auto;
+			}
+		}
+	}
+	.contact-link {
+		font-size: 50px;
+		line-height: 60px;
+		a {
+			color: #fff;
+			&:hover {
+				color: #000;
 			}
 		}
 	}
