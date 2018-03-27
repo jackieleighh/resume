@@ -40,7 +40,8 @@ function register_theme_menus() {
 
 	register_nav_menus( 
 		array(
-				'header_menu' => __( 'Header Menu' )
+				'header_menu' => __( 'Header Menu' ),
+				'footer_menu' => __('Footer Menu')
 			)
 	 );
 
