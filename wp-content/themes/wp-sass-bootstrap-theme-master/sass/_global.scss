@@ -168,8 +168,10 @@ a {
 		}
 	}
 	&.footer {
-		display: table;
-		width: 80%;
+		.inner {
+			display: table;
+			width: 80%;
+		}
 		.contact-link {
 			display: table-cell;
 			a {
