@@ -27,7 +27,8 @@ h1 {
   padding: 15px;
   height: 100%;
   color: #ffffff;
-  text-align: center; }
+  text-align: center;
+  width: 100%; }
 .section.full {
   padding: 15px;
   transition: transform 1s; }

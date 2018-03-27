@@ -1,5 +1,5 @@
 				<section id="contact">
-					<div class="col-sm-12 section full">
+					<div class="col-sm-12 section full right">
 						<div class="row inner">
 							<?php 
 			                $menuLocations = get_nav_menu_locations(); // Get our nav locations (set in our theme, usually functions.php)
