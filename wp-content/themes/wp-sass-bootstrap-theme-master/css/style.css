@@ -141,7 +141,8 @@ a {
   margin: 0 auto; }
 .section.footer .contact-link {
   display: table-cell;
-  vertical-align: middle; }
+  vertical-align: middle;
+  text-align: center; }
   .section.footer .contact-link a {
     font-size: 50px;
     line-height: 60px;
