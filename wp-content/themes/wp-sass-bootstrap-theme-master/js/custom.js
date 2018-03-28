@@ -25,6 +25,18 @@ function slideBlock() {
         //Set the offset
         offset: '80%'
     });
+    var waypoint2 = $('.section-header').waypoint(function(direction) {
+        //check the direction
+        if(direction == 'down') {
+            //add the class to start the animation
+            $(this.element).addClass('show');
+        } /*else {
+        	$(this.element).removeClass('show');
+        }*/
+    }, {
+        //Set the offset
+        offset: '80%'
+    });
 }
 
 function navbarBrand() {

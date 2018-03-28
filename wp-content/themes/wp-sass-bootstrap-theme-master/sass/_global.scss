@@ -35,6 +35,26 @@ a {
 	margin-right: 0;
 }
 
+.section-header {
+	transition: transform .5s;
+	transform: translateX(-1200px);
+	@media(max-width: 1920px) {
+	    transform: translateX(-1000px);
+	}
+	@media(max-width: 1450px) {
+	    transform: translateX(-800px);
+	} 
+	@media(max-width: 1024px) {
+	    transform: translateX(-600px);
+	}
+	@media(max-width: 768px) {
+		transform: translateX(-400px);
+	}
+    &.show {
+    	transform: translateX(0);
+    }
+}
+
 .section {
 	.inner {
 		background: #eee;

@@ -39,7 +39,7 @@
       </section>
 
       <section id="experience">
-        <div class="section-header">experience</div>
+        <div class="section-header"><h2>experience</h2></div>
         <?php 
         $experience_query = new WP_Query(
           array(
@@ -74,7 +74,7 @@
       </section>
 
       <section id="portfolio">
-        <div class="section-header">portfolio</div>
+        <div class="section-header"><h2>portfolio</h2></div>
         <?php 
         $portfolio_query = new WP_Query(
           array(

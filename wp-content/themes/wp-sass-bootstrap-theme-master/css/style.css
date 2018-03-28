@@ -57,6 +57,24 @@ a {
   margin-left: 0;
   margin-right: 0; }
 
+.section-header {
+  transition: transform .5s;
+  transform: translateX(-1200px); }
+  @media (max-width: 1920px) {
+    .section-header {
+      transform: translateX(-1000px); } }
+  @media (max-width: 1450px) {
+    .section-header {
+      transform: translateX(-800px); } }
+  @media (max-width: 1024px) {
+    .section-header {
+      transform: translateX(-600px); } }
+  @media (max-width: 768px) {
+    .section-header {
+      transform: translateX(-400px); } }
+  .section-header.show {
+    transform: translateX(0); }
+
 .section .inner {
   background: #eee;
   padding: 15px;
