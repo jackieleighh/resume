@@ -4,6 +4,24 @@
 
     if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
+      <section id="main">
+        <?php 
+        $section_query = new WP_Query(
+          array(
+            'post_type' => 'header',
+            'posts_per_page' => -1,
+            'meta_key' => 'order',
+            'order_by' => 'meta_value',
+            'order' => 'ASC'
+          )
+        );
+        while ( $section_query-> have_posts() ) : $section_query->the_post();  ?>
+
+          <?php include(locate_template('partials/header-section.php')); ?>
+
+        <?php wp_reset_query(); endwhile; ?>
+      </section>
+
       <section id="about">
         <?php 
         $section_query = new WP_Query(
