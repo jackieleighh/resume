@@ -63,7 +63,7 @@ function smoothScroll() {
 	    if( target.length ) {
 	        event.preventDefault();
 	        $('html, body').stop().animate({
-	            scrollTop: target.offset().top - 100
+	            scrollTop: target.offset().top - $('.navbar').height()
 	        }, 1000);
 	    }
 	});
