@@ -10,9 +10,6 @@
           array(
             'post_type' => 'header',
             'posts_per_page' => 1,
-            'meta_key' => 'order',
-            'order_by' => 'meta_value',
-            'order' => 'ASC'
           )
         );
         while ( $header_query-> have_posts() ) : $header_query->the_post();  ?>
