@@ -1,8 +1,8 @@
 				<section id="contact">
 					<div class="col-sm-12 section footer full left">
 						<div class="row inner">
-							<div class="inner-table">
 							<h2>keep in touch!</h2>
+							<div class="inner-table">
 							<?php 
 			                $menuLocations = get_nav_menu_locations(); // Get our nav locations (set in our theme, usually functions.php)
 			                $menuID = $menuLocations['footer_menu']; // Get the *primary* menu ID
