@@ -44,6 +44,21 @@ function slideBlock() {
     });
 }
 
+function navbarBrand() {
+    var waypoint = $('.navbar-header').waypoint(function(direction) {
+        //check the direction
+        if(direction == 'down') {
+            //add the class to start the animation
+            $(this.element).addClass('small');
+        } else {
+        	$(this.element).removeClass('small');
+        }
+    }, {
+        //Set the offset
+        offset: 100
+    });
+}
+
 // $(window).resize(function() {
 // 	parallax();
 // });
