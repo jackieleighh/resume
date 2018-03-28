@@ -1,6 +1,10 @@
 
 .navbar {
-
+  border: none;
+  background: transparent;
+  &.opaque {
+    background: #fff;
+  }
   .navbar-header {
     .navbar-brand {
       font-size: 1.5em;
@@ -9,6 +13,4 @@
       }
     }
   }
-
-  
 }
