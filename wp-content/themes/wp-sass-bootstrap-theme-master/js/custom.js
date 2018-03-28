@@ -35,9 +35,9 @@ function slideBlock() {
         if(direction == 'down') {
             //add the class to start the animation
             $(this.element).addClass('show');
-        } else {
+        } /*else {
         	$(this.element).removeClass('show');
-        }
+        }*/
     }, {
         //Set the offset
         offset: '80%'

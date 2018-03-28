@@ -48,10 +48,10 @@ a {
   margin-right: 0; }
 
 .section .inner {
-  background: #5ebbc1;
+  background: #eee;
   padding: 15px;
   height: 100%;
-  color: #ffffff;
+  color: #000;
   text-align: center;
   width: 100%; }
 .section.full {
@@ -169,8 +169,8 @@ a {
   .section.footer .contact-link a {
     font-size: 50px;
     line-height: 60px;
-    color: #fff; }
+    color: #000; }
     .section.footer .contact-link a:hover {
-      color: #000; }
+      color: #fff; }
 
 /*# sourceMappingURL=style.css.map */
