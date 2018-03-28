@@ -80,19 +80,19 @@ function create_widget($name, $id, $description) {
 	require_once('lib/skill-post-type.php');
 	require_once('lib/portfolio-post-type.php');
 
-// register custom taxonomies
-	function section_taxonomy() {
-    	register_taxonomy(
-	        'section-category',
-	        'section',
-	        array(
-	            'label' => __( 'Section Category' ),
-	            'rewrite' => array( 'slug' => 'section-category' ),
-	            'hierarchical' => true,
-	        )
-	    );
-	}
+// // register custom taxonomies
+// 	function section_taxonomy() {
+//     	register_taxonomy(
+// 	        'section-category',
+// 	        'section',
+// 	        array(
+// 	            'label' => __( 'Section Category' ),
+// 	            'rewrite' => array( 'slug' => 'section-category' ),
+// 	            'hierarchical' => true,
+// 	        )
+// 	    );
+// 	}
 
-	add_action( 'init', 'section_taxonomy' );
+// 	add_action( 'init', 'section_taxonomy' );
 
 ?>
