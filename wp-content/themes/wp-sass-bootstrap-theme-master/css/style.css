@@ -58,11 +58,14 @@ a {
   margin-right: 0; }
 
 .main {
-  width: 100%; }
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
   .main img {
     width: 100%;
     height: auto;
-    position: fixed; }
+    visibility: hidden; }
 
 .section-header {
   transition: transform .5s;
