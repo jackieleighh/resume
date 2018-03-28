@@ -38,6 +38,7 @@ a {
 .section-header {
 	transition: transform .5s;
 	transform: translateX(-1200px);
+	text-align: center;
 	@media(max-width: 1920px) {
 	    transform: translateX(-1000px);
 	}
