@@ -1,7 +1,8 @@
 				<section id="contact">
 					<div class="col-sm-12 section footer full left">
 						<div class="row inner">
-							<h2>keep in touch!</h2>
+							<h2>let's get in touch!</h2>
+							<p>the tumblr account is just for fun :)</p>
 							<div class="inner-table">
 							<?php 
 			                $menuLocations = get_nav_menu_locations(); // Get our nav locations (set in our theme, usually functions.php)
