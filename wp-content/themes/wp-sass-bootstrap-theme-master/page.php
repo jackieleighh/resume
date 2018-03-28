@@ -6,16 +6,16 @@
 
       <section id="main">
         <?php 
-        $section_query = new WP_Query(
+        $header_query = new WP_Query(
           array(
             'post_type' => 'header',
-            'posts_per_page' => -1,
+            'posts_per_page' => 1,
             'meta_key' => 'order',
             'order_by' => 'meta_value',
             'order' => 'ASC'
           )
         );
-        while ( $section_query-> have_posts() ) : $section_query->the_post();  ?>
+        while ( $header_query-> have_posts() ) : $header_query->the_post();  ?>
 
           <?php include(locate_template('partials/header-section.php')); ?>
 
