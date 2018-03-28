@@ -57,6 +57,13 @@ a {
   margin-left: 0;
   margin-right: 0; }
 
+.main {
+  width: 100%; }
+  .main img {
+    width: 100%;
+    height: auto;
+    position: fixed; }
+
 .section-header {
   transition: transform .5s;
   transform: translateX(-1200px);
