@@ -172,6 +172,7 @@ a {
 				left: 0;
 				width: 100%;
 				height: 100%;
+				display: none;
 				.inner-table {
 					display: table;
 					width: 100%;
@@ -180,6 +181,11 @@ a {
 						display: table-cell;
 						vertical-align: middle;
 					}
+				}
+			}
+			&:hover {
+				.inner {
+					display: block;
 				}
 			}
 		}
