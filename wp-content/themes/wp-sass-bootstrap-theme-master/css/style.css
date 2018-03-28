@@ -117,7 +117,8 @@ a {
     .section.full .inner .image {
       display: table-cell;
       float: none;
-      vertical-align: middle; }
+      vertical-align: middle;
+      padding: 0; }
       .section.full .inner .image img {
         width: 100%;
         height: auto; }
