@@ -61,11 +61,19 @@ a {
   width: 100%;
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
   .main img {
     width: 100%;
     height: auto;
     visibility: hidden; }
+  .main .inner {
+    display: table;
+    width: 100%;
+    height: 100%; }
+    .main .inner .vertical-align {
+      display: table-cell;
+      vertical-align: middle; }
 
 .section-header {
   transition: transform .5s;
