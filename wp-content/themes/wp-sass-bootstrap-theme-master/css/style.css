@@ -17,9 +17,9 @@
   font-weight: 900;
   src: url("../fontawesome/web-fonts-with-css/webfonts/fa-solid-900.eot");
   src: url("../fontawesome/web-fonts-with-css/webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../fontawesome/web-fonts-with-css/webfonts/fa-solid-900.woff2") format("woff2"), url("../fontawesome/web-fonts-with-css/webfonts/fa-solid-900.woff") format("woff"), url("../fontawesome/web-fonts-with-css/webfonts/fa-solid-900.ttf") format("truetype"), url("../fontawesome/web-fonts-with-css/webfonts/fa-solid-900.svg#fontawesome") format("svg"); }
-.navbar .navbar-header {
+.navbar .navbar-header .navbar-brand {
   font-size: 1.5em; }
-  .navbar .navbar-header.small {
+  .navbar .navbar-header .navbar-brand.small {
     font-size: 1.2em; }
 
 html,

@@ -2,30 +2,13 @@ $ = jQuery;
 
 $(document).ready( function() {
 	
-	//sidebarMenu();
-
-	//parallax();
-
 	smoothScroll();
 
 	$('.matchHeight').matchHeight();
 
 	slideBlock();
 
-	// var anchor_ids = [];
-	// var anchor_menu = '';
-	// $('section').each(function () {
-	// 	anchor_ids.push($(this)[0].id);
-	// });
-
-	// $('#pagepiling').pagepiling({
- //      	direction: 'vertical',
-	// 	menu: '#pagepiling-menu',
-	// 	anchors: anchor_ids,
-	//     navigation: {
-	//     	'position': 'right',
-	//    	}
-	// });
+	navbarBrand();
 
 });
 
@@ -45,19 +28,20 @@ function slideBlock() {
 }
 
 function navbarBrand() {
-    var waypoint = $('.navbar-header').waypoint(function(direction) {
-        //check the direction
-        if(direction == 'down') {
-            //add the class to start the animation
-            $(this.element).addClass('small');
-        } else {
-        	$(this.element).removeClass('small');
-        }
-    }, {
-        //Set the offset
-        offset: 100
-    });
+    if($(window).scrollTop() > 80) {
+    	$('.navbar .navbar-brand').addClass('small');
+    } else {
+    	$('.navbar .navbar-brand').removeClass('small');
+    }
 }
+
+$(window).resize(function() {
+	slideBlock();
+});
+
+$(window).scroll(function() {
+	navbarBrand();
+});
 
 // $(window).resize(function() {
 // 	parallax();
