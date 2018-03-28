@@ -131,10 +131,24 @@ a {
       width: auto;
       height: 150px; }
 .section.portfolio a {
-  display: block; }
+  display: block;
+  position: relative; }
   .section.portfolio a img {
     width: 100%;
     height: auto; }
+  .section.portfolio a .inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+    .section.portfolio a .inner .inner-table {
+      display: table;
+      width: 100%;
+      height: 100%; }
+      .section.portfolio a .inner .inner-table .vertical-align {
+        display: table-cell;
+        vertical-align: middle; }
 .section.footer .inner-table {
   display: table;
   width: 80%;

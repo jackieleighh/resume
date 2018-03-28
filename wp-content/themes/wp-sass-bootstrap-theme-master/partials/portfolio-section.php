@@ -9,8 +9,12 @@
 	<a href="<?php echo $link; ?>" target="_blank">
 		<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
 		<div class="row inner">
-			<h2><?php echo $title; ?></h2>
-			<h3><?php echo $description; ?></h3>
+			<div class="inner-table">
+				<div class="vertical-align">
+					<h2><?php echo $title; ?></h2>
+					<h3><?php echo $description; ?></h3>
+				</div>
+			</div>
 		</div>
 	</a>
 </div>
