@@ -23,11 +23,11 @@ h1 {
 }
 
 a {
-	transition: .5s all ease-in-out;
-	-webkit-transition: .5s all ease-in-out;
-	-moz-transition: .5s all ease-in-out;
-	-ms-transition: .5s all ease-in-out;
-	-o-transition: .5s all ease-in-out;
+	transition: .3s all ease-in-out;
+	-webkit-transition: .3s all ease-in-out;
+	-moz-transition: .3s all ease-in-out;
+	-ms-transition: .3s all ease-in-out;
+	-o-transition: .3s all ease-in-out;
 }
 
 .row {
@@ -172,12 +172,12 @@ a {
 				left: 0;
 				width: 100%;
 				height: 100%;
-				transition: .5s all ease-in-out;
-				-webkit-transition: .5s all ease-in-out;
-				-moz-transition: .5s all ease-in-out;
-				-ms-transition: .5s all ease-in-out;
-				-o-transition: .5s all ease-in-out;
-				display: none;
+				transition: .3s all ease-in-out;
+				-webkit-transition: .3s all ease-in-out;
+				-moz-transition: .3s all ease-in-out;
+				-ms-transition: .3s all ease-in-out;
+				-o-transition: .3s all ease-in-out;
+				opacity: 0;
 				.inner-table {
 					display: table;
 					width: 100%;
@@ -190,7 +190,7 @@ a {
 			}
 			&:hover {
 				.inner {
-					display: block;
+					opacity: 1;
 				}
 			}
 		}
