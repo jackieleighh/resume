@@ -190,7 +190,8 @@ a {
 .section.footer .inner-table {
   display: table;
   width: 80%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding: 10px 0; }
 .section.footer .contact-link {
   display: table-cell;
   vertical-align: middle;
