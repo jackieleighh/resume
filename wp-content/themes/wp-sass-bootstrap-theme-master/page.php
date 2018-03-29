@@ -88,6 +88,23 @@
         <?php endif; ?>
       </section>
 
+      <section id="skills">
+        <div class="section-header"><h2>skills</h2></div>
+        <?php 
+        $skill_query = new WP_Query(
+          array(
+            'post_type' => 'skill',
+            'posts_per_page' => -1,
+            'meta_key' => 'order',
+            'order_by' => 'meta_value',
+            'order' => 'ASC'
+          )
+        );
+        while ( $skill_query-> have_posts() ) : $skill_query->the_post();  ?>
+          <?php include(locate_template('partials/skill-section.php')); ?>
+        <?php endwhile; ?>
+      </section>
+
       <section id="portfolio">
         <div class="section-header"><h2>portfolio</h2></div>
         <?php 
