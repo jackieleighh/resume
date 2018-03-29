@@ -8,6 +8,10 @@
   .navbar-header {
     .navbar-brand {
       font-size: 1.5em;
+      color: #000;
+      &:hover {
+        color: #fff;
+      }
       &.small {
         font-size: 1.2em;
       }
@@ -18,7 +22,7 @@
       a {
         color: #000;
         &:hover {
-          color: #ddd;
+          color: #666;
         }
       }
     }
