@@ -230,4 +230,10 @@ a {
     .section.footer .contact-link a:hover {
       color: #666; }
 
+.skill-section {
+  text-align: center; }
+  .skill-section img {
+    width: 200px;
+    height: 0; }
+
 /*# sourceMappingURL=style.css.map */
