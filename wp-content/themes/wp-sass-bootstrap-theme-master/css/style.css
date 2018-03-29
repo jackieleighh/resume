@@ -26,6 +26,10 @@
     font-size: 1.5em; }
     .navbar .navbar-header .navbar-brand.small {
       font-size: 1.2em; }
+  .navbar .navbar-nav li a {
+    color: #000; }
+    .navbar .navbar-nav li a:hover {
+      color: #ddd; }
 
 html,
 body {

@@ -13,4 +13,14 @@
       }
     }
   }
+  .navbar-nav {
+    li {
+      a {
+        color: #000;
+        &:hover {
+          color: #ddd;
+        }
+      }
+    }
+  }
 }
