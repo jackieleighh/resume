@@ -42,8 +42,10 @@ function slideBlock() {
 function navbarBrand() {
     if($(window).scrollTop() > 80) {
     	$('.navbar .navbar-brand').addClass('small');
+    	$('.navbar').addClass('opaque');
     } else {
     	$('.navbar .navbar-brand').removeClass('small');
+    	$('.navbar').removeClass('opaque');
     }
 }
 
