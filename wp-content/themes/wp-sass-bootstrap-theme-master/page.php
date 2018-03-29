@@ -95,9 +95,6 @@
           array(
             'post_type' => 'skill',
             'posts_per_page' => -1,
-            'meta_key' => 'order',
-            'order_by' => 'meta_value',
-            'order' => 'ASC'
           )
         );
         while ( $skill_query-> have_posts() ) : $skill_query->the_post();  ?>
