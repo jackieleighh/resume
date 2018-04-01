@@ -14,10 +14,6 @@ p {
   	line-height: 20px;
 }
 
-h1 {
-	font-size: 50px;
-}
-
 a {
 	transition: .3s all ease-in-out;
 	-webkit-transition: .3s all ease-in-out;
@@ -76,6 +72,16 @@ a {
     &.show {
     	transform: translateX(0);
     }
+}
+
+.section-header {
+	color: #fff;
+	h1 {
+		font-size: 60px;
+	}
+	h2 {
+		font-size: 50px;
+	}
 }
 
 .section {

@@ -47,9 +47,6 @@ p {
   font-size: 16px;
   line-height: 20px; }
 
-h1 {
-  font-size: 50px; }
-
 a {
   transition: .3s all ease-in-out;
   -webkit-transition: .3s all ease-in-out;
@@ -101,6 +98,13 @@ a {
       transform: translateX(-400px); } }
   .section-header.show, .skill-section.show {
     transform: translateX(0); }
+
+.section-header {
+  color: #fff; }
+  .section-header h1 {
+    font-size: 60px; }
+  .section-header h2 {
+    font-size: 50px; }
 
 .section .inner {
   background: #eee;
