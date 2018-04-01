@@ -63,8 +63,7 @@ a {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  color: #fff; }
+  background-attachment: fixed; }
   .main h1 {
     font-size: 60px; }
   .main h2 {
@@ -80,7 +79,7 @@ a {
     position: absolute;
     top: 0;
     text-align: center;
-    color: #000; }
+    color: #fff; }
     .main .inner .vertical-align {
       display: table-cell;
       vertical-align: middle; }
