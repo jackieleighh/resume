@@ -20,19 +20,27 @@
 .navbar {
   border: none;
   background: transparent; }
-  .navbar.opaque {
-    background: #fff; }
   .navbar .navbar-header .navbar-brand {
     font-size: 1.5em;
-    color: #000; }
+    color: #fff; }
     .navbar .navbar-header .navbar-brand:hover {
-      color: #666; }
+      color: #000; }
     .navbar .navbar-header .navbar-brand.small {
       font-size: 1.2em; }
   .navbar .navbar-nav li a {
-    color: #000; }
+    color: #fff; }
     .navbar .navbar-nav li a:hover {
-      color: #666; }
+      color: #000; }
+  .navbar.opaque {
+    background: #fff; }
+    .navbar.opaque .navbar-header .navbar-brand {
+      color: #000; }
+      .navbar.opaque .navbar-header .navbar-brand:hover {
+        color: #666; }
+    .navbar.opaque .navbar-nav li a {
+      color: #000; }
+      .navbar.opaque .navbar-nav li a:hover {
+        color: #666; }
 
 html,
 body {
