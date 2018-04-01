@@ -83,23 +83,23 @@ a {
       display: table-cell;
       vertical-align: middle; }
 
-.section-header {
+.section-header, .skill-section {
   transition: transform .5s;
   transform: translateX(-1200px);
   text-align: center; }
   @media (max-width: 1920px) {
-    .section-header {
+    .section-header, .skill-section {
       transform: translateX(-1000px); } }
   @media (max-width: 1450px) {
-    .section-header {
+    .section-header, .skill-section {
       transform: translateX(-800px); } }
   @media (max-width: 1024px) {
-    .section-header {
+    .section-header, .skill-section {
       transform: translateX(-600px); } }
   @media (max-width: 768px) {
-    .section-header {
+    .section-header, .skill-section {
       transform: translateX(-400px); } }
-  .section-header.show {
+  .section-header.show, .skill-section.show {
     transform: translateX(0); }
 
 .section .inner {
