@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400i,700,700i");
+@import url("https://fonts.googleapis.com/css?family=Share+Tech+Mono");
 @font-face {
   font-family: 'Font Awesome 5 Brands';
   font-style: normal;
@@ -73,7 +74,8 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  position: relative; }
+  position: relative;
+  font-family: "Share Tech Mono", monospace; }
   .main h1 {
     font-size: 60px; }
   .main h2 {
