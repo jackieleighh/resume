@@ -90,6 +90,7 @@
 
       <section id="skills">
         <div class="section-header"><h2>skills</h2></div>
+        <div class="skills-section">
         <?php 
         $skill_query = new WP_Query(
           array(
@@ -118,6 +119,7 @@
         <?php if($count > 0): ?>
           </div>
         <?php endif; ?>
+        </div>
       </section>
 
       <section id="portfolio">
