@@ -6,8 +6,10 @@
 <div class="main" style="background-image: url('<?php echo $image['url']; ?>')">
 	<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>">
 	<div class="row inner">
-		<div class="vertical-align">
-			<?php echo $text; ?>
+		<div class="inner-table">
+			<div class="vertical-align">
+				<?php echo $text; ?>
+			</div>
 		</div>
 	</div>
 </div>

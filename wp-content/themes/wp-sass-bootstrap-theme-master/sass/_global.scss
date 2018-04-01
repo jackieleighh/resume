@@ -33,6 +33,7 @@ a {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	position: relative;
 	h1 {
 		font-size: 60px;
 	}
@@ -45,13 +46,18 @@ a {
 		visibility: hidden;
 	}
 	.inner {
-		display: table;
+		background: rgba(0,0,0,0.25);
 		width: 100%;
 		height: 100%;
 		position: absolute;
 		top: 0;
 		text-align: center;
 		color: #fff;
+		.inner-table {
+			display: table;
+			height: 100%;
+			width: 100%;
+		}
 		.vertical-align {
 			display: table-cell;
 			vertical-align: middle;
