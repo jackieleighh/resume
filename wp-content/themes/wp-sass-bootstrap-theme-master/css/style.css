@@ -255,7 +255,7 @@ a {
   text-align: center;
   padding-bottom: 15px; }
   .button-group .button {
-    text-transform: lowercase;
+    /*text-transform: lowercase;
     outline: none;
     border: 1px solid transparent;
     background: #eee;
@@ -265,17 +265,56 @@ a {
     -webkit-transition: .3s all ease-in-out;
     -moz-transition: .3s all ease-in-out;
     -ms-transition: .3s all ease-in-out;
-    -o-transition: .3s all ease-in-out; }
-    .button-group .button:after {
+    -o-transition: .3s all ease-in-out;
+    &:after {
+        background: #fff;
+        content: '';
+        position: absolute;
+        z-index: -1;
+    }
+    &:hover, &:focus, &.is-checked {
+    	background: #fff;
+    	border: 1px solid #000;
+    	&:after {
+    		width: 100%;
+    	}
+    }*/
+    /* GENERAL BUTTON STYLING */
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    background: none;
+    border: 3px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    display: block;
+    font-size: 1.6em;
+    font-weight: bold;
+    margin: 1em auto;
+    padding: 2em 6em;
+    position: relative;
+    text-transform: uppercase;
+    /* BUTTON 2 */ }
+    .button-group .button::after {
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s; }
+    .button-group .button::before, .button-group .button::after {
       background: #fff;
       content: '';
       position: absolute;
       z-index: -1; }
-    .button-group .button:hover, .button-group .button:focus, .button-group .button.is-checked {
-      background: #fff;
-      border: 1px solid #000; }
-      .button-group .button:hover:after, .button-group .button:focus:after, .button-group .button.is-checked:after {
-        width: 100%; }
+    .button-group .button:hover {
+      color: #2ecc71; }
+    .button-group .button::after {
+      height: 100%;
+      left: 0;
+      top: 0;
+      width: 0; }
+    .button-group .button:hover:after {
+      width: 100%; }
 
 .skill-section {
   text-align: center;

@@ -270,7 +270,7 @@ a {
 	text-align: center;
 	padding-bottom: 15px;
 	.button {
-		text-transform: lowercase;
+		/*text-transform: lowercase;
 		outline: none;
 		border: 1px solid transparent;
 		background: #eee;
@@ -293,7 +293,50 @@ a {
 			&:after {
 				width: 100%;
 			}
+		}*/
+		/* GENERAL BUTTON STYLING */
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		-o-transition: all 0.3s;
+		transition: all 0.3s;
+		background: none;
+		border: 3px solid #fff;
+	    border-radius: 5px;
+		color: #fff;
+		display: block;
+		font-size: 1.6em;
+		font-weight: bold;
+		margin: 1em auto;
+		padding: 2em 6em;
+		position: relative;
+		text-transform: uppercase;
+		&::after {
+		  -webkit-transition: all 0.3s;
+			-moz-transition: all 0.3s;
+		  -o-transition: all 0.3s;
+			transition: all 0.3s;
 		}
+		&::before,
+		&::after {
+		  background: #fff;
+		  content: '';
+		  position: absolute;
+		  z-index: -1;
+		}
+		&:hover {
+		  color: #2ecc71;
+		}
+		/* BUTTON 2 */
+		&::after {
+		  height: 100%;
+		  left: 0;
+		  top: 0;
+		  width: 0;
+		}
+		&:hover:after {
+		  width: 100%;
+		}
+
 	}
 }
 
