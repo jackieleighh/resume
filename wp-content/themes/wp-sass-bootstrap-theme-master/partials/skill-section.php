@@ -1,6 +1,7 @@
 <?php 
+	global $post;
     $image = get_field('image');
-    $terms = get_terms('skill-category');
+    $terms = get_terms('skill-category', $post->ID);
 ?>
 
 <div class="col-sm-3 skill-section 
