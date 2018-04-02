@@ -265,23 +265,18 @@ a {
     -moz-transition: .3s all ease-in-out;
     -ms-transition: .3s all ease-in-out;
     -o-transition: .3s all ease-in-out; }
-    .button-group .button:after {
-      width: 0%;
-      height: 100%;
-      top: 0;
-      left: 0;
+    .button-group .button:after, .button-group .button:before {
       background: #fff;
       content: '';
       position: absolute;
-      z-index: -1;
-      -webkit-transition: all 0.3s;
-      -moz-transition: all 0.3s;
-      transition: all 0.3s; }
-    .button-group .button:hover, .button-group .button:focus, .button-group .button.is-checked {
-      background: #fff;
-      border: 1px solid #000; }
-      .button-group .button:hover:after, .button-group .button:focus:after, .button-group .button.is-checked:after {
-        width: 100%; }
+      z-index: -1; }
+    .button-group .button:after {
+      height: 100%;
+      left: 0;
+      top: 0;
+      width: 0; }
+    .button-group .button:hover:after, .button-group .button:focus:after, .button-group .button.is-checked:after {
+      width: 100%; }
 
 .skill-section {
   text-align: center;

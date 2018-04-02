@@ -280,22 +280,19 @@ a {
 		-moz-transition: .3s all ease-in-out;
 		-ms-transition: .3s all ease-in-out;
 		-o-transition: .3s all ease-in-out;
-		&:after {
-		    width: 0%;
-		    height: 100%; 
-		    top: 0;
-		    left: 0;
+		&:after, &:before {
 		    background: #fff;
 		    content: '';
 		    position: absolute;
 		    z-index: -1;
-		    -webkit-transition: all 0.3s;
-		    -moz-transition: all 0.3s;
-		    transition: all 0.3s;
+		}
+		&:after {
+			height: 100%;
+		    left: 0;
+		    top: 0;
+		    width: 0;
 		}
 		&:hover, &:focus, &.is-checked {
-			background: #fff;
-			border: 1px solid #000;
 			&:after {
 				width: 100%;
 			}
