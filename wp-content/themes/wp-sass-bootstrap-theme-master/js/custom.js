@@ -5,16 +5,13 @@ $(document).ready( function() {
 	smoothScroll();
 
 	$('.matchHeight').matchHeight();
+	$('.skill-section').matchHeight();
 
 	slideBlock();
 
 	navbarBrand();
 
 	isotope();
-
-	setTimeout(function() {
-		isotope();
-	}, 1000);
 });
 
 function isotope() {
