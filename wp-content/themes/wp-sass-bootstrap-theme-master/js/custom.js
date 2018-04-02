@@ -22,7 +22,8 @@ function isotope() {
 	var $grid = $('.skills-section').isotope({
 	  itemSelector: '.skill-section',
 	  resizable: false, // disable normal resizing
-      layoutMode: 'fitRows' 
+      layoutMode: 'fitRows', 
+      filter: '*'
 	});
 
 	// bind sort button click
