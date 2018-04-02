@@ -248,6 +248,21 @@ a {
     .section.footer .contact-link a:hover {
       color: #666; }
 
+.button-group {
+  text-align: center; }
+  .button-group .button {
+    outline: none;
+    border: none;
+    background: #eee;
+    color: #000;
+    transition: .3s all ease-in-out;
+    -webkit-transition: .3s all ease-in-out;
+    -moz-transition: .3s all ease-in-out;
+    -ms-transition: .3s all ease-in-out;
+    -o-transition: .3s all ease-in-out; }
+    .button-group .button:hover, .button-group .button:focus {
+      background: #fff; }
+
 .skill-section {
   text-align: center;
   float: none;
