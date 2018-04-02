@@ -67,19 +67,19 @@ a {
 
 .section-header, .skills-section {
 	transition: transform .5s;
-	transform: translateX(-1200px);
+	transform: translateX(-2000px);
 	text-align: center;
 	@media(max-width: 1920px) {
-	    transform: translateX(-1000px);
+	    transform: translateX(-2000px);
 	}
 	@media(max-width: 1450px) {
-	    transform: translateX(-800px);
+	    transform: translateX(-1500px);
 	} 
 	@media(max-width: 1024px) {
-	    transform: translateX(-600px);
+	    transform: translateX(-1000px);
 	}
 	@media(max-width: 768px) {
-		transform: translateX(-400px);
+		transform: translateX(-800px);
 	}
     &.show {
     	transform: translateX(0);
@@ -98,18 +98,19 @@ a {
 	&.full {
 		padding: 15px;
 		transition: transform .5s;
-		transform: translateX(-1200px);
+		transform: translateX(-2000px);
+		text-align: center;
 		@media(max-width: 1920px) {
-		    transform: translateX(-1000px);
+		    transform: translateX(-2000px);
 		}
 		@media(max-width: 1450px) {
-		    transform: translateX(-800px);
+		    transform: translateX(-1500px);
 		} 
 		@media(max-width: 1024px) {
-		    transform: translateX(-600px);
+		    transform: translateX(-1000px);
 		}
 		@media(max-width: 768px) {
-			transform: translateX(-400px);
+			transform: translateX(-800px);
 		}
 	    &.show {
 	    	transform: translateX(0);

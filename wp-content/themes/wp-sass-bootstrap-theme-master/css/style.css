@@ -101,20 +101,20 @@ a {
 
 .section-header, .skills-section {
   transition: transform .5s;
-  transform: translateX(-1200px);
+  transform: translateX(-2000px);
   text-align: center; }
   @media (max-width: 1920px) {
     .section-header, .skills-section {
-      transform: translateX(-1000px); } }
+      transform: translateX(-2000px); } }
   @media (max-width: 1450px) {
     .section-header, .skills-section {
-      transform: translateX(-800px); } }
+      transform: translateX(-1500px); } }
   @media (max-width: 1024px) {
     .section-header, .skills-section {
-      transform: translateX(-600px); } }
+      transform: translateX(-1000px); } }
   @media (max-width: 768px) {
     .section-header, .skills-section {
-      transform: translateX(-400px); } }
+      transform: translateX(-800px); } }
   .section-header.show, .skills-section.show {
     transform: translateX(0); }
 
@@ -128,19 +128,20 @@ a {
 .section.full {
   padding: 15px;
   transition: transform .5s;
-  transform: translateX(-1200px); }
+  transform: translateX(-2000px);
+  text-align: center; }
   @media (max-width: 1920px) {
     .section.full {
-      transform: translateX(-1000px); } }
+      transform: translateX(-2000px); } }
   @media (max-width: 1450px) {
     .section.full {
-      transform: translateX(-800px); } }
+      transform: translateX(-1500px); } }
   @media (max-width: 1024px) {
     .section.full {
-      transform: translateX(-600px); } }
+      transform: translateX(-1000px); } }
   @media (max-width: 768px) {
     .section.full {
-      transform: translateX(-400px); } }
+      transform: translateX(-800px); } }
   .section.full.show {
     transform: translateX(0); }
   .section.full .inner {
