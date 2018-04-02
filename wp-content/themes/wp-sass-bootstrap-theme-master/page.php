@@ -93,12 +93,16 @@
         <section id="skills">
           <div class="section-header"><h2>skills</h2></div>
           <div class="button-group sort-by-button-group">
-            <button class="button is-checked" data-sort-value="original-order">original order</button>
+            <?php
+              $terms = get_terms( 'skill-category' );
+              var_dump($terms); 
+            ?>
+            <!-- <button class="button is-checked" data-sort-value="original-order">original order</button>
             <button class="button" data-sort-value="name">name</button>
             <button class="button" data-sort-value="symbol">symbol</button>
             <button class="button" data-sort-value="number">number</button>
             <button class="button" data-sort-value="weight">weight</button>
-            <button class="button" data-sort-value="category">category</button>
+            <button class="button" data-sort-value="category">category</button> -->
           </div>
           <div class="skills-section">
           <?php 
