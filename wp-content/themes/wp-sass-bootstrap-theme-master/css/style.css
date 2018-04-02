@@ -253,40 +253,14 @@ a {
 
 .button-group {
   text-align: center;
-  padding-bottom: 15px;
-  background: #2ecc71; }
+  padding-bottom: 15px; }
   .button-group .button {
-    /*text-transform: lowercase;
-    outline: none;
-    border: 1px solid transparent;
-    background: #eee;
-    color: #000;
-    padding: 10px 20px;
-    transition: .3s all ease-in-out;
-    -webkit-transition: .3s all ease-in-out;
-    -moz-transition: .3s all ease-in-out;
-    -ms-transition: .3s all ease-in-out;
-    -o-transition: .3s all ease-in-out;
-    &:after {
-        background: #fff;
-        content: '';
-        position: absolute;
-        z-index: -1;
-    }
-    &:hover, &:focus, &.is-checked {
-    	background: #fff;
-    	border: 1px solid #000;
-    	&:after {
-    		width: 100%;
-    	}
-    }*/
-    /* GENERAL BUTTON STYLING */
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
     background: none;
-    border: 3px solid #eee;
+    border: 1px solid #000;
     color: #000;
     padding: 10px 20px;
     position: relative;
@@ -298,12 +272,10 @@ a {
       -o-transition: all 0.3s;
       transition: all 0.3s; }
     .button-group .button::before, .button-group .button::after {
-      background: #fff;
+      background: #eee;
       content: '';
       position: absolute;
       z-index: -1; }
-    .button-group .button:hover {
-      color: #eee; }
     .button-group .button::after {
       height: 100%;
       left: 0;
