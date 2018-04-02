@@ -101,19 +101,19 @@
         $count = 0;
         while ( $skill_query-> have_posts() ) : $skill_query->the_post();  ?>
 
-          <?php if($count == 0): ?>
+          <!-- <?php if($count == 0): ?>
             <div class="row">
-          <?php endif; ?>
+          <?php endif; ?> -->
 
           <?php include(locate_template('partials/skill-section.php')); ?>
 
-          <?php if($count == 3): ?>
+          <!-- <?php if($count == 3): ?>
             </div>
           <?php $count = 0; ?>
           <?php else: 
             $count++;
             endif; 
-          ?>
+          ?> -->
 
         <?php wp_reset_query(); endwhile; ?>
         <?php if($count > 0): ?>
