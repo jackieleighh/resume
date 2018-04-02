@@ -23,9 +23,12 @@ function isotope() {
 
 	// bind sort button click
 	$('.sort-by-button-group').on( 'click', 'button', function() {
-	  var sortValue = $(this).attr('data-sort-value');
-	  console.log(sortValue);
-	  $grid.isotope({ sortBy: sortValue });
+	  var filterValue = $(this).attr('data-filter-value');
+	  if(filterValue == '*') {
+	  	$grid.isotope({ filter: filterValue });
+	  } else {
+	  	$grid.isotope({ filter: '.' + filterValue });
+	  }
 	});
 
 	// change is-checked class on buttons

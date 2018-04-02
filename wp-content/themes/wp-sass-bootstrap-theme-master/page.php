@@ -96,9 +96,9 @@
             <?php
               $terms = get_terms( 'skill-category' );
             ?>
-            <button class="button is-checked" data-sort-value="all">All</button>
+            <button class="button is-checked" data-filter-value="*">All</button>
             <?php foreach($terms as $term): ?>
-              <button class="button" data-sort-value="<?php echo $term->slug; ?>"><?php echo $term->name; ?></button>
+              <button class="button" data-filter-value="<?php echo $term->slug; ?>"><?php echo $term->name; ?></button>
             <?php endforeach; ?>
           </div>
           <div class="skills-section">
