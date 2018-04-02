@@ -99,23 +99,23 @@ a {
       display: table-cell;
       vertical-align: middle; }
 
-.section-header, .skills-section {
+.section-header, .skills-section, .sort-by-button-group {
   transition: transform .5s;
   transform: translateX(-2000px);
   text-align: center; }
   @media (max-width: 1920px) {
-    .section-header, .skills-section {
+    .section-header, .skills-section, .sort-by-button-group {
       transform: translateX(-2000px); } }
   @media (max-width: 1450px) {
-    .section-header, .skills-section {
+    .section-header, .skills-section, .sort-by-button-group {
       transform: translateX(-1500px); } }
   @media (max-width: 1024px) {
-    .section-header, .skills-section {
+    .section-header, .skills-section, .sort-by-button-group {
       transform: translateX(-1000px); } }
   @media (max-width: 768px) {
-    .section-header, .skills-section {
+    .section-header, .skills-section, .sort-by-button-group {
       transform: translateX(-800px); } }
-  .section-header.show, .skills-section.show {
+  .section-header.show, .skills-section.show, .sort-by-button-group.show {
     transform: translateX(0); }
 
 .section .inner {
