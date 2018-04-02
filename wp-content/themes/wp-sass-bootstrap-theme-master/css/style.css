@@ -237,9 +237,12 @@ a {
       color: #666; }
 
 .skill-section {
-  text-align: center; }
+  text-align: center;
+  float: none;
+  display: inline-block;
+  padding: 20px; }
   .skill-section img {
-    width: 200px;
+    width: 100%;
     height: auto; }
 
 /*# sourceMappingURL=style.css.map */
