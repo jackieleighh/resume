@@ -94,7 +94,7 @@
           <div class="section-header"><h2>skills</h2></div>
           <div class="button-group sort-by-button-group">
             <?php
-              $terms = get_terms( 'skill-category' );
+              $terms = get_terms( 'skill' );
               var_dump($terms); 
             ?>
             <!-- <button class="button is-checked" data-sort-value="original-order">original order</button>
