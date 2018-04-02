@@ -252,7 +252,8 @@ a {
       color: #666; }
 
 .button-group {
-  text-align: center; }
+  text-align: center;
+  padding-bottom: 15px; }
   .button-group .button {
     text-transform: lowercase;
     outline: none;
