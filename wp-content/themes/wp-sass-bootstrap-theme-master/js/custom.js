@@ -24,6 +24,7 @@ function isotope() {
 	// bind sort button click
 	$('.sort-by-button-group').on( 'click', 'button', function() {
 	  var sortValue = $(this).attr('data-sort-value');
+	  console.log(sortValue);
 	  $grid.isotope({ sortBy: sortValue });
 	});
 
