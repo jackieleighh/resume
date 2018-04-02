@@ -1,6 +1,6 @@
 <?php 
     $image = get_field('image');
-    var_dump(get_the_terms());
+    var_dump(get_terms('skill-category'));
 ?>
 
 <div class="col-sm-3 skill-section">
