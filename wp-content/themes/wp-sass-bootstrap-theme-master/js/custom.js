@@ -6,11 +6,11 @@ $(document).ready( function() {
 
 	$('.matchHeight').matchHeight();
 
+	isotope();
+	
 	slideBlock();
 
 	navbarBrand();
-
-	isotope();
 
 	setTimeout(function() {
 		$('.skill-section').matchHeight();
