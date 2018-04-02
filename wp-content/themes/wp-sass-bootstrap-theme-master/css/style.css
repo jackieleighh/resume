@@ -265,6 +265,7 @@ a {
     padding: 10px 20px;
     position: relative;
     text-transform: lowercase;
+    outline: none;
     /* BUTTON 2 */ }
     .button-group .button::after {
       -webkit-transition: all 0.3s;
@@ -282,6 +283,8 @@ a {
       top: 0;
       width: 0; }
     .button-group .button:hover:after {
+      width: 100%; }
+    .button-group .button:focus:after, .button-group .button.is-checked:after {
       width: 100%; }
 
 .skill-section {

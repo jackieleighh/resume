@@ -280,6 +280,7 @@ a {
 		padding: 10px 20px;
 		position: relative;
 		text-transform: lowercase;
+		outline: none;
 		&::after {
 		  -webkit-transition: all 0.3s;
 			-moz-transition: all 0.3s;
@@ -303,7 +304,11 @@ a {
 		&:hover:after {
 		  width: 100%;
 		}
-
+		&:focus, &.is-checked {
+		  &:after {
+		  	width: 100%;
+		  }
+		}
 	}
 }
 
