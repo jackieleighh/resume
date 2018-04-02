@@ -97,9 +97,12 @@
               $terms = get_terms( 'skill-category' );
             ?>
             <button class="button is-checked" data-filter-value="*">All</button>
-            <?php foreach($terms as $term): ?>
+            <!--<?php foreach($terms as $term): ?>
               <button class="button" data-filter-value="<?php echo $term->slug; ?>"><?php echo $term->name; ?></button>
-            <?php endforeach; ?>
+            <?php endforeach; ?>-->
+            <button class="button" data-filter-value="expert">Expert</button>
+            <button class="button" data-filter-value="advanced">Advanced</button>
+            <button class="button" data-filter-value="intermediate">Intermediate</button>
           </div>
           <div class="skills-section">
           <?php 
