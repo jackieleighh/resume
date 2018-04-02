@@ -103,6 +103,7 @@
             <button class="button" data-filter-value="expert">Expert</button>
             <button class="button" data-filter-value="advanced">Advanced</button>
             <button class="button" data-filter-value="intermediate">Intermediate</button>
+            <button class="button" data-filter-value="novice">Novice</button>
           </div>
           <div class="skills-section">
           <?php 
