@@ -12,6 +12,10 @@ $(document).ready( function() {
 
 	isotope();
 
+	setTimeout(function() {
+		$('.skill-section').matchHeight();
+	}, 1000);
+
 });
 
 function isotope() {

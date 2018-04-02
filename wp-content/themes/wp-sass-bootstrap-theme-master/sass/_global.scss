@@ -253,11 +253,16 @@ a {
 	display: inline-block;
 	padding: 15px;
 	width: 24%;
+	display: table;
 	@media(max-width: 768px){
 		width: 48%;
 	}
 	img {
 		width: 100%;
 		height: auto;
+	}
+	.inner {
+		display: table-cell;
+		vertical-align: middle;
 	}
 }

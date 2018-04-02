@@ -241,12 +241,16 @@ a {
   float: none;
   display: inline-block;
   padding: 15px;
-  width: 24%; }
+  width: 24%;
+  display: table; }
   @media (max-width: 768px) {
     .skill-section {
       width: 48%; } }
   .skill-section img {
     width: 100%;
     height: auto; }
+  .skill-section .inner {
+    display: table-cell;
+    vertical-align: middle; }
 
 /*# sourceMappingURL=style.css.map */

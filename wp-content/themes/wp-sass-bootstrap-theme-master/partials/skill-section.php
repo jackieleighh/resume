@@ -5,5 +5,7 @@
 ?>
 
 <div class="col-sm-3 skill-section <?php foreach($terms as $term): echo $term->slug . ' '; endforeach; ?>">
-	<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+	<div class="inner">
+		<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+	</div>
 </div>
