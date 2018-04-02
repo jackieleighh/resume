@@ -267,7 +267,13 @@ a {
       height: 100%;
       top: 0;
       left: 0;
-      background: #fff; }
+      background: #fff;
+      content: '';
+      position: absolute;
+      z-index: -1;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      transition: all 0.3s; }
     .button-group .button:hover, .button-group .button:focus, .button-group .button.is-checked {
       background: #fff;
       border: 1px solid #000; }
