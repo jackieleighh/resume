@@ -154,10 +154,16 @@ a {
       .section.full .inner .image img {
         width: 100%;
         height: auto; }
+      @media (max-width: 768px) {
+        .section.full .inner .image {
+          display: block; } }
     .section.full .inner .text {
       display: table-cell;
       float: none;
       vertical-align: middle; }
+      @media (max-width: 768px) {
+        .section.full .inner .text {
+          display: block; } }
 .section.half {
   padding: 15px;
   transition: transform .5s; }

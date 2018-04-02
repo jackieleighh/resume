@@ -126,11 +126,17 @@ a {
 					width: 100%;
 					height: auto;
 				}
+				@media(max-width: 768px){
+					display: block;
+				}
 			}
 			.text {
 				display: table-cell;
 				float: none;
 				vertical-align: middle;
+				@media(max-width: 768px){
+					display: block;
+				}
 			}
 		}
 	}
