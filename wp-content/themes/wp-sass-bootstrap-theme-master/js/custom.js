@@ -18,7 +18,8 @@ function isotope() {
 	// init Isotope
 	var $grid = $('.skills-section').isotope({
 	  itemSelector: '.skill-section',
-	  layoutMode: 'fitRows',
+	  resizable: false, // disable normal resizing
+      layoutMode: 'fitRows' 
 	});
 
 	// bind sort button click
