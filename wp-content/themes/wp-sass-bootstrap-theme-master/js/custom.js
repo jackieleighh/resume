@@ -40,6 +40,8 @@ function isotope() {
 	    $( this ).addClass('is-checked');
 	  });
 	});
+
+	$('.skill-section').matchHeight();
 }
 
 function slideBlock() {
