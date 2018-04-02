@@ -12,10 +12,6 @@ $(document).ready( function() {
 
 	isotope();
 
-	setTimeout(function() {
-		$('.skill-section').matchHeight();
-	}, 1000);
-
 });
 
 function isotope() {
@@ -99,10 +95,12 @@ function navbarBrand() {
 
 $(window).resize(function() {
 	slideBlock();
+	isotope();
 });
 
 $(window).scroll(function() {
 	navbarBrand();
+	$('.skill-section').matchHeight();
 });
 
 function smoothScroll() {
