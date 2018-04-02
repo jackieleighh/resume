@@ -253,7 +253,8 @@ a {
 
 .button-group {
   text-align: center;
-  padding-bottom: 15px; }
+  padding-bottom: 15px;
+  background: #2ecc71; }
   .button-group .button {
     /*text-transform: lowercase;
     outline: none;
