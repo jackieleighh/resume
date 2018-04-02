@@ -276,7 +276,7 @@ a {
 		-moz-transition: .3s all ease-in-out;
 		-ms-transition: .3s all ease-in-out;
 		-o-transition: .3s all ease-in-out;
-		&:hover, &:focus {
+		&:hover, &:focus, &.is-checked {
 			background: #fff;
 			border: 1px solid #000;
 		}
