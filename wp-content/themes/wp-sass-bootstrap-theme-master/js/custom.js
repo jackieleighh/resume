@@ -7,14 +7,14 @@ $(document).ready( function() {
 	$('.matchHeight').matchHeight();
 
 	isotope();
-	
+
 	slideBlock();
 
 	navbarBrand();
 
 	setTimeout(function() {
 		$('.skill-section').matchHeight();
-	}, 1000);
+	}, 3000);
 });
 
 function isotope() {
