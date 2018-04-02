@@ -1,7 +1,7 @@
 <?php 
 	global $post;
     $image = get_field('image');
-    $terms = wp_get_post_terms('skill-category');
+    $terms = wp_get_post_terms();
     ?><div><?php var_dump($terms);
 ?></div>
 
