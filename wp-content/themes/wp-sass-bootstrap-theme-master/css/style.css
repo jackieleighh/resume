@@ -292,7 +292,6 @@ a {
   float: none;
   display: inline-block;
   padding: 15px;
-  width: 24%;
   display: table; }
   @media (max-width: 768px) {
     .skill-section {
@@ -302,6 +301,8 @@ a {
     height: auto; }
   .skill-section .inner {
     display: table-cell;
-    vertical-align: middle; }
+    vertical-align: middle;
+    background: #eee;
+    padding: 15px; }
 
 /*# sourceMappingURL=style.css.map */
