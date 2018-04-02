@@ -8,7 +8,7 @@
 ?>
 
 <?php if($type == 'full'): ?>
-	<div class="col-sm-12 section full">
+	<div class="row section full">
 		<div class="row inner">
 			<?php if($has_image): ?>
 				<?php if($image_side == 'left'): ?>
