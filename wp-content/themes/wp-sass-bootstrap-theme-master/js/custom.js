@@ -12,6 +12,9 @@ $(document).ready( function() {
 
 	isotope();
 
+	setTimeout(function() {
+		isotope();
+	}, 1000);
 });
 
 function isotope() {
@@ -100,7 +103,6 @@ $(window).resize(function() {
 
 $(window).scroll(function() {
 	navbarBrand();
-	$('.skill-section').matchHeight();
 });
 
 function smoothScroll() {
