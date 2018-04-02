@@ -129,6 +129,16 @@ a {
 				@media(max-width: 768px){
 					display: block;
 				}
+				&.left {
+					@media(max-width: 768px){
+						padding-bottom: 20px;
+					}
+				}
+				&.right {
+					@media(max-width: 768px){
+						padding-top: 20px;
+					}
+				}
 			}
 			.text {
 				display: table-cell;
@@ -175,10 +185,10 @@ a {
 		}
 		@media(max-width: 768px) {
 			&:nth-of-type(odd) {
-			    transform: translateX(-400px);
+			    transform: translateX(-800px);
 			}
 			&:nth-of-type(even) {
-			    transform: translateX(400px);
+			    transform: translateX(800px);
 			}
 		}
 	    &.show {

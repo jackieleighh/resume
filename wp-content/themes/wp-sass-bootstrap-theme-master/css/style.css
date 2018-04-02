@@ -157,6 +157,12 @@ a {
       @media (max-width: 768px) {
         .section.full .inner .image {
           display: block; } }
+      @media (max-width: 768px) {
+        .section.full .inner .image.left {
+          padding-bottom: 20px; } }
+      @media (max-width: 768px) {
+        .section.full .inner .image.right {
+          padding-top: 20px; } }
     .section.full .inner .text {
       display: table-cell;
       float: none;
@@ -188,9 +194,9 @@ a {
       transform: translateX(600px); } }
   @media (max-width: 768px) {
     .section.half:nth-of-type(odd) {
-      transform: translateX(-400px); }
+      transform: translateX(-800px); }
     .section.half:nth-of-type(even) {
-      transform: translateX(400px); } }
+      transform: translateX(800px); } }
   .section.half.show {
     transform: translateX(0); }
   .section.half .image {
