@@ -269,7 +269,7 @@ a {
 .button-group {
 	text-align: center;
 	.button {
-		text-transform: lowercase;
+		/*text-transform: lowercase;
 		outline: none;
 		border: 1px solid transparent;
 		background: #eee;
@@ -279,7 +279,18 @@ a {
 		-webkit-transition: .3s all ease-in-out;
 		-moz-transition: .3s all ease-in-out;
 		-ms-transition: .3s all ease-in-out;
-		-o-transition: .3s all ease-in-out;
+		-o-transition: .3s all ease-in-out;*/
+		 background: none;
+  border: 3px solid #fff;
+  border-radius: 5px;
+  color: #fff;
+  display: block;
+  font-size: 1.6em;
+  font-weight: bold;
+  margin: 1em auto;
+  padding: 2em 6em;
+  position: relative;
+  text-transform: uppercase;
 		&:after, &:before {
 		    background: #fff;
 		    content: '';
