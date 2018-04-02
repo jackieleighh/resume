@@ -37,7 +37,7 @@ function slideBlock() {
         //Set the offset
         offset: '80%'
     });
-    var waypoint3 = $('.skill-section').waypoint(function(direction) {
+    var waypoint3 = $('.skills-section').waypoint(function(direction) {
         //check the direction
         if(direction == 'down') {
             //add the class to start the animation

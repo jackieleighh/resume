@@ -127,31 +127,20 @@ a {
   width: 100%; }
 .section.full {
   padding: 15px;
-  transition: transform .5s; }
-  .section.full.left {
-    transform: translateX(-1200px); }
-  .section.full.right {
-    transform: translateX(1200px); }
+  transition: transform .5s;
+  transform: translateX(-1200px); }
   @media (max-width: 1920px) {
-    .section.full.left {
-      transform: translateX(-1000px); }
-    .section.full.right {
-      transform: translateX(1000px); } }
+    .section.full {
+      transform: translateX(-1000px); } }
   @media (max-width: 1450px) {
-    .section.full.left {
-      transform: translateX(-800px); }
-    .section.full.right {
-      transform: translateX(800px); } }
+    .section.full {
+      transform: translateX(-800px); } }
   @media (max-width: 1024px) {
-    .section.full.left {
-      transform: translateX(-600px); }
-    .section.full.right {
-      transform: translateX(600px); } }
+    .section.full {
+      transform: translateX(-600px); } }
   @media (max-width: 768px) {
-    .section.full.left {
-      transform: translateX(-400px); }
-    .section.full.right {
-      transform: translateX(400px); } }
+    .section.full {
+      transform: translateX(-400px); } }
   .section.full.show {
     transform: translateX(0); }
   .section.full .inner {

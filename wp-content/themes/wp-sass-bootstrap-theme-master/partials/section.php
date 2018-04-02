@@ -1,6 +1,5 @@
 <?php 
     $type = get_field('type');
-    $direction = get_field('direction');
     $text = get_field('text');
     $has_image = get_field('has_image');
     $image_side = get_field('image_side');

@@ -98,43 +98,18 @@ a {
 	&.full {
 		padding: 15px;
 		transition: transform .5s;
-		&.left {
-		    transform: translateX(-1200px);
-		}
-		&.right {
-		    transform: translateX(1200px);
-		}
+		transform: translateX(-1200px);
 		@media(max-width: 1920px) {
-			&.left {
-			    transform: translateX(-1000px);
-			}
-			&.right {
-			    transform: translateX(1000px);
-			}
+		    transform: translateX(-1000px);
 		}
 		@media(max-width: 1450px) {
-			&.left {
-			    transform: translateX(-800px);
-			}
-			&.right {
-			    transform: translateX(800px);
-			} 
+		    transform: translateX(-800px);
 		} 
 		@media(max-width: 1024px) {
-			&.left {
-			    transform: translateX(-600px);
-			}
-			&.right {
-			    transform: translateX(600px);
-			}
+		    transform: translateX(-600px);
 		}
 		@media(max-width: 768px) {
-			&.left {
-			    transform: translateX(-400px);
-			}
-			&.right {
-			    transform: translateX(400px);
-			}
+			transform: translateX(-400px);
 		}
 	    &.show {
 	    	transform: translateX(0);
