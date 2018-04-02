@@ -251,6 +251,7 @@ a {
 .button-group {
   text-align: center; }
   .button-group .button {
+    text-transform: lowercase;
     outline: none;
     border: 1px solid transparent;
     background: #eee;
