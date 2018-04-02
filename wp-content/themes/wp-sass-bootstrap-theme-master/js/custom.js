@@ -34,6 +34,7 @@ function isotope() {
 	  } else {
 	  	$grid.isotope({ filter: '.' + filterValue });
 	  }
+	  $('.skill-section').matchHeight();
 	});
 
 	// change is-checked class on buttons
