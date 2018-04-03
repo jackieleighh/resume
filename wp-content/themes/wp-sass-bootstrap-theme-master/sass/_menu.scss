@@ -8,10 +8,14 @@
       color: #fff;
       font-family: $sharetech;
       &:hover {
-        color: #000;
+        color: #8d3d32;
       }
       &.small {
         font-size: 1.2em;
+        color: #8d3d32;
+        &:hover {
+          color: #000;
+        }
       }
     }
   }
