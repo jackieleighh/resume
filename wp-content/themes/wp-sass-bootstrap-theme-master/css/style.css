@@ -265,7 +265,7 @@ a {
     -o-transition: all 0.3s;
     transition: all 0.3s;
     background: none;
-    border: 3px solid #8d3d32;
+    border: 2px solid #8d3d32;
     color: #8d3d32;
     padding: 10px 20px;
     position: relative;
