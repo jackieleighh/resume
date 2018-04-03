@@ -32,17 +32,17 @@
   .navbar .navbar-nav li a {
     color: #fff; }
     .navbar .navbar-nav li a:hover {
-      color: #000; }
+      color: #8d3d32; }
   .navbar.opaque {
     background: #fff; }
     .navbar.opaque .navbar-header .navbar-brand {
       color: #000; }
       .navbar.opaque .navbar-header .navbar-brand:hover {
-        color: #666; }
+        color: #8d3d32; }
     .navbar.opaque .navbar-nav li a {
       color: #000; }
       .navbar.opaque .navbar-nav li a:hover {
-        color: #666; }
+        color: #8d3d32; }
 
 html,
 body {
@@ -249,7 +249,7 @@ a {
     line-height: 60px;
     color: #000; }
     .section.footer .contact-link a:hover {
-      color: #666; }
+      color: #8d3d32; }
 
 .button-group {
   text-align: center;
@@ -260,8 +260,8 @@ a {
     -o-transition: all 0.3s;
     transition: all 0.3s;
     background: none;
-    border: 1px solid #000;
-    color: #000;
+    border: 1px solid #8d3d32;
+    color: #8d3d32;
     padding: 10px 20px;
     position: relative;
     text-transform: lowercase;
