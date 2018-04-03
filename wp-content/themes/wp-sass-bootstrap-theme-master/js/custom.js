@@ -12,9 +12,6 @@ $(document).ready( function() {
 
 	navbarBrand();
 
-	setTimeout(function() {
-		$('.skill-section').matchHeight();
-	}, 3000);
 });
 
 function isotope() {
@@ -34,9 +31,7 @@ function isotope() {
 	  } else {
 	  	$grid.isotope({ filter: '.' + filterValue });
 	  }
-	  setTimeout(function() {
-	  	$('.skill-section').matchHeight();
-	  }, 2000);
+	  $('.skill-section').matchHeight();
 	});
 
 	// change is-checked class on buttons
