@@ -86,7 +86,8 @@ a {
   .main h1 {
     font-size: 70px; }
   .main h2 {
-    font-size: 40px; }
+    font-size: 40px;
+    color: #e8e1e1; }
   .main img {
     display: none; }
   .main .inner {
