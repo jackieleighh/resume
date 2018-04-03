@@ -91,7 +91,7 @@ a {
 
 .section {
 	.inner {
-		background: #eee;
+		background: #e8e1e1;
 		padding: 15px;
 		height: 100%;
 		color: #000;
@@ -289,7 +289,7 @@ a {
 		}
 		&::before,
 		&::after {
-		  background: #eee;
+		  background: #e8e1e1;
 		  content: '';
 		  position: absolute;
 		  z-index: -1;
@@ -328,7 +328,7 @@ a {
 	.inner {
 		display: table-cell;
 		vertical-align: middle;
-		background: #eee;
+		background: #e8e1e1;
 		padding: 15px;
 	}
 }
