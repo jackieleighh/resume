@@ -31,7 +31,6 @@ function isotope() {
 	  } else {
 	  	$grid.isotope({ filter: '.' + filterValue });
 	  }
-	  $('.skill-section').matchHeight();
 	});
 
 	// change is-checked class on buttons
@@ -43,7 +42,9 @@ function isotope() {
 	  });
 	});
 
-	$('.skill-section').matchHeight();
+	$grid.on( 'arrangeComplete', function() {
+		$('.skill-section').matchHeight();
+	} );
 }
 
 function slideBlock() {
