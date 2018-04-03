@@ -21,6 +21,14 @@
 .navbar {
   border: none;
   background: transparent; }
+  .navbar .navbar-toggle {
+    border: none;
+    margin-top: 5px; }
+    .navbar .navbar-toggle .icon-bar {
+      height: 3px;
+      width: 25px; }
+      .navbar .navbar-toggle .icon-bar + .icon-bar {
+        margin-bottom: 4px; }
   .navbar .navbar-header .navbar-brand {
     font-size: 1.5em;
     color: #fff;
@@ -229,7 +237,7 @@ a {
     -ms-transition: .3s all ease-in-out;
     -o-transition: .3s all ease-in-out;
     opacity: 0;
-    background: rgba(141, 61, 50, 0.8);
+    background: rgba(141, 61, 50, 0.9);
     color: #fff; }
     .section.portfolio a .inner .inner-table {
       display: table;
@@ -272,6 +280,7 @@ a {
     position: relative;
     text-transform: lowercase;
     outline: none;
+    margin-bottom: 10px;
     /* BUTTON 2 */ }
     .button-group .button::after {
       -webkit-transition: all 0.3s;
