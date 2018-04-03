@@ -42,9 +42,11 @@ function isotope() {
 	  });
 	});
 
-	$grid.on( 'arrangeComplete', function() {
-		$('.skill-section').matchHeight();
-	} );
+	$grid.on( 'arrangeComplete', onArrange );
+}
+
+function onArrange() {
+	$('.skill-section').matchHeight();
 }
 
 function slideBlock() {
