@@ -24,7 +24,7 @@
   .navbar .navbar-toggle {
     border: none;
     margin: 5px;
-    background: transparent; }
+    background: transparent !important; }
     .navbar .navbar-toggle .icon-bar {
       height: 4px;
       width: 30px;
