@@ -41,7 +41,7 @@ a {
   display: inline-block; 
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   animation: 
-    typing 2.5s steps(15, end),
+    typing 2s steps(15, end),
     blink-caret .75s step-end infinite;
 }
 

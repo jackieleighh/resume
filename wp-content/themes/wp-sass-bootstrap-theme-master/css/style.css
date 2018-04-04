@@ -97,7 +97,7 @@ a {
   display: inline-block;
   margin: 0 auto;
   /* Gives that scrolling effect as the typing happens */
-  animation: typing 2.5s steps(15, end), blink-caret 0.75s step-end infinite; }
+  animation: typing 2s steps(15, end), blink-caret 0.75s step-end infinite; }
 
 /* The typing effect */
 @keyframes typing {
