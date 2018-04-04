@@ -8,7 +8,9 @@
 	<div class="row inner">
 		<div class="inner-table">
 			<div class="vertical-align">
-				<?php echo $text; ?>
+				<div class="typewriter">
+					<?php echo $text; ?>
+				</div>
 			</div>
 		</div>
 	</div>
