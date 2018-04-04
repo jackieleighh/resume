@@ -41,12 +41,6 @@ function isotope() {
 	    $( this ).addClass('is-checked');
 	  });
 	});
-
-	$grid.on( 'arrangeComplete', onArrange );
-}
-
-function onArrange() {
-	$('.skill-section').matchHeight();
 }
 
 function slideBlock() {

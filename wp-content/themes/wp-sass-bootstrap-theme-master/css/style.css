@@ -275,7 +275,7 @@ a {
     -o-transition: all 0.3s;
     transition: all 0.3s;
     background: none;
-    border: 2px solid #489a7b;
+    border: none;
     color: #489a7b;
     padding: 10px 20px;
     position: relative;
@@ -305,20 +305,26 @@ a {
 
 .skill-section {
   text-align: center;
-  float: none;
   display: inline-block;
-  padding: 15px;
-  display: table; }
+  padding-bottom: 25%; }
   @media (max-width: 768px) {
     .skill-section {
-      width: 48%; } }
+      width: 50%;
+      padding-bottom: 50%; } }
   .skill-section img {
     width: 100%;
     height: auto; }
   .skill-section .inner {
-    display: table-cell;
-    vertical-align: middle;
-    background: #e8e1e1;
-    padding: 15px; }
+    display: table;
+    padding: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+    .skill-section .inner .vertical-align {
+      vertical-align: middle;
+      background: #e8e1e1;
+      padding: 15px; }
 
 /*# sourceMappingURL=style.css.map */
