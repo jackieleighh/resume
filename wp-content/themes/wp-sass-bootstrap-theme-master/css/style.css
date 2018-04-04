@@ -266,7 +266,7 @@ a {
     -ms-transition: .3s all ease-in-out;
     -o-transition: .3s all ease-in-out;
     opacity: 0;
-    background: rgba(79, 181, 143, 0.9);
+    background: #4fb58f;
     color: #000; }
     .section.portfolio a .inner .inner-table {
       display: table;
