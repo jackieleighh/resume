@@ -32,10 +32,6 @@
       }
       &.small {
         font-size: 1.2em;
-        color: #489a7b;
-        &:hover {
-          color: #000;
-        }
       }
     }
   }
@@ -51,9 +47,9 @@
     background: #fff; 
     .navbar-header {
       .navbar-brand {
-        color: #000;
+        color: #489a7b;
         &:hover {
-          color: #489a7b;
+          color: #000;
         }
       }
     }

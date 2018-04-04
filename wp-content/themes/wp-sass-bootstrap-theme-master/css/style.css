@@ -40,10 +40,7 @@
     .navbar .navbar-header .navbar-brand:hover {
       color: #489a7b; }
     .navbar .navbar-header .navbar-brand.small {
-      font-size: 1.2em;
-      color: #489a7b; }
-      .navbar .navbar-header .navbar-brand.small:hover {
-        color: #000; }
+      font-size: 1.2em; }
   .navbar .navbar-nav li a {
     color: #fff; }
     .navbar .navbar-nav li a:hover {
@@ -51,9 +48,9 @@
   .navbar.opaque {
     background: #fff; }
     .navbar.opaque .navbar-header .navbar-brand {
-      color: #000; }
+      color: #489a7b; }
       .navbar.opaque .navbar-header .navbar-brand:hover {
-        color: #489a7b; }
+        color: #000; }
     .navbar.opaque .navbar-nav li a {
       color: #000; }
       .navbar.opaque .navbar-nav li a:hover {
