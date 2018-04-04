@@ -84,6 +84,10 @@ a {
   margin-left: 0;
   margin-right: 0; }
 
+.typewriter h2 {
+  display: inline-block;
+  clear: left; }
+
 .typewriter h1 {
   overflow: hidden;
   /* Ensures the content is not revealed until the animation */
@@ -94,7 +98,7 @@ a {
   display: inline-block;
   margin: 0 auto;
   /* Gives that scrolling effect as the typing happens */
-  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end; }
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite; }
 
 /* The typing effect */
 @keyframes typing {
