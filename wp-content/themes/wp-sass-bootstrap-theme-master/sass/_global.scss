@@ -36,7 +36,7 @@ a {
 
 .typewriter h1 {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: 4px solid #489a7b; /* The typwriter cursor */
+  border-right: 4px solid #4fb58f; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   display: inline-block; 
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
@@ -54,7 +54,7 @@ a {
 /* The typewriter cursor effect */
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: #489a7b; }
+  50% { border-color: #4fb58f; }
 }
 
 .main {
@@ -290,7 +290,7 @@ a {
 				line-height: 60px;
 				color: #000;
 				&:hover {
-					color: #489a7b;
+					color: #4fb58f;
 				}
 			}
 		}
@@ -307,7 +307,7 @@ a {
 		transition: all 0.3s;
 		background: none;
 		border: none;
-		color: #489a7b;
+		color: #4fb58f;
 		padding: 10px 20px;
 		position: relative;
 		text-transform: lowercase;
