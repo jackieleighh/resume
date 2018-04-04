@@ -23,16 +23,17 @@
   background: transparent; }
   .navbar .navbar-toggle {
     border: none;
-    margin-top: 5px; }
+    margin: 5px;
+    background: transparent; }
     .navbar .navbar-toggle .icon-bar {
       height: 4px;
       width: 30px;
       margin-bottom: 4px;
-      color: #fff; }
+      background-color: #fff; }
       .navbar .navbar-toggle .icon-bar + .icon-bar {
         margin-bottom: 0; }
   .navbar.opaque .navbar-toggle .icon-bar {
-    color: #000; }
+    background-color: #000; }
   .navbar .navbar-header .navbar-brand {
     font-size: 1.5em;
     color: #fff;
