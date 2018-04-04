@@ -91,9 +91,10 @@ a {
   /* The typwriter cursor */
   white-space: nowrap;
   /* Keeps the content on a single line */
+  display: inline-block;
   margin: 0 auto;
   /* Gives that scrolling effect as the typing happens */
-  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite; }
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end; }
 
 /* The typing effect */
 @keyframes typing {
@@ -106,7 +107,7 @@ a {
   from, to {
     border-color: transparent; }
   50% {
-    border-color: orange; } }
+    border-color: #489a7b; } }
 .main {
   width: 100%;
   height: 100vh;
