@@ -69,10 +69,16 @@ a {
 
 	h1 {
 		font-size: 70px;
+		@media(max-width: 768px){
+		  	font-size: 40px;
+		}
 	}
 	h2 {
 		font-size: 40px;
 		color: #f9f4f4;
+		@media(max-width: 768px){
+		  	font-size: 22px;
+		}
 	}
 	img {
 		display: none;
@@ -94,6 +100,12 @@ a {
 			display: table-cell;
 			vertical-align: middle;
 		}
+	}
+}
+
+.section-header h2 {
+	@media(max-width: 768px){
+	  	font-size: 22px;
 	}
 }
 

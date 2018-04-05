@@ -122,9 +122,15 @@ a {
   font-family: "Share Tech Mono", monospace; }
   .main h1 {
     font-size: 70px; }
+    @media (max-width: 768px) {
+      .main h1 {
+        font-size: 40px; } }
   .main h2 {
     font-size: 40px;
     color: #f9f4f4; }
+    @media (max-width: 768px) {
+      .main h2 {
+        font-size: 22px; } }
   .main img {
     display: none; }
   .main .inner {
@@ -142,6 +148,10 @@ a {
     .main .inner .vertical-align {
       display: table-cell;
       vertical-align: middle; }
+
+@media (max-width: 768px) {
+  .section-header h2 {
+    font-size: 22px; } }
 
 .section-header, .skills-section, .sort-by-button-group {
   transition: transform .5s;
