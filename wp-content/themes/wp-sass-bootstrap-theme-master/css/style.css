@@ -120,6 +120,9 @@ a {
   background-attachment: fixed;
   position: relative;
   font-family: "Share Tech Mono", monospace; }
+  @media (max-width: 768px) {
+    .main {
+      background-attachment: unset; } }
   .main h1 {
     font-size: 70px; }
     @media (max-width: 768px) {
