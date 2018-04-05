@@ -254,7 +254,7 @@ a {
 				-ms-transition: .3s all ease-in-out;
 				-o-transition: .3s all ease-in-out;
 				opacity: 0;
-				background: rgba(79, 181, 143, 1);
+				background: #f9f4f4;
 				color: #000;
 				.inner-table {
 					display: table;
@@ -263,6 +263,9 @@ a {
 					.vertical-align {
 						display: table-cell;
 						vertical-align: middle;
+					}
+					h3 {
+						color: #4fb58f;
 					}
 				}
 			}

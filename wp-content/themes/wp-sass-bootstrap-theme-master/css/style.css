@@ -266,7 +266,7 @@ a {
     -ms-transition: .3s all ease-in-out;
     -o-transition: .3s all ease-in-out;
     opacity: 0;
-    background: #4fb58f;
+    background: #f9f4f4;
     color: #000; }
     .section.portfolio a .inner .inner-table {
       display: table;
@@ -275,6 +275,8 @@ a {
       .section.portfolio a .inner .inner-table .vertical-align {
         display: table-cell;
         vertical-align: middle; }
+      .section.portfolio a .inner .inner-table h3 {
+        color: #4fb58f; }
   .section.portfolio a:hover .inner {
     opacity: 1; }
 .section.footer .inner-table {
