@@ -177,7 +177,7 @@ a {
   padding: 15px; }
   @media (max-width: 768px) {
     .section {
-      padding: 0; } }
+      padding: 15px 0; } }
   .section .inner {
     background: #f9f4f4;
     padding: 15px;
