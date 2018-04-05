@@ -131,6 +131,8 @@ a {
 }
 
 .section {
+	transition: transform .5s;
+	padding: 15px;
 	@media(max-width: 768px){
 	  	padding: 0;
 	}
@@ -143,8 +145,6 @@ a {
 		width: 100%;
 	}
 	&.full {
-		padding: 15px;
-		transition: transform .5s;
 		transform: translateX(-2000px);
 		text-align: center;
 		@media(max-width: 1920px) {
@@ -198,8 +198,6 @@ a {
 		}
 	}
 	&.half {
-		padding: 15px;
-		transition: transform .5s;
 		&:nth-of-type(odd) {
 		    transform: translateX(-1200px);
 		}
