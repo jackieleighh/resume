@@ -54,7 +54,7 @@ function slideBlock() {
         }*/
     }, {
         //Set the offset
-        offset: '80%'
+        offset: '90%'
     });
     var waypoint2 = $('.section-header').waypoint(function(direction) {
         //check the direction
@@ -66,7 +66,7 @@ function slideBlock() {
         }*/
     }, {
         //Set the offset
-        offset: '80%'
+        offset: '90%'
     });
     var waypoint3 = $('.skills-section').waypoint(function(direction) {
         //check the direction
@@ -78,7 +78,7 @@ function slideBlock() {
         }*/
     }, {
         //Set the offset
-        offset: '80%'
+        offset: '90%'
     });
     var waypoint3 = $('.sort-by-button-group').waypoint(function(direction) {
         //check the direction
@@ -90,7 +90,7 @@ function slideBlock() {
         }*/
     }, {
         //Set the offset
-        offset: '80%'
+        offset: '90%'
     });
 }
 
