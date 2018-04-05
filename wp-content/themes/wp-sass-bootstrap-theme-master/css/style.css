@@ -130,7 +130,7 @@ a {
     color: #f9f4f4; }
     @media (max-width: 768px) {
       .main h2 {
-        font-size: 22px; } }
+        font-size: 24px; } }
   .main img {
     display: none; }
   .main .inner {
@@ -151,7 +151,7 @@ a {
 
 @media (max-width: 768px) {
   .section-header h2 {
-    font-size: 22px; } }
+    font-size: 26px; } }
 
 .section-header, .skills-section, .sort-by-button-group {
   transition: transform .5s;
@@ -172,6 +172,9 @@ a {
   .section-header.show, .skills-section.show, .sort-by-button-group.show {
     transform: translateX(0); }
 
+@media (max-width: 768px) {
+  .section {
+    padding: 0; } }
 .section .inner {
   background: #f9f4f4;
   padding: 15px;

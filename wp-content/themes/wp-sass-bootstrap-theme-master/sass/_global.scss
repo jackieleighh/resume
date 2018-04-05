@@ -77,7 +77,7 @@ a {
 		font-size: 40px;
 		color: #f9f4f4;
 		@media(max-width: 768px){
-		  	font-size: 22px;
+		  	font-size: 24px;
 		}
 	}
 	img {
@@ -105,7 +105,7 @@ a {
 
 .section-header h2 {
 	@media(max-width: 768px){
-	  	font-size: 22px;
+	  	font-size: 26px;
 	}
 }
 
@@ -131,6 +131,9 @@ a {
 }
 
 .section {
+	@media(max-width: 768px){
+	  	padding: 0;
+	}
 	.inner {
 		background: #f9f4f4;
 		padding: 15px;
