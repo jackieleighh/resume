@@ -78,7 +78,7 @@ a {
 	}
 	h2 {
 		font-size: 40px;
-		color: #f4f4ff; //#f9f4f4;
+		color: #f7f4ff; //#f9f4f4;
 		@media(max-width: 768px){
 		  	font-size: 24px;
 		}
@@ -140,7 +140,7 @@ a {
 	  	padding: 15px 0;
 	}
 	.inner {
-		background: #f4f4ff; //#f9f4f4;
+		background: #f7f4ff; //#f9f4f4;
 		padding: 15px;
 		height: 100%;
 		color: #000;
@@ -270,7 +270,7 @@ a {
 				-ms-transition: .3s all ease-in-out;
 				-o-transition: .3s all ease-in-out;
 				opacity: 0;
-				background: #f4f4ff; //#f9f4f4;
+				background: #f7f4ff; //#f9f4f4;
 				color: #000;
 				.inner-table {
 					display: table;
@@ -340,7 +340,7 @@ a {
 		}
 		&::before,
 		&::after {
-		  background: #f4f4ff; //#f9f4f4;
+		  background: #f7f4ff; //#f9f4f4;
 		  content: '';
 		  position: absolute;
 		  z-index: -1;
@@ -386,7 +386,7 @@ a {
 			display: table;
 			width: 100%;
 			height: 100%;
-			background: #f4f4ff; //#f9f4f4;
+			background: #f7f4ff; //#f9f4f4;
 			padding: 15px; 
 			.vertical-align {
 				display: table-cell;
