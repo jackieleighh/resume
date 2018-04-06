@@ -24,7 +24,7 @@ function isotope() {
 	});
 
 	// bind sort button click
-	$('.sort-by-button-group').on( 'click', 'button', function() {
+	$('.sort-by-button-group').on( 'click touchend', 'button', function() {
 	  var filterValue = $(this).attr('data-filter-value');
 	  if(filterValue == '*') {
 	  	$grid.isotope({ filter: filterValue });
@@ -36,7 +36,7 @@ function isotope() {
 	// change is-checked class on buttons
 	$('.button-group').each( function( i, buttonGroup ) {
 	  var $buttonGroup = $( buttonGroup );
-	  $buttonGroup.on( 'click', 'button', function() {
+	  $buttonGroup.on( 'click touchend', 'button', function() {
 	    $buttonGroup.find('.is-checked').removeClass('is-checked');
 	    $( this ).addClass('is-checked');
 	  });
@@ -114,7 +114,7 @@ $(window).scroll(function() {
 });
 
 function smoothScroll() {
-	$('a[href^="#"]').on('click', function(event) {
+	$('a[href^="#"]').on('click touchend', function(event) {
 	    var target = $(this.getAttribute('href'));
 	    if( target.length ) {
 	        event.preventDefault();
