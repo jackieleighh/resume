@@ -131,7 +131,7 @@ a {
         font-size: 40px; } }
   .main h2 {
     font-size: 40px;
-    color: #f7f4ff; }
+    color: #f9f4f4; }
     @media (max-width: 768px) {
       .main h2 {
         font-size: 24px; } }
@@ -183,7 +183,7 @@ a {
     .section {
       padding: 15px 0; } }
   .section .inner {
-    background: #f7f4ff;
+    background: #f9f4f4;
     padding: 15px;
     height: 100%;
     color: #000;
@@ -281,7 +281,7 @@ a {
       -ms-transition: .3s all ease-in-out;
       -o-transition: .3s all ease-in-out;
       opacity: 0;
-      background: #f7f4ff;
+      background: #f9f4f4;
       color: #000; }
       .section.portfolio a .inner .inner-table {
         display: table;
@@ -334,7 +334,7 @@ a {
       -o-transition: all 0.3s;
       transition: all 0.3s; }
     .button-group .button::before, .button-group .button::after {
-      background: #f7f4ff;
+      background: #f9f4f4;
       content: '';
       position: absolute;
       z-index: -1; }
@@ -370,7 +370,7 @@ a {
       display: table;
       width: 100%;
       height: 100%;
-      background: #f7f4ff;
+      background: #f9f4f4;
       padding: 15px; }
       .skill-section .inner .inner-table .vertical-align {
         display: table-cell;
