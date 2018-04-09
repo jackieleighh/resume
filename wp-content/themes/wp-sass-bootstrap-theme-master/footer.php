@@ -11,8 +11,8 @@
 				                $primaryNav = wp_get_nav_menu_items($menuID); // Get the array of wp objects, the nav items for our queried location.
 
 				                foreach ( $primaryNav as $navItem ) {
-				                	var_dump($navItem);
-				                    echo '<div class="contact-link"><a href="'.$navItem->url.'" title="'.$navItem->title.'" target="_blank"><i class="'.$navItem->title.'"></i></a></div>';
+
+				                    echo '<div class="contact-link"><a href="'.$navItem->url.'" title="'.$navItem->attr_title.'" target="_blank"><i class="'.$navItem->title.'"></i></a></div>';
 
 				                } ?>
 				                </div>
