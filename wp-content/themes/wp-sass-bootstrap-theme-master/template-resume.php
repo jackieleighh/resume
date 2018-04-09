@@ -7,8 +7,12 @@
 
     if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
-      <?php echo get_the_content(); ?>
-    
+      <div class="container">
+      
+        <?php echo get_the_content(); ?>
+      
+      </div>
+
     <?php endwhile; ?>
 
     <?php else: ?>

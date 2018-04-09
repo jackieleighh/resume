@@ -64,3 +64,28 @@
     }
   }
 }
+
+.page-template-template-resume {
+    background: #fff; 
+    .navbar-header {
+      .navbar-brand {
+        color: #4fb58f;
+        &:hover {
+          color: #000;
+        }
+      }
+    }
+    .navbar-nav li {
+      a {
+        color: #000;
+        &:hover {
+          color: #4fb58f;
+        }
+      }
+    }
+    .navbar-toggle {
+      .icon-bar {
+        background-color: #000;
+      }
+    }
+}

@@ -57,6 +57,19 @@
       .navbar.opaque .navbar-nav li a:hover {
         color: #4fb58f; }
 
+.page-template-template-resume {
+  background: #fff; }
+  .page-template-template-resume .navbar-header .navbar-brand {
+    color: #4fb58f; }
+    .page-template-template-resume .navbar-header .navbar-brand:hover {
+      color: #000; }
+  .page-template-template-resume .navbar-nav li a {
+    color: #000; }
+    .page-template-template-resume .navbar-nav li a:hover {
+      color: #4fb58f; }
+  .page-template-template-resume .navbar-toggle .icon-bar {
+    background-color: #000; }
+
 html,
 body {
   margin: 0;
@@ -375,5 +388,11 @@ a {
       .skill-section .inner .inner-table .vertical-align {
         display: table-cell;
         vertical-align: middle; }
+
+.page-template-template-resume {
+  margin-top: 100px; }
+  @media (max-width: 768px) {
+    .page-template-template-resume {
+      margin-top: 80px; } }
 
 /*# sourceMappingURL=style.css.map */
