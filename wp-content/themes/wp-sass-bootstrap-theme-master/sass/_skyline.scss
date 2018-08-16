@@ -1,8 +1,9 @@
 .page-template-template-pgh {
 
 	#walking-person {
-		width: 400px;
-		height: 700px;
+		background-size: cover;
+		width: 60px; //400px;
+		height: 100px; //700px;
 		animation: walk-east 3.0s steps(8) infinite;
 		-webkit-animation: walk-east 3.0s steps(8) infinite;
 		img {

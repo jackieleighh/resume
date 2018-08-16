@@ -833,7 +833,7 @@
 
 		<?php $person = get_field('person_walking'); ?>
 		<?php if($person): ?>
-	      	<div id="walking-person" style="background: url('<?= $person['url'];?>)'">
+	      	<div id="walking-person" style="background-image: url('<?= $person['url'];?>)'">
     	  		<img src="<?= $person['url'];?>" alt="<?= $person['alt'];?>">
       		</div>
       	<?php endif; ?>
