@@ -21,7 +21,7 @@ function walkingAnimation() {
     /* Dependencies TweenMax */
 
     var totalFrames = 7;
-    var speed = 8;
+    var speed = 5;
       
     var walkEase = new SteppedEase(totalFrames)
     var finalPosition = '100% 0';
