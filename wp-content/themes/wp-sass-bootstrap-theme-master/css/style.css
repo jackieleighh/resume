@@ -401,11 +401,15 @@ a {
   margin: 0 auto; }
 
 .page-template-template-pgh #skyline {
-  position: relative; }
+  position: relative;
+  margin-top: 100px;
+  background: #ccc; }
 .page-template-template-pgh #pgh {
   position: relative; }
 .page-template-template-pgh #clouds {
-  position: absolute; }
+  position: absolute;
+  top: 0;
+  z-index: 100; }
 .page-template-template-pgh #walking-person {
   background-size: cover;
   width: 60px;
