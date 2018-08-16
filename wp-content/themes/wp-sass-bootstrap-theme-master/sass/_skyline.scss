@@ -1,10 +1,10 @@
 .page-template-template-pgh {
 
 	#walking-person {
-		width: 100px;
-		height: 80px;
-		animation: walk-east 1.0s steps(8) infinite;
-		-webkit-animation: walk-east 1.0s steps(8) infinite;
+		width: 400px;
+		height: 700px;
+		animation: walk-east 3.0s steps(8) infinite;
+		-webkit-animation: walk-east 3.0s steps(8) infinite;
 		img {
 			visibility: hidden;
 		}
@@ -12,10 +12,10 @@
 
 	@keyframes walk-east {
 		from { background-position: 0; }
-		to { background-position: -800px; }
+		to { background-position: -3800px; }
 	}
 	@-webkit-keyframes walk-east {
 		from { background-position: 0; }
-		to { background-position: -800px; }
+		to { background-position: -3800px; }
 	}
 }
