@@ -400,14 +400,13 @@ a {
 .page-template-template-septa-fares #septa-fare-calc {
   margin: 0 auto; }
 
-#walking-person {
+.page-template-template-pgh #walking-person {
   width: 100px;
   height: 80px;
   animation: walk-east 1s steps(8) infinite;
   -webkit-animation: walk-east 1s steps(8) infinite; }
-  #walking-person img {
+  .page-template-template-pgh #walking-person img {
     visibility: hidden; }
-
 @keyframes walk-east {
   from {
     background-position: 0; }
