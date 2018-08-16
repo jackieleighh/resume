@@ -411,13 +411,11 @@ a {
   top: 0;
   z-index: 100; }
 .page-template-template-pgh #walker-wrapper {
-  width: 20%;
-  max-width: 200px;
-  min-width: 130px;
+  width: 5%;
   position: absolute;
   left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%); }
+  bottom: 5%;
+  transform: translateX(-50%); }
   .page-template-template-pgh #walker-wrapper #walker {
     /* top padding = (h / w) * 100 */
     /* (height & width of one frame) */
