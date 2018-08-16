@@ -417,12 +417,13 @@ a {
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%) #walker;
-  /* top padding = (h / w) * 100 */
-  /* (height & width of one frame) */
-    transform-padding-top: 186%;
-    transform-display: block;
-    transform-background: url("../img/step-girl.png");
-    transform-background-size: cover; }
+  transform: translate(-50%, -50%); }
+  .page-template-template-pgh #walker-wrapper #walker {
+    /* top padding = (h / w) * 100 */
+    /* (height & width of one frame) */
+    padding-top: 186%;
+    display: block;
+    background: url("../img/step-girl.png");
+    background-size: cover; }
 
 /*# sourceMappingURL=style.css.map */
