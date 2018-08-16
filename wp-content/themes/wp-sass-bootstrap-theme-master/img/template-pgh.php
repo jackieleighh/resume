@@ -831,7 +831,13 @@
 			</g>
 		</svg>
 
-      
+		<?php $person = get_field('person_walking'); ?>
+		<?php if($person): ?>
+	      	<div id="walking-person">
+    	  		<img src="<?= $person['url'];?>" alt="<?= $person['alt'];?>">
+      		</div>
+      	<?php endif; ?>
+
       </div>
 
     <?php endwhile; ?>
