@@ -57,18 +57,20 @@
       .navbar.opaque .navbar-nav li a:hover {
         color: #4fb58f; }
 
-.page-template-template-resume {
+.page-template-template-resume, .page-template-template-septa-fares {
   background: #fff; }
-  .page-template-template-resume .navbar-header .navbar-brand {
+  .page-template-template-resume .navbar-header .navbar-brand, .page-template-template-septa-fares .navbar-header .navbar-brand {
     color: #4fb58f; }
-    .page-template-template-resume .navbar-header .navbar-brand:hover {
+    .page-template-template-resume .navbar-header .navbar-brand:hover, .page-template-template-septa-fares .navbar-header .navbar-brand:hover {
       color: #000; }
-  .page-template-template-resume .navbar-nav li a {
+  .page-template-template-resume .navbar-nav li a, .page-template-template-septa-fares .navbar-nav li a {
     color: #000; }
-    .page-template-template-resume .navbar-nav li a:hover {
+    .page-template-template-resume .navbar-nav li a:hover, .page-template-template-septa-fares .navbar-nav li a:hover {
       color: #4fb58f; }
-  .page-template-template-resume .navbar-toggle .icon-bar {
+  .page-template-template-resume .navbar-toggle .icon-bar, .page-template-template-septa-fares .navbar-toggle .icon-bar {
     background-color: #000; }
+  .page-template-template-resume .nav, .page-template-template-septa-fares .nav {
+    display: none; }
 
 html,
 body {
@@ -389,10 +391,13 @@ a {
         display: table-cell;
         vertical-align: middle; }
 
-.page-template-template-resume {
+.page-template-template-resume, .page-template-template-septa-fares {
   margin-top: 100px; }
   @media (max-width: 768px) {
-    .page-template-template-resume {
+    .page-template-template-resume, .page-template-template-septa-fares {
       margin-top: 80px; } }
+
+.page-template-template-septa-fares #septa-fare-calc {
+  margin: 0 auto; }
 
 /*# sourceMappingURL=style.css.map */

@@ -65,7 +65,7 @@
   }
 }
 
-.page-template-template-resume {
+.page-template-template-resume, .page-template-template-septa-fares {
     background: #fff; 
     .navbar-header {
       .navbar-brand {
@@ -87,5 +87,8 @@
       .icon-bar {
         background-color: #000;
       }
+    }
+    .nav {
+      display: none;
     }
 }

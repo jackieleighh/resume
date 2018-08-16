@@ -396,9 +396,15 @@ a {
 	}
 }
 
-.page-template-template-resume {
+.page-template-template-resume, .page-template-template-septa-fares {
 	margin-top: 100px;
 	@media(max-width: 768px) {
 		margin-top: 80px;
+	}
+}
+
+.page-template-template-septa-fares {
+	#septa-fare-calc {
+		margin: 0 auto; 
 	}
 }
