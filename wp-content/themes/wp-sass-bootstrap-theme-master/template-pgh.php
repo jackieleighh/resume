@@ -4,7 +4,7 @@
 <?php get_header(); ?>
 
     <?php // theloop
-
+    // 107.180.27.156
     if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
     	
       	<div id="skyline">

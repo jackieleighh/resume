@@ -40,6 +40,7 @@
 		}
 	}
 
+	// rain animation 
 	#rain .rain {
 	  background: white;
 	  background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, #ffffff 100%);
@@ -77,5 +78,38 @@
 	      top: $top + 40%;
 	    }
 	  }
+	}
+
+	// move buildings animations
+	#skyline #buildings_1 {
+		animation: moveBuildingsLeft 500s linear infinite;
+		-webkit-animation: moveBuildingsLeft 500s linear infinite;
+	}
+	#skyline #buildings_2 {
+		animation: moveBuildingsLeft 400s linear infinite;
+		-webkit-animation: moveBuildingsLeft 400s linear infinite;
+	}
+	#skyline #buildings_3 {
+		animation: moveBuildingsLeft 300s linear infinite;
+		-webkit-animation: moveBuildingsLeft 300s linear infinite;
+	}
+	#skyline #buildings_4 {
+		animation: moveBuildingsLeft 250s linear infinite;
+		-webkit-animation: moveBuildingsLeft 250s linear infinite;
+	}
+	#skyline #buildings_5 {
+		animation: moveBuildingsLeft 200s linear infinite;
+		-webkit-animation: moveBuildingsLeft 200s linear infinite;
+	}
+
+	@keyframes moveBuildingsLeft {
+		0% { transform: translateX(0); }
+		50% { transform: translateX(-50%); }
+		100% { transform: translateX(0); }
+	}
+	@-webkit-keyframes moveBuildingsLeft {
+		0% { transform: translateX(0); }
+		50% { transform: translateX(-50%); }
+		100% { transform: translateX(0); }
 	}
 }
