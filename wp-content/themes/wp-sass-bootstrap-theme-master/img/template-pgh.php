@@ -9,7 +9,7 @@
 
       <div class="container">
       	
-      	<div class="skyline">
+      	<div id="skyline">
       	
 	      	<!-- PITTSBURGH SKYLINE -->
 	      	
