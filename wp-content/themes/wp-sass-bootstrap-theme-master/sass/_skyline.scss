@@ -81,35 +81,100 @@
 	}
 
 	// move buildings animations
-	#skyline #buildings_1 {
+	$percentage: 10;
+	@for $i from 1 through 5 {
+		$percentage: $percentage + 5;
+
+		#skyline #buildings_#{$i} {
+			animation-name: moveBuildingsLeft-#{$i};
+			animation-duration: 300s;
+			animation-iteration-count: infinite;
+		}
+		@keyframes moveBuildingsLeft-#{$i} {
+			0% { transform: translateX(0); }
+			50% { transform: translateX(-50%); }
+			100% { transform: translateX(0); }
+		}
+	}
+	/* #skyline #buildings_1 {
+		animation: moveBuildingsLeft 500s linear infinite;
+		-webkit-animation: moveBuildingsLeftOne 500s linear infinite;
+	}
+	#skyline #buildings_2 {
 		animation: moveBuildingsLeft 500s linear infinite;
 		-webkit-animation: moveBuildingsLeft 500s linear infinite;
 	}
-	#skyline #buildings_2 {
-		animation: moveBuildingsLeft 400s linear infinite;
-		-webkit-animation: moveBuildingsLeft 400s linear infinite;
-	}
 	#skyline #buildings_3 {
-		animation: moveBuildingsLeft 300s linear infinite;
-		-webkit-animation: moveBuildingsLeft 300s linear infinite;
+		animation: moveBuildingsLeft 500s linear infinite;
+		-webkit-animation: moveBuildingsLeft 500s linear infinite;
 	}
 	#skyline #buildings_4 {
-		animation: moveBuildingsLeft 250s linear infinite;
-		-webkit-animation: moveBuildingsLeft 250s linear infinite;
+		animation: moveBuildingsLeft 500s linear infinite;
+		-webkit-animation: moveBuildingsLeft 500s linear infinite;
 	}
 	#skyline #buildings_5 {
-		animation: moveBuildingsLeft 200s linear infinite;
-		-webkit-animation: moveBuildingsLeft 200s linear infinite;
+		animation: moveBuildingsLeft 500s linear infinite;
+		-webkit-animation: moveBuildingsLeft 500s linear infinite;
 	}
 
 	@keyframes moveBuildingsLeft {
-		0% { transform: translateX(0); }
-		50% { transform: translateX(-50%); }
-		100% { transform: translateX(0); }
+		1% { transform: translateX(0); }
+		49% { transform: translateX(-15%); }
+		51% { transform: translateX(-15%); }
+		99% { transform: translateX(0); }
 	}
-	@-webkit-keyframes moveBuildingsLeft {
-		0% { transform: translateX(0); }
-		50% { transform: translateX(-50%); }
-		100% { transform: translateX(0); }
+	@-webkit-keyframes moveBuildingsLeftOne {
+		1% { transform: translateX(0); }
+		49% { transform: translateX(-15%); }
+		51% { transform: translateX(-15%); }
+		99% { transform: translateX(0); }
 	}
+	@keyframes moveBuildingsLeftTwo {
+		1% { transform: translateX(0); }
+		49% { transform: translateX(-20%); }
+		51% { transform: translateX(-20%); }
+		99% { transform: translateX(0); }
+	}
+	@-webkit-keyframes moveBuildingsLeftTwo {
+		1% { transform: translateX(0); }
+		49% { transform: translateX(-20%); }
+		51% { transform: translateX(-20%); }
+		99% { transform: translateX(0); }
+	}
+	@keyframes moveBuildingsLeftThree {
+		1% { transform: translateX(0); }
+		49% { transform: translateX(-25%); }
+		51% { transform: translateX(-25%); }
+		99% { transform: translateX(0); }
+	}
+	@-webkit-keyframes moveBuildingsLeftThree {
+		1% { transform: translateX(0); }
+		49% { transform: translateX(-25%); }
+		51% { transform: translateX(-25%); }
+		99% { transform: translateX(0); }
+	}
+	@keyframes moveBuildingsLeftFour {
+		1% { transform: translateX(0); }
+		49% { transform: translateX(-30%); }
+		51% { transform: translateX(-30%); }
+		99% { transform: translateX(0); }
+	}
+	@-webkit-keyframes moveBuildingsLeftFour {
+		1% { transform: translateX(0); }
+		49% { transform: translateX(-30%); }
+		51% { transform: translateX(-30%); }
+		99% { transform: translateX(0); }
+	}
+	@keyframes moveBuildingsLeftFive {
+		1% { transform: translateX(0); }
+		49% { transform: translateX(-35%); }
+		51% { transform: translateX(-35%); }
+		99% { transform: translateX(0); }
+	}
+	@-webkit-keyframes moveBuildingsLeftFive {
+		1% { transform: translateX(0); }
+		49% { transform: translateX(-35%); }
+		51% { transform: translateX(-35%); }
+		99% { transform: translateX(0); }
+	} */
 }
