@@ -407,7 +407,9 @@ a {
   animation: walk-east 3s steps(8) infinite;
   -webkit-animation: walk-east 3s steps(8) infinite; }
   .page-template-template-pgh #walking-person img {
-    visibility: hidden; }
+    visibility: hidden;
+    height: auto;
+    width: 100%; }
 @keyframes walk-east {
   from {
     background-position: 0; }
