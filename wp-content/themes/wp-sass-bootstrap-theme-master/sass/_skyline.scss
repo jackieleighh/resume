@@ -1,11 +1,24 @@
 .page-template-template-pgh {
 
+	#pgh {
+		position: relative;
+	}
+
+	#clouds {
+		position: absolute;
+	}
+
 	#walking-person {
 		background-size: cover;
 		width: 60px; //400px;
 		height: 100px; //700px;
 		animation: walk-east 3.0s steps(8) infinite;
 		-webkit-animation: walk-east 3.0s steps(8) infinite;
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		transform: translateX(-50%);
+		z-index: 999;
 		img {
 			visibility: hidden;
 			height: auto;

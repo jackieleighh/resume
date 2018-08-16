@@ -400,12 +400,21 @@ a {
 .page-template-template-septa-fares #septa-fare-calc {
   margin: 0 auto; }
 
+.page-template-template-pgh #pgh {
+  position: relative; }
+.page-template-template-pgh #clouds {
+  position: absolute; }
 .page-template-template-pgh #walking-person {
   background-size: cover;
   width: 60px;
   height: 100px;
   animation: walk-east 3s steps(8) infinite;
-  -webkit-animation: walk-east 3s steps(8) infinite; }
+  -webkit-animation: walk-east 3s steps(8) infinite;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 999; }
   .page-template-template-pgh #walking-person img {
     visibility: hidden;
     height: auto;
