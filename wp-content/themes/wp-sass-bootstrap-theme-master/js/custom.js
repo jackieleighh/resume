@@ -12,7 +12,27 @@ $(document).ready( function() {
 
 	navbarBrand();
 
+    if($('.page-template-template-pgh').length) {
+        walkingAnimation();
+    }
 });
+
+function walkingAnimation() {
+    /* Dependencies TweenMax */
+
+    var totalFrames = 7;
+    var speed = 8;
+      
+    var walkEase = new SteppedEase(totalFrames)
+    var finalPosition = '100% 0';
+
+    var walkTL = new TimelineMax()
+    walkTL.to('#walker', speed, {
+        backgroundPosition: finalPosition,
+        ease: walkEase,
+        repeat: -1
+    });
+}
 
 function isotope() {
 	// init Isotope

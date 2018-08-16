@@ -31,6 +31,7 @@ function theme_js() {
 	wp_enqueue_script('waypoint.js', get_template_directory_uri() . '/js/jquery.waypoints.min.js');
 	wp_enqueue_script('matchheight.js', get_template_directory_uri() . '/js/jquery-match-height.js');
 	wp_enqueue_script('isotope', get_template_directory_uri() . '/js/isotope.min.js');
+	wp_enqueue_script('tweenmax', get_template_directory_uri() . '/js/TweenMax.min.js');
 	//wp_enqueue_script('pagepiling.js', get_template_directory_uri() . '/js/jquery.pagepiling.js');
 	wp_enqueue_script('custom.js', get_template_directory_uri() . '/js/custom.js');
 	//wp_enqueue_script('septa.js', get_template_directory_uri() . '/septa-fare-calculator/custom.js');

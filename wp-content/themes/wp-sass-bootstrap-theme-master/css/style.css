@@ -410,30 +410,19 @@ a {
   position: absolute;
   top: 0;
   z-index: 100; }
-.page-template-template-pgh #walking-person {
-  background-size: cover;
-  width: 60px;
-  height: 100px;
-  animation: walk-east 3s steps(8) infinite;
-  -webkit-animation: walk-east 3s steps(8) infinite;
+.page-template-template-pgh #walker-wrapper {
+  width: 20%;
+  max-width: 200px;
+  min-width: 130px;
   position: absolute;
-  bottom: 20px;
   left: 50%;
-  transform: translateX(-50%);
-  z-index: 999; }
-  .page-template-template-pgh #walking-person img {
-    visibility: hidden;
-    height: auto;
-    width: 100%; }
-@keyframes walk-east {
-  from {
-    background-position: 0; }
-  to {
-    background-position: -3000px; } }
-@-webkit-keyframes walk-east {
-  from {
-    background-position: 0; }
-  to {
-    background-position: -3000px; } }
+  top: 50%;
+  transform: translate(-50%, -50%) #walker;
+  /* top padding = (h / w) * 100 */
+  /* (height & width of one frame) */
+    transform-padding-top: 186%;
+    transform-display: block;
+    transform-background: url("../img/step-girl.png");
+    transform-background-size: cover; }
 
 /*# sourceMappingURL=style.css.map */

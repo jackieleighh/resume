@@ -16,30 +16,21 @@
 		z-index: 100; 
 	}
 
-	#walking-person {
-		background-size: cover;
-		width: 60px; //400px;
-		height: 100px; //700px;
-		animation: walk-east 3.0s steps(8) infinite;
-		-webkit-animation: walk-east 3.0s steps(8) infinite;
+	#walker-wrapper {
+		width:20%;
+		max-width:200px;
+		min-width:130px;
 		position: absolute;
-		bottom: 20px;
 		left: 50%;
-		transform: translateX(-50%);
-		z-index: 999;
-		img {
-			visibility: hidden;
-			height: auto;
-			width: 100%;
+		top: 50%;
+		transform: translate(-50%, -50%)
+		#walker {
+		  /* top padding = (h / w) * 100 */
+		  /* (height & width of one frame) */
+		  padding-top:186%;
+		  display:block;
+		  background: url('../img/step-girl.png');
+		  background-size:cover;
 		}
-	}
-
-	@keyframes walk-east {
-		from { background-position: 0; }
-		to { background-position: -3000px; }
-	}
-	@-webkit-keyframes walk-east {
-		from { background-position: 0; }
-		to { background-position: -3000px; }
 	}
 }
