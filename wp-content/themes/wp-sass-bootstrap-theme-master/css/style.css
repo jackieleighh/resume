@@ -403,7 +403,7 @@ a {
 .page-template-template-pgh #skyline {
   position: relative;
   margin-top: 100px;
-  background: #ccc; }
+  background: #afbed5; }
 .page-template-template-pgh #pgh {
   position: relative; }
 .page-template-template-pgh #clouds {
@@ -429,11 +429,11 @@ a {
   from {
     background-position: 0; }
   to {
-    background-position: -100%; } }
+    background-position: -3000px; } }
 @-webkit-keyframes walk-east {
   from {
     background-position: 0; }
   to {
-    background-position: -100%; } }
+    background-position: -3000px; } }
 
 /*# sourceMappingURL=style.css.map */
