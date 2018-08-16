@@ -425,11 +425,11 @@ a {
   from {
     background-position: 0; }
   to {
-    background-position: -3333px; } }
+    background-position: -100%; } }
 @-webkit-keyframes walk-east {
   from {
     background-position: 0; }
   to {
-    background-position: -3333px; } }
+    background-position: -100%; } }
 
 /*# sourceMappingURL=style.css.map */
