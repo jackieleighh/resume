@@ -13,32 +13,6 @@
 	      	
 	        <svg version="1.1" id="pgh" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 		 viewBox="0 0 2000 800" style="enable-background:new 0 0 2000 800;" xml:space="preserve">
-				<style type="text/css">
-					.st0{display:none;}
-					.st1{display:inline;fill:#9FD2F4;}
-					.st2{display:inline;fill:#FFFFFF;}
-					.st3{fill:#666566;}
-					.st4{fill:#2D476D;}
-					.st5{fill:#2D6B42;}
-					.st6{fill:#145182;}
-					.st7{fill:#C1AAFF;}
-					.st8{fill:none;}
-					.st9{fill:#838BC5;}
-					.st10{fill:#6395E5;}
-					.st11{fill:#BC428B;}
-					.st12{fill:#C45B9E;}
-					.st13{fill:#A0387B;}
-					.st14{fill:#AF388B;}
-					.st15{fill:#F44D69;}
-					.st16{fill:#F4718E;}
-					.st17{fill:#E04163;}
-					.st18{fill:#E84669;}
-					.st19{fill:#EF5B7B;}
-					.st20{fill:#AF3E91;}
-					.st21{fill:#FFCC3E;}
-					.st22{fill:none;stroke:#FFCC3E;stroke-width:5;stroke-miterlimit:10;}
-					.st23{fill:none;stroke:#FFCC33;stroke-width:7;stroke-miterlimit:10;}
-				</style>
 				<g id="Layer_1" class="st0">
 					
 						<image style="display:inline;overflow:visible;" width="1037" height="415" xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAgEAJQAlAAD/7AARRHVja3kAAQAEAAAAHgAA/+4AIUFkb2JlAGTAAAAAAQMA
@@ -763,9 +737,6 @@
 			<!-- CLOUDS -->
 			<svg version="1.1" id="clouds" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 		 viewBox="0 0 2000 800" style="enable-background:new 0 0 2000 800;" xml:space="preserve">
-				<style type="text/css">
-					.st0{fill:#FFFFFF;}
-				</style>
 				<g id="clouds">
 					<path class="st0" d="M754.6,191.7c0,10.5-8.5,19-19,19c-6.1,0-11.5-2.8-14.9-7.3c-3,6.4-9.6,10.9-17.1,10.9c-6.3,0-11.9-3-15.3-7.8
 						c-3.5,4.7-9,7.8-15.3,7.8c-7.8,0-14.6-4.7-17.4-11.5c-4,3.7-9.4,5.9-15.2,5.9c-12.4,0-22.5-10.1-22.5-22.5s10.1-22.5,22.5-22.5
