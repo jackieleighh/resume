@@ -69,6 +69,8 @@
       color: #4fb58f; }
   .page-template-template-resume .navbar-toggle .icon-bar, .page-template-template-septa-fares .navbar-toggle .icon-bar {
     background-color: #000; }
+  .page-template-template-resume .nav, .page-template-template-septa-fares .nav {
+    display: none; }
 
 html,
 body {
@@ -397,5 +399,23 @@ a {
 
 .page-template-template-septa-fares #septa-fare-calc {
   margin: 0 auto; }
+
+.page-template-template-pgh #walking-person {
+  width: 100px;
+  height: 80px;
+  animation: walk-east 1s steps(8) infinite;
+  -webkit-animation: walk-east 1s steps(8) infinite; }
+  .page-template-template-pgh #walking-person img {
+    visibility: hidden; }
+@keyframes walk-east {
+  from {
+    background-position: 0; }
+  to {
+    background-position: -800px; } }
+@-webkit-keyframes walk-east {
+  from {
+    background-position: 0; }
+  to {
+    background-position: -800px; } }
 
 /*# sourceMappingURL=style.css.map */
