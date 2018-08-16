@@ -400,6 +400,8 @@ a {
 .page-template-template-septa-fares #septa-fare-calc {
   margin: 0 auto; }
 
+.page-template-template-pgh #skyline {
+  position: relative; }
 .page-template-template-pgh #pgh {
   position: relative; }
 .page-template-template-pgh #clouds {
