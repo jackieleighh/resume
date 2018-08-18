@@ -13,7 +13,7 @@ $(document).ready( function() {
 	navbarBrand();
 
     if($('.page-template-template-pgh').length) {
-        //walkingAnimation();
+        walkingAnimation();
     }
 });
 
@@ -24,7 +24,7 @@ function walkingAnimation() {
     var speed = 3;
       
     var walkEase = new SteppedEase(totalFrames)
-    var finalPosition = '100% 0';
+    var finalPosition = '120% 0';
 
     var walkTL = new TimelineMax()
     walkTL.to('#walker', speed, {
