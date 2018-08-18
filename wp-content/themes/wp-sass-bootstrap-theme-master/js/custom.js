@@ -20,7 +20,7 @@ $(document).ready( function() {
 function walkingAnimation() {
     /* Dependencies TweenMax */
 
-    var totalFrames = 7;
+    var totalFrames = 4;
     var speed = 3;
       
     var walkEase = new SteppedEase(totalFrames)
