@@ -11,11 +11,11 @@
       	
 	      	<!-- PITTSBURGH SKYLINE -->
 	      	
-	        <svg version="1.1" id="pgh" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	        <div id="pgh" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 		 viewBox="0 0 2000 800" style="enable-background:new 0 0 2000 800;" xml:space="preserve">
-				<g id="ground">
+				<svg id="ground">
 					<rect x="-9.8" y="695" class="st3" width="2011.7" height="105"/>
-				</g>
+				</svg>
 				<svg version="1.1" id="background" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 		 viewBox="0 0 2000 800" style="enable-background:new 0 0 2000 800;" xml:space="preserve">
 					<polygon class="st4" points="1588.3,700.2 1566.4,700.2 1566.4,695 	"/>
@@ -28,7 +28,7 @@
 					<rect x="1574.1" y="671.4" class="st6" width="425.9" height="29"/>
 					<rect y="660.5" class="st6" width="600.2" height="39.6"/>
 				</svg>
-				<g id="buildings_1">
+				<svg id="buildings_1">
 					<polygon class="st7" points="1698.8,611 1698.8,698.3 1479.7,698.3 1479.7,543.3 1581.4,543.3 1581.4,533.9 1604.5,533.9 
 						1604.5,543.3 1620.9,543.3 1620.9,561.3 1629.6,561.3 1629.6,591.3 1654.3,591.3 1654.3,587 1668.9,587 1668.9,601.5 1688.6,601.5 
 						1688.6,611 	"/>
@@ -48,7 +48,7 @@
 					<polygon class="st7" points="158.2,611.9 158.2,698.3 88.6,698.3 88.6,544.6 94.2,544.6 94.2,539.9 123.6,539.9 123.6,544.6 
 						131.6,544.6 131.6,611.9 	"/>
 					<rect x="980.6" y="477.2" class="st7" width="73.4" height="221.1"/>
-				</g>
+				</svg>
 				<g id="buildings_2">
 					<polygon class="st9" points="1379.1,494.2 1379.1,698.3 1297.8,698.3 1297.8,494.2 1317,494.2 1317,435.5 1336.3,435.5 
 						1336.3,422.1 1340.2,422.1 1340.2,417.9 1338.4,417.9 1338.4,409 1340.2,409 1340.2,404.8 1344.1,404.8 1344.1,389.1 1346.8,389.1 

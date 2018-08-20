@@ -13,11 +13,8 @@
 
 	#pgh {
 		position: relative;
-		position: absolute;
-		bottom: -80px;
-		//width: 200%;
-		width: auto;
-		height: 150vh;
+		width: 100%;
+		height: 100%;
 		.st0{display:none;}
 		.st1{display:inline;fill:#9FD2F4;}
 		.st2{display:inline;fill:#FFFFFF;}
@@ -136,7 +133,7 @@
 		$percentage: $percentage + 5;
 
 		#skyline #buildings_#{$i} {
-			animation-name: moveBuildingsLeft-#{$i};
+			//animation-name: moveBuildingsLeft-#{$i};
 			animation-duration: 300s;
 			animation-iteration-count: infinite;
 			animation-timing-function: linear;
