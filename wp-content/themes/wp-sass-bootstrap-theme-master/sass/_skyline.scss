@@ -39,6 +39,11 @@
 		.st21{fill:#FFCC3E;}
 		.st22{fill:none;stroke:#FFCC3E;stroke-width:5;stroke-miterlimit:10;}
 		.st23{fill:none;stroke:#FFCC33;stroke-width:7;stroke-miterlimit:10;}
+		svg {
+			position: absolute;
+			bottom: 0;
+			left:0;
+		}
 	}
 
 	// clouds animation
@@ -145,7 +150,7 @@
 		}
 	}
 	#skyline #bridges, #skyline #background {
-		animation-name: moveBuildingsLeft;
+		//animation-name: moveBuildingsLeft;
 		animation-duration: 300s;
 		animation-iteration-count: infinite;
 		animation-timing-function: linear;
