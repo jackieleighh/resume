@@ -13,7 +13,7 @@ $(document).ready( function() {
 	navbarBrand();
 
     if($('.page-template-template-pgh').length) {
-        walkingAnimation();
+        //walkingAnimation();
     }
 });
 
