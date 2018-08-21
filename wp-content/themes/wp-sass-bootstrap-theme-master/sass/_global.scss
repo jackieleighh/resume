@@ -26,8 +26,8 @@ a {
 	-o-transition: .3s all ease-in-out;
 }
 
-::selection, -moz::selection {
-	background: #ffd60c;
+::selection, -webkit::selection, -moz::selection {
+	background: #ffe60c;
 }
 
 .row {
