@@ -187,11 +187,10 @@
 	}
 	@keyframes moveBuildings4 {
 		0%, 100% {
-			left: -6%;
+			transform: translateX(0);
 		}
 		50% {
-			left: 106%;
-			transform: translateX(-100%);
+			transform: translateX(calc(100vw - 100%));
 		}
 	}
 	@keyframes moveBuildings5 {
