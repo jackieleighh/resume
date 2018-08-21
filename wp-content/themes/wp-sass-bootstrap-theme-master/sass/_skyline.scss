@@ -160,29 +160,26 @@
 
 	@keyframes moveBuildings1 {
 		0%, 100% {
-			left: 0;
+			transform: translateX(0);
 		}
 		50% {
-			left: 100%;
-			transform: translateX(-100%);
+			transform: translateX(calc(100vw - 100%));
 		}
 	}
 	@keyframes moveBuildings2 {
 		0%, 100% {
-			left: -2%;
+			transform: translateX(0);
 		}
 		50% {
-			left: 102%;
-			transform: translateX(-100%);
+			transform: translateX(calc(100vw - 100%));
 		}
 	}
 	@keyframes moveBuildings3 {
 		0%, 100% {
-			left: -4%;
+			transform: translateX(0);
 		}
 		50% {
-			left: 104%;
-			transform: translateX(-100%);
+			transform: translateX(calc(100vw - 100%));
 		}
 	}
 	@keyframes moveBuildings4 {
@@ -195,29 +192,26 @@
 	}
 	@keyframes moveBuildings5 {
 		0%, 100% {
-			left: -8%;
+			transform: translateX(0);
 		}
 		50% {
-			left: 108%;
-			transform: translateX(-100%);
+			transform: translateX(calc(100vw - 100%));
 		}
 	}
 	@keyframes moveBackground {
 		0%, 100% {
-			left: -8%;
+			transform: translateX(0);
 		}
 		50% {
-			left: 108%;
-			transform: translateX(-100%);
+			transform: translateX(calc(100vw - 100%));
 		}
 	}
 	@keyframes moveBridges {
 		0%, 100% {
-			left: -8%;
+			transform: translateX(0);
 		}
 		50% {
-			left: 108%;
-			transform: translateX(-100%);
+			transform: translateX(calc(100vw - 100%));
 		}
 	}
 }
