@@ -170,61 +170,55 @@
 	@keyframes moveBuildings2 {
 		0%, 100% {
 			left: -1%;
-			right: auto;
 		}
 		50% {
-			right: -1%;
-			left: auto;
+			left: 101%;
+			transform: translateX(-101%);
 		}
 	}
 	@keyframes moveBuildings3 {
 		0%, 100% {
 			left: -2%;
-			right: auto;
 		}
 		50% {
-			right: -2%;
-			left: auto;
+			left: 102%;
+			transform: translateX(-102%);
 		}
 	}
 	@keyframes moveBuildings4 {
 		0%, 100% {
 			left: -3%;
-			right: auto;
 		}
 		50% {
-			right: -3%;
-			left: auto;
+			left: 103%;
+			transform: translateX(-103%);
 		}
 	}
 	@keyframes moveBuildings5 {
 		0%, 100% {
 			left: -4%;
-			right: auto;
 		}
 		50% {
-			right: -4%;
-			left: auto;
+			left: 104%;
+			transform: translateX(-104%);
 		}
 	}
 	@keyframes moveBackground {
 		0%, 100% {
 			left: -5%;
-			right: auto;
 		}
 		50% {
-			right: -5%;
-			left: auto;
+			left: 105%;
+			transform: translateX(-105%);
 		}
 	}
 	@keyframes moveBridges {
 		0%, 100% {
 			left: -5%;
-			right: auto;
 		}
 		50% {
-			right: 5%;
-			left: auto;
+			left: 105%;
+			transform: translateX(-105%);
 		}
 	}
 }
