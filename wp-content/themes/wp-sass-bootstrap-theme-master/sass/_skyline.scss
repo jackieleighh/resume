@@ -68,12 +68,16 @@
 		bottom: 15px;
 		transform: translateX(-50%);
 		animation: walkDirection $time_interval infinite;
+		-webkit-animation: walkDirection $time_interval infinite;
+		-moz-animation: walkDirection $time_interval infinite;
 		#walker {
 		  padding-top:170%;
 		  display:block;
 		  background: url('../img/step-girl-2.png');
 		  background-size:cover;
 		  animation: walkCycle 1s steps(5) infinite;
+		  -webkit-animation: walkCycle 1s steps(5) infinite;
+		  -moz-animation: walkCycle 1s steps(5) infinite;
 		}
 	}
 
@@ -87,6 +91,42 @@
 	}
 
 	@keyframes walkDirection {
+		0%, 49.9% {
+			transform: scaleX(1);
+		}
+		50%, 100% {
+			transform: scaleX(-1);
+		}
+	}
+
+	@-webkit-keyframes walkCycle {
+		from {
+			background-position: 0;
+		}
+		to { 
+			background-position: 100%;
+		}
+	}
+
+	@-webkit-keyframes walkDirection {
+		0%, 49.9% {
+			transform: scaleX(1);
+		}
+		50%, 100% {
+			transform: scaleX(-1);
+		}
+	}
+
+	@-moz-keyframes walkCycle {
+		from {
+			background-position: 0;
+		}
+		to { 
+			background-position: 100%;
+		}
+	}
+
+	@-moz-keyframes walkDirection {
 		0%, 49.9% {
 			transform: scaleX(1);
 		}
@@ -118,6 +158,16 @@
 	    animation-duration: random(6) + 3s;
 	    animation-iteration-count: infinite;
 	    animation-timing-function: linear;
+	    -webkit-animation-name: rain-#{$i};
+	    -webkit-animation-delay: $delay;
+	    -webkit-animation-duration: random(6) + 3s;
+	    -webkit-animation-iteration-count: infinite;
+	    -webkit-animation-timing-function: linear;
+	    -moz-animation-name: rain-#{$i};
+	    -moz-animation-delay: $delay;
+	    -moz-animation-duration: random(6) + 3s;
+	    -moz-animation-iteration-count: infinite;
+	    -moz-animation-timing-function: linear;
 	    left: $left;
 	    opacity: $opacity;
 	    top: -$top;
@@ -134,28 +184,64 @@
 	      top: $top + 40%;
 	    }
 	  }
+	  @-webkit-keyframes rain-#{$i} {
+	    0% {
+	      left: $left;
+	      opacity: $opacity;
+	      top: -$top;
+	    }
+	    100% {
+	      opacity: 0;
+	      top: $top + 40%;
+	    }
+	  }
+	  @-moz-keyframes rain-#{$i} {
+	    0% {
+	      left: $left;
+	      opacity: $opacity;
+	      top: -$top;
+	    }
+	    100% {
+	      opacity: 0;
+	      top: $top + 40%;
+	    }
+	  }
 	}
 
 	#skyline #buildings_1 {
 		animation: moveBuildings1 $time_interval linear infinite;
+		-webkit-animation: moveBuildings1 $time_interval linear infinite;
+		-moz-animation: moveBuildings1 $time_interval linear infinite;
 	}
 	#skyline #buildings_2 {
 		animation: moveBuildings2 $time_interval linear infinite;
+		-webkit-animation: moveBuildings2 $time_interval linear infinite;
+		-moz-animation: moveBuildings2 $time_interval linear infinite;
 	}
 	#skyline #buildings_3 {
 		animation: moveBuildings3 $time_interval linear infinite;
+		-webkit-animation: moveBuildings3 $time_interval linear infinite;
+		-moz-animation: moveBuildings3 $time_interval linear infinite;
 	}
 	#skyline #buildings_4 {
 		animation: moveBuildings4 $time_interval linear infinite;
+		-webkit-animation: moveBuildings4 $time_interval linear infinite;
+		-moz-animation: moveBuildings4 $time_interval linear infinite;
 	}
 	#skyline #buildings_5 {
 		animation: moveBuildings5 $time_interval linear infinite;
+		-webkit-animation: moveBuildings5 $time_interval linear infinite;
+		-moz-animation: moveBuildings5 $time_interval linear infinite;
 	}
 	#skyline #background {
 		animation: moveBackground $time_interval linear infinite;
+		-webkit-animation: moveBackground $time_interval linear infinite;
+		-moz-animation: moveBackground $time_interval linear infinite;
 	}
 	#skyline #bridges {
 		animation: moveBridges $time_interval linear infinite;
+		-webkit-animation: moveBridges $time_interval linear infinite;
+		-moz-animation: moveBridges $time_interval linear infinite;
 	}
 
 	@keyframes moveBuildings1 {
@@ -207,6 +293,118 @@
 		}
 	}
 	@keyframes moveBridges {
+		0%, 100% {
+			transform: translateX(0);
+		}
+		50% {
+			transform: translateX(calc(100vw - 100%));
+		}
+	}
+	@keyframes -webkit-moveBuildings1 {
+		0%, 100% {
+			transform: translateX(-6%);
+		}
+		50% {
+			transform: translateX(calc(100vw - 94%));
+		}
+	}
+	@keyframes -webkit-moveBuildings2 {
+		0%, 100% {
+			transform: translateX(-5%);
+		}
+		50% {
+			transform: translateX(calc(100vw - 95%));
+		}
+	}
+	@keyframes -webkit-moveBuildings3 {
+		0%, 100% {
+			transform: translateX(-4%);
+		}
+		50% {
+			transform: translateX(calc(100vw - 96%));
+		}
+	}
+	@keyframes -webkit-moveBuildings4 {
+		0%, 100% {
+			transform: translateX(-2%);
+		}
+		50% {
+			transform: translateX(calc(100vw - 98%));
+		}
+	}
+	@keyframes -webkit-moveBuildings5 {
+		0%, 100% {
+			transform: translateX(0);
+		}
+		50% {
+			transform: translateX(calc(100vw - 100%));
+		}
+	}
+	@keyframes -webkit-moveBackground {
+		0%, 100% {
+			transform: translateX(0);
+		}
+		50% {
+			transform: translateX(calc(100vw - 100%));
+		}
+	}
+	@keyframes -webkit-moveBridges {
+		0%, 100% {
+			transform: translateX(0);
+		}
+		50% {
+			transform: translateX(calc(100vw - 100%));
+		}
+	}
+	@keyframes -moz-moveBuildings1 {
+		0%, 100% {
+			transform: translateX(-6%);
+		}
+		50% {
+			transform: translateX(calc(100vw - 94%));
+		}
+	}
+	@keyframes -moz-moveBuildings2 {
+		0%, 100% {
+			transform: translateX(-5%);
+		}
+		50% {
+			transform: translateX(calc(100vw - 95%));
+		}
+	}
+	@keyframes -moz-moveBuildings3 {
+		0%, 100% {
+			transform: translateX(-4%);
+		}
+		50% {
+			transform: translateX(calc(100vw - 96%));
+		}
+	}
+	@keyframes -moz-moveBuildings4 {
+		0%, 100% {
+			transform: translateX(-2%);
+		}
+		50% {
+			transform: translateX(calc(100vw - 98%));
+		}
+	}
+	@keyframes -moz-moveBuildings5 {
+		0%, 100% {
+			transform: translateX(0);
+		}
+		50% {
+			transform: translateX(calc(100vw - 100%));
+		}
+	}
+	@keyframes -moz-moveBackground {
+		0%, 100% {
+			transform: translateX(0);
+		}
+		50% {
+			transform: translateX(calc(100vw - 100%));
+		}
+	}
+	@keyframes -moz-moveBridges {
 		0%, 100% {
 			transform: translateX(0);
 		}
