@@ -160,10 +160,11 @@
 
 	@keyframes moveBuildings1 {
 		0% {
-			right: unset;
+			left: 0;
 		}
 		100% {
-			right: 0;
+			left: 100%;
+			transform: translateX(-100%);
 		}
 	}
 	@keyframes moveBuildings2 {
