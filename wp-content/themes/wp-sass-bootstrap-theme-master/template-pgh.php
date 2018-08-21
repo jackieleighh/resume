@@ -7,6 +7,10 @@
     // 107.180.27.156
     if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
     	
+
+    	<!-- SVGS drawn in Inkscape and Illustrator - artist: Me -->
+    	<!-- animated using keyframes -->
+    	
       	<div id="skyline">
       	
 	      	<!-- PITTSBURGH SKYLINE -->
