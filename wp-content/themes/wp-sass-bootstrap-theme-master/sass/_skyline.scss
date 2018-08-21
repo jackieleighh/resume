@@ -1,6 +1,6 @@
 .page-template-template-pgh {
 
-	$time_interval: 300s;
+	$time_interval: 500s;
 
 	.navbar {
 		margin: 0;
@@ -173,7 +173,7 @@
 		}
 		50% {
 			left: 101%;
-			transform: translateX(-101%);
+			transform: translateX(-100%);
 		}
 	}
 	@keyframes moveBuildings3 {
@@ -182,7 +182,7 @@
 		}
 		50% {
 			left: 102%;
-			transform: translateX(-102%);
+			transform: translateX(-100%);
 		}
 	}
 	@keyframes moveBuildings4 {
@@ -191,7 +191,7 @@
 		}
 		50% {
 			left: 103%;
-			transform: translateX(-103%);
+			transform: translateX(-100%);
 		}
 	}
 	@keyframes moveBuildings5 {
@@ -200,7 +200,7 @@
 		}
 		50% {
 			left: 104%;
-			transform: translateX(-104%);
+			transform: translateX(-100%);
 		}
 	}
 	@keyframes moveBackground {
@@ -209,7 +209,7 @@
 		}
 		50% {
 			left: 105%;
-			transform: translateX(-105%);
+			transform: translateX(-100%);
 		}
 	}
 	@keyframes moveBridges {
@@ -218,7 +218,7 @@
 		}
 		50% {
 			left: 105%;
-			transform: translateX(-105%);
+			transform: translateX(-100%);
 		}
 	}
 }
