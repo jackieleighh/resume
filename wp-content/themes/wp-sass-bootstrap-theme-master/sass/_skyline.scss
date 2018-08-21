@@ -1,5 +1,7 @@
 .page-template-template-pgh {
 
+	$time_interval: 300s;
+
 	.navbar {
 		margin: 0;
 	}
@@ -65,7 +67,7 @@
 		left: 50%;
 		bottom: 15px;
 		transform: translateX(-50%);
-		animation: walkDirection 300s infinite;
+		animation: walkDirection $time_interval infinite;
 		#walker {
 		  padding-top:170%;
 		  display:block;
@@ -134,85 +136,96 @@
 	  }
 	}
 
-	/* #skyline #buildings_1 {
-		animation: moveBuildingsLeft 500s linear infinite;
-		-webkit-animation: moveBuildingsLeftOne 500s linear infinite;
+	#skyline #buildings_1 {
+		animation: moveBuildings1 $time_interval linear infinite;
 	}
 	#skyline #buildings_2 {
-		animation: moveBuildingsLeft 500s linear infinite;
-		-webkit-animation: moveBuildingsLeft 500s linear infinite;
+		animation: moveBuildings2 $time_interval linear infinite;
 	}
 	#skyline #buildings_3 {
-		animation: moveBuildingsLeft 500s linear infinite;
-		-webkit-animation: moveBuildingsLeft 500s linear infinite;
+		animation: moveBuildings3 $time_interval linear infinite;
 	}
 	#skyline #buildings_4 {
-		animation: moveBuildingsLeft 500s linear infinite;
-		-webkit-animation: moveBuildingsLeft 500s linear infinite;
+		animation: moveBuildings4 $time_interval linear infinite;
 	}
 	#skyline #buildings_5 {
-		animation: moveBuildingsLeft 500s linear infinite;
-		-webkit-animation: moveBuildingsLeft 500s linear infinite;
+		animation: moveBuildings5 $time_interval linear infinite;
+	}
+	#skyline #background {
+		animation: moveBackground $time_interval linear infinite;
+	}
+	#skyline #bridges {
+		animation: moveBridges $time_interval linear infinite;
 	}
 
-	@keyframes moveBuildingsLeft {
-		1% { transform: translateX(0); }
-		49% { transform: translateX(-15%); }
-		51% { transform: translateX(-15%); }
-		99% { transform: translateX(0); }
+	@keyframes moveBuildings1 {
+		0%, 100% {
+			left: 0;
+			right: auto;
+		}
+		50% {
+			right: 0;
+			left: auto;
+		}
 	}
-	@-webkit-keyframes moveBuildingsLeftOne {
-		1% { transform: translateX(0); }
-		49% { transform: translateX(-15%); }
-		51% { transform: translateX(-15%); }
-		99% { transform: translateX(0); }
+	@keyframes moveBuildings2 {
+		0%, 100% {
+			left: -1%;
+			right: auto;
+		}
+		50% {
+			right: -1%;
+			left: auto;
+		}
 	}
-	@keyframes moveBuildingsLeftTwo {
-		1% { transform: translateX(0); }
-		49% { transform: translateX(-20%); }
-		51% { transform: translateX(-20%); }
-		99% { transform: translateX(0); }
+	@keyframes moveBuildings3 {
+		0%, 100% {
+			left: -2%;
+			right: auto;
+		}
+		50% {
+			right: -2%;
+			left: auto;
+		}
 	}
-	@-webkit-keyframes moveBuildingsLeftTwo {
-		1% { transform: translateX(0); }
-		49% { transform: translateX(-20%); }
-		51% { transform: translateX(-20%); }
-		99% { transform: translateX(0); }
+	@keyframes moveBuildings4 {
+		0%, 100% {
+			left: -3%;
+			right: auto;
+		}
+		50% {
+			right: -3%;
+			left: auto;
+		}
 	}
-	@keyframes moveBuildingsLeftThree {
-		1% { transform: translateX(0); }
-		49% { transform: translateX(-25%); }
-		51% { transform: translateX(-25%); }
-		99% { transform: translateX(0); }
+	@keyframes moveBuildings5 {
+		0%, 100% {
+			left: -4%;
+			right: auto;
+		}
+		50% {
+			right: -4%;
+			left: auto;
+		}
 	}
-	@-webkit-keyframes moveBuildingsLeftThree {
-		1% { transform: translateX(0); }
-		49% { transform: translateX(-25%); }
-		51% { transform: translateX(-25%); }
-		99% { transform: translateX(0); }
+	@keyframes moveBackground {
+		0%, 100% {
+			left: -5%;
+			right: auto;
+		}
+		50% {
+			right: -5%;
+			left: auto;
+		}
 	}
-	@keyframes moveBuildingsLeftFour {
-		1% { transform: translateX(0); }
-		49% { transform: translateX(-30%); }
-		51% { transform: translateX(-30%); }
-		99% { transform: translateX(0); }
+	@keyframes moveBridges {
+		0%, 100% {
+			left: -5%;
+			right: auto;
+		}
+		50% {
+			right: 5%;
+			left: auto;
+		}
 	}
-	@-webkit-keyframes moveBuildingsLeftFour {
-		1% { transform: translateX(0); }
-		49% { transform: translateX(-30%); }
-		51% { transform: translateX(-30%); }
-		99% { transform: translateX(0); }
-	}
-	@keyframes moveBuildingsLeftFive {
-		1% { transform: translateX(0); }
-		49% { transform: translateX(-35%); }
-		51% { transform: translateX(-35%); }
-		99% { transform: translateX(0); }
-	}
-	@-webkit-keyframes moveBuildingsLeftFive {
-		1% { transform: translateX(0); }
-		49% { transform: translateX(-35%); }
-		51% { transform: translateX(-35%); }
-		99% { transform: translateX(0); }
-	} */
 }
