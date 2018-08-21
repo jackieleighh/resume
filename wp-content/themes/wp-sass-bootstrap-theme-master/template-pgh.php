@@ -8,9 +8,9 @@
     if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
     	
 
-    	<!-- SVGS drawn in Inkscape and Illustrator - artist: Me -->
+    	<!-- SVGS drawn in Illustrator, girl walking drawn in Inkscape - artist: Me -->
     	<!-- animated using keyframes -->
-    	
+
       	<div id="skyline">
       	
 	      	<!-- PITTSBURGH SKYLINE -->
