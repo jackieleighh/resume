@@ -181,10 +181,10 @@
 					  <polygon class="st17" points="623.9,542.7 610.5,548.2 610.5,698.3 602.4,698.3 602.4,542.7 " id="polygon5163" style="fill:#e04163" transform="matrix(1,0,0,1.0096401,0,-5.2316838)" />
 					  <path class="st19" style="fill:#f4718e;stroke-width:1.17866719" d="m 553.20001,584.70001 h 10.7 v 115.16934 h -10.7 z" id="rect5165" inkscape:connector-curvature="0" />
 					  <polygon class="st16" points="547.3,590.1 553.2,595.8 553.2,565.1 547.3,565.1 " id="polygon5167" style="fill:#f4718e" />
-					  <path class="st16" style="fill:#e04163;stroke-width:1.11879921" d="M 349,700.22183 H 334.3 V 546.51164 h -3.8 v -4.50616 h 7.7 V 538 h 16.5 l -5.7,8.51164 z" id="polygon5169" inkscape:connector-curvature="0" />
-					  <path class="st16" style="fill:#e04163;stroke-width:1.18428719" d="m 232.2,609.07956 h -0.1 v 90.88433 H 212.5 V 592.24913 h 9.2 V 587.2 h 14 v 5.04913 h 12 z" id="polygon5171" inkscape:connector-curvature="0" />
+					  <path class="st17" style="fill:#e04163;stroke-width:1.11879921" d="M 349,700.22183 H 334.3 V 546.51164 h -3.8 v -4.50616 h 7.7 V 538 h 16.5 l -5.7,8.51164 z" id="polygon5169" inkscape:connector-curvature="0" />
+					  <path class="st17" style="fill:#e04163;stroke-width:1.18428719" d="m 232.2,609.07956 h -0.1 v 90.88433 H 212.5 V 592.24913 h 9.2 V 587.2 h 14 v 5.04913 h 12 z" id="polygon5171" inkscape:connector-curvature="0" />
 					  <path class="st19" style="fill:#f4718e;stroke-width:1.12073338" d="M 315.4,699.96389 V 566.19526 l -8.7,-20.85032 H 268.1 V 541.2 h 50.7 v 4.14494 h -3.4 v 8.7923 h 6 v 145.82665 z" id="polygon5173" inkscape:connector-curvature="0" />
-					  <path class="st16" style="fill:#e04163;stroke-width:1.21055877" d="m 174.3,598.2 h 2.7 v 9.08581 l -14.2,6.44799 v 86.16861 h -9.9 v -96.57332 h 21.4 z" id="polygon5175" inkscape:connector-curvature="0" />
+					  <path class="st17" style="fill:#e04163;stroke-width:1.21055877" d="m 174.3,598.2 h 2.7 v 9.08581 l -14.2,6.44799 v 86.16861 h -9.9 v -96.57332 h 21.4 z" id="polygon5175" inkscape:connector-curvature="0" />
 					  <path class="st19" style="fill:#f4718e;stroke-width:1.16984296" d="M 1435.8007,648.27448 H 1549.3 v 51.15933 l -3.8947,0.60111 -0.098,-47.76787 z" id="polygon5337" inkscape:connector-curvature="0" sodipodi:nodetypes="cccccc" />
 					  <polygon style="fill:#e04163" id="polygon5340" points="1110,699.8 1110,612.3 1186.5,612.3 1116.8,620.3 1116.8,699.8 " class="st17" transform="matrix(1,0,0,0.58856441,325.72266,287.77199)" />
 					</g>
