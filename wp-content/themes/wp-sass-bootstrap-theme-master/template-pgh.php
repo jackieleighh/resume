@@ -158,36 +158,36 @@
 				</svg>
 				<svg version="1.1" id="buildings_5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 		 viewBox="0 0 2000 800" style="enable-background:new 0 0 2000 800;" xml:space="preserve">
-					  <rect x="1336.6" y="628" class="st15" width="61.700001" height="71.900002" id="rect5113" style="fill:#f44d69"/>
-					  <polygon class="st15" points="1304.2,699.8 1110,699.8 1110,612.3 1186.5,612.3 1186.5,603.6 1204.2,603.6 1204.2,612.3 1216.3,612.3 1216.3,628 1249.8,628 1249.8,612.3 1304.2,612.3 " id="polygon5115" style="fill:#f44d69"/>
-					  <polygon class="st15" points="1001,504.6 1010.9,504.6 1010.9,498.8 1045,498.8 1045,504.6 1049.8,504.6 1049.8,502.3 1057.8,502.3 1057.8,504.6 1068.1,504.6 1068.1,502.3 1076.2,502.3 1076.2,699.8 925.2,699.8 925.2,504.6 938.5,504.6 938.5,491.1 987.2,491.1 987.2,498.8 1001,498.8 " id="polygon5117" style="fill:#f44d69"/>
-					  <polygon class="st15" points="906.7,699.8 798.3,699.8 798.3,560 812.7,560 812.7,550.2 816.5,550.2 816.5,540.5 820.5,540.5 820.5,550.2 823.7,550.2 823.7,541.1 826.7,541.1 826.7,550.2 834.8,550.2 834.8,560 906.7,560 " id="polygon5119" style="fill:#f44d69"/>
-					  <polygon class="st15" points="770,699.8 602.4,699.8 602.4,542.7 623.9,542.7 623.9,529.2 654.2,529.2 654.2,542.7 770,542.7 " id="polygon5121" style="fill:#f44d69"/>
-					  <path style="fill:#f44d69;stroke-width:1.11732614" d="m 259.2,554.0587 v -8.73892 h 8.9 V 541.2 h 50.7 v 4.11978 h -3.3 v 8.73892 h 5.9 V 699 H 212.5 v -95.87848 h 9.2 v -4.4943 h 14 v 4.4943 h 12.1 V 554.0587 Z" id="polygon5125" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" inkscape:connector-curvature="0"/>
-					  <path style="fill:#f44d69;stroke-width:1.1105541" d="m 338.2,542.78665 v -3.94666 h 16.5 v 3.94666 h 2.5 v -3.94666 h 5.9 v 3.94666 h 3.2 v -3.94666 h 16 v 3.94666 h 6.6 v -3.94666 h 14.3 v 3.94666 h 2.4 v -3.94666 h 5.5 v 3.94666 h 2.5 V 534.4 h 7.4 v 2.59 h 11.1 v 5.79665 h 6.6 v 4.43998 h -2.5 v 62.52985 h 26 v 88.92313 H 334.3 V 547.22663 h -3.8 v -4.43998 z" id="polygon5129" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" inkscape:connector-curvature="0"/>
-					  <path class="st15" d="M 553.2,590.54561 V 565.1 h -79.4 v 133.2 h 90.1 V 590.67544 h -10.7 z" id="path5133" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" inkscape:connector-curvature="0" style="fill:#f44d69;stroke-width:1.13940585"/>
-					  <polygon class="st15" points="152.9,667.6 152.9,601.7 174.3,601.7 174.3,598.2 183,598.2 183,601.7 186.9,601.7 186.9,594.7 197.4,594.7 197.4,601.7 208.2,601.7 208.2,667.6 " id="polygon5143" style="fill:#f44d69" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" inkscape:label="polygon5143" transform="matrix(1,0,0,1.411373,0,-244.64355)"/>
-					  <rect style="fill:#f44d69;stroke-width:1.10066807" id="rect5335" height="48.999237" width="109.68256" class="st15" y="649.30072" x="1435.7227"/>
-					  <g id="buildings_5_shading" style="display:inline">
-					    <polygon class="st16" points="1386.2,636.4 1336.6,628 1398.3,628 1398.3,699.8 1386.2,699.8 " id="polygon5145" style="fill:#f4718e"/>
-					    <rect x="1289.4" y="612.29999" class="st16" width="14.8" height="87.5" id="rect5147" style="fill:#f4718e"/>
-					    <polygon class="st16" points="1249.8,612.3 1289.4,612.3 1289.4,617.6 " id="polygon5149" style="fill:#f4718e"/>
-					    <polygon class="st16" points="1215.2,614 1204.2,613.9 1202,613.9 1202,605.1 1186.5,603.6 1204.2,603.6 1204.2,612.3 1216.3,612.3 1216.3,628 " id="polygon5151" style="fill:#f4718e"/>
-					    <polygon class="st17" points="1110,699.8 1110,612.3 1186.5,612.3 1116.8,620.3 1116.8,699.8 " id="polygon5153" style="fill:#e04163"/>
-					    <polygon class="st18" points="940.3,699.8 925.2,699.8 925.2,504.6 938.4,504.6 938.4,491.1 987.2,491.1 987.2,498.8 1001,498.8 940.3,520.8 " id="polygon5155" style="fill:#e84669"/>
-					    <polygon class="st16" points="1049.8,502.3 1057.8,502.3 1057.8,504.6 1068.1,504.6 1068.1,502.3 1076.2,502.3 1076.2,699.8 1068.1,699.8 1068.1,511.5 1045,504.6 1049.8,504.6 " id="polygon5157" style="fill:#f4718e"/>
-					    <polygon class="st16" points="820.5,550.2 823.7,550.2 823.7,541.1 826.7,541.1 826.7,550.2 834.8,550.2 834.8,560 906.7,560 906.7,699.8 883.5,699.8 883.5,577 834.8,565.9 830.3,560 812.7,560 812.7,550.2 816.5,550.2 816.5,540.5 820.5,540.5 " id="polygon5159" style="fill:#f4718e"/>
-					    <polygon class="st19" points="745.8,699.8 745.8,553.3 654.2,553.3 645.2,543.9 645.2,529.2 654.2,529.2 654.2,542.7 770,542.7 770,699.8 " id="polygon5161" style="fill:#ef5b7b"/>
-					    <polygon class="st17" points="602.4,698.3 602.4,542.7 623.9,542.7 610.5,548.2 610.5,698.3 " id="polygon5163" style="fill:#e04163"/>
-					    <path style="fill:#f4718e;stroke-width:1.16975534" d="m 553.20001,584.70001 h 10.7 v 113.43435 h -10.7 z" id="rect5165" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" inkscape:connector-curvature="0"/>
-					    <polygon class="st16" points="547.3,565.1 547.3,590.1 553.2,595.8 553.2,565.1 " id="polygon5167" style="fill:#f4718e"/>
-					    <path style="fill:#e04163;stroke-width:1.11346841" d="M 349,698.67961 H 334.3 V 546.43072 h -3.8 v -4.46332 h 7.7 V 538 h 16.5 l -5.7,8.43072 z" id="polygon5169" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" inkscape:connector-curvature="0"/>
-					    <path style="fill:#e04163;stroke-width:1.17921472" d="m 232.2,608.89254 h -0.1 V 699 H 212.5 V 592.20597 h 9.2 V 587.2 h 14 v 5.00597 h 12 z" id="polygon5171" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" inkscape:connector-curvature="0"/>
-					    <path style="fill:#f4718e;stroke-width:1.11732614" d="M 315.4,699 V 566.04351 l -8.7,-20.72373 H 268.1 V 541.2 h 50.7 v 4.11978 h -3.4 v 8.73892 h 6 V 699 Z" id="polygon5173" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" inkscape:connector-curvature="0"/>
-					    <path style="fill:#e04163;stroke-width:1.19671178" d="m 174.3,598.2 h 2.7 v 8.87914 l -14.2,6.30132 v 84.2086 h -9.9 v -94.37664 h 21.4 z" id="polygon5175" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" inkscape:connector-curvature="0"/>
-					    <path style="fill:#f4718e;stroke-width:1.15006948" d="M 1435.8007,648.27448 H 1549.3 v 49.44449 l -3.8947,0.58096 -0.098,-46.16671 z" id="polygon5337" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" inkscape:connector-curvature="0" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" sodipodi:nodetypes="cccccc"/>
-					    <polygon style="fill:#e04163" id="polygon5340" points="1116.8,620.3 1116.8,699.8 1110,699.8 1110,612.3 1186.5,612.3 " class="st17" transform="matrix(1,0,0,0.57314223,325.72266,297.21499)"/>
-					  </g>
+					<rect x="1336.6" y="628" class="st15" width="61.700001" height="71.900002" id="rect5113"/>
+					<polygon class="st15" points="1216.3,612.3 1216.3,628 1249.8,628 1249.8,612.3 1304.2,612.3 1304.2,699.8 1110,699.8 1110,612.3 1186.5,612.3 1186.5,603.6 1204.2,603.6 1204.2,612.3 " id="polygon5115" style="fill:#f44d69" />
+					<polygon class="st15" points="1057.8,502.3 1057.8,504.6 1068.1,504.6 1068.1,502.3 1076.2,502.3 1076.2,699.8 925.2,699.8 925.2,504.6 938.5,504.6 938.5,491.1 987.2,491.1 987.2,498.8 1001,498.8 1001,504.6 1010.9,504.6 1010.9,498.8 1045,498.8 1045,504.6 1049.8,504.6 1049.8,502.3 " id="polygon5117" style="fill:#f44d69" />
+					<polygon class="st15" points="820.5,540.5 820.5,550.2 823.7,550.2 823.7,541.1 826.7,541.1 826.7,550.2 834.8,550.2 834.8,560 906.7,560 906.7,699.8 798.3,699.8 798.3,560 812.7,560 812.7,550.2 816.5,550.2 816.5,540.5 " id="polygon5119" style="fill:#f44d69" />
+					<polygon class="st15" points="770,542.7 770,699.8 602.4,699.8 602.4,542.7 623.9,542.7 623.9,529.2 654.2,529.2 654.2,542.7 " id="polygon5121" style="fill:#f44d69" />
+					<path style="fill:#f44d69;stroke-width:1.12073338" d="m 259.2,554.13724 v -8.7923 h 8.9 V 541.2 h 50.7 v 4.14494 h -3.3 v 8.7923 h 5.9 V 699.96389 H 212.5 v -96.46414 h 9.2 V 598.978 h 14 v 4.52175 h 12.1 v -49.36251 z" id="polygon5125" inkscape:connector-curvature="0" />
+					<path style="fill:#f44d69;stroke-width:1.11575472" d="m 338.2,542.86538 v -3.98371 h 16.5 v 3.98371 h 2.5 v -3.98371 h 5.9 v 3.98371 h 3.2 v -3.98371 h 16 v 3.98371 h 6.6 v -3.98371 h 14.3 v 3.98371 h 2.4 v -3.98371 h 5.5 v 3.98371 h 2.5 V 534.4 h 7.4 v 2.61432 h 11.1 v 5.85106 h 6.6 v 4.48166 h -2.5 v 63.11687 h 26 v 89.75792 H 334.3 V 547.34704 h -3.8 v -4.48166 z" id="polygon5129" inkscape:connector-curvature="0" />
+					<path class="st15" d="M 553.2,590.87705 V 565.1 h -79.4 v 134.935 h 90.1 V 591.00857 h -10.7 z" id="path5133" inkscape:connector-curvature="0" style="fill:#f44d69;stroke-width:1.14680231" />
+					<polygon class="st15" points="197.4,594.7 197.4,601.7 208.2,601.7 208.2,667.6 152.9,667.6 152.9,601.7 174.3,601.7 174.3,598.2 183,598.2 183,601.7 186.9,601.7 186.9,594.7 " id="polygon5143" style="fill:#f44d69" inkscape:label="polygon5143" transform="matrix(1,0,0,1.4431059,0,-263.51509)" />
+					<rect style="fill:#f44d69;stroke-width:1.11785531" id="rect5335" height="50.541458" width="109.68256" class="st15" y="649.30072" x="1435.7227" />
+					<g id="buildings_5_shading" style="display:inline">
+					  <polygon class="st16" points="1336.6,628 1398.3,628 1398.3,699.8 1386.2,699.8 1386.2,636.4 " id="polygon5145" style="fill:#f4718e" />
+					  <rect x="1289.4" y="612.29999" class="st16" width="14.8" height="87.5" id="rect5147" style="fill:#f4718e" />
+					  <polygon class="st16" points="1249.8,612.3 1289.4,612.3 1289.4,617.6 " id="polygon5149" style="fill:#f4718e" />
+					  <polygon class="st16" points="1202,605.1 1186.5,603.6 1204.2,603.6 1204.2,612.3 1216.3,612.3 1216.3,628 1215.2,614 1204.2,613.9 1202,613.9 " id="polygon5151" style="fill:#f4718e" />
+					  <polygon class="st17" points="1110,612.3 1186.5,612.3 1116.8,620.3 1116.8,699.8 1110,699.8 " id="polygon5153" style="fill:#e04163" />
+					  <polygon class="st18" points="938.4,504.6 938.4,491.1 987.2,491.1 987.2,498.8 1001,498.8 940.3,520.8 940.3,699.8 925.2,699.8 925.2,504.6 " id="polygon5155" style="fill:#e84669" />
+					  <polygon class="st16" points="1049.8,504.6 1049.8,502.3 1057.8,502.3 1057.8,504.6 1068.1,504.6 1068.1,502.3 1076.2,502.3 1076.2,699.8 1068.1,699.8 1068.1,511.5 1045,504.6 " id="polygon5157" style="fill:#f4718e" />
+					  <polygon class="st16" points="826.7,541.1 826.7,550.2 834.8,550.2 834.8,560 906.7,560 906.7,699.8 883.5,699.8 883.5,577 834.8,565.9 830.3,560 812.7,560 812.7,550.2 816.5,550.2 816.5,540.5 820.5,540.5 820.5,550.2 823.7,550.2 823.7,541.1 " id="polygon5159" style="fill:#f4718e" />
+					  <polygon class="st19" points="645.2,543.9 645.2,529.2 654.2,529.2 654.2,542.7 770,542.7 770,699.8 745.8,699.8 745.8,553.3 654.2,553.3 " id="polygon5161" style="fill:#ef5b7b" />
+					  <polygon class="st17" points="623.9,542.7 610.5,548.2 610.5,698.3 602.4,698.3 602.4,542.7 " id="polygon5163" style="fill:#e04163" transform="matrix(1,0,0,1.0096401,0,-5.2316838)" />
+					  <path style="fill:#f4718e;stroke-width:1.17866719" d="m 553.20001,584.70001 h 10.7 v 115.16934 h -10.7 z" id="rect5165" inkscape:connector-curvature="0" />
+					  <polygon class="st16" points="547.3,590.1 553.2,595.8 553.2,565.1 547.3,565.1 " id="polygon5167" style="fill:#f4718e" />
+					  <path style="fill:#e04163;stroke-width:1.11879921" d="M 349,700.22183 H 334.3 V 546.51164 h -3.8 v -4.50616 h 7.7 V 538 h 16.5 l -5.7,8.51164 z" id="polygon5169" inkscape:connector-curvature="0" />
+					  <path style="fill:#e04163;stroke-width:1.18428719" d="m 232.2,609.07956 h -0.1 v 90.88433 H 212.5 V 592.24913 h 9.2 V 587.2 h 14 v 5.04913 h 12 z" id="polygon5171" inkscape:connector-curvature="0" />
+					  <path style="fill:#f4718e;stroke-width:1.12073338" d="M 315.4,699.96389 V 566.19526 l -8.7,-20.85032 H 268.1 V 541.2 h 50.7 v 4.14494 h -3.4 v 8.7923 h 6 v 145.82665 z" id="polygon5173" inkscape:connector-curvature="0" />
+					  <path style="fill:#e04163;stroke-width:1.21055877" d="m 174.3,598.2 h 2.7 v 9.08581 l -14.2,6.44799 v 86.16861 h -9.9 v -96.57332 h 21.4 z" id="polygon5175" inkscape:connector-curvature="0" />
+					  <path style="fill:#f4718e;stroke-width:1.16984296" d="M 1435.8007,648.27448 H 1549.3 v 51.15933 l -3.8947,0.60111 -0.098,-47.76787 z" id="polygon5337" inkscape:connector-curvature="0" sodipodi:nodetypes="cccccc" />
+					  <polygon style="fill:#e04163" id="polygon5340" points="1110,699.8 1110,612.3 1186.5,612.3 1116.8,620.3 1116.8,699.8 " class="st17" transform="matrix(1,0,0,0.58856441,325.72266,287.77199)" />
+					</g>
 				</svg>
 				<svg version="1.1" id="bridges" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 		 viewBox="0 0 2000 800" style="enable-background:new 0 0 2000 800;" xml:space="preserve">
