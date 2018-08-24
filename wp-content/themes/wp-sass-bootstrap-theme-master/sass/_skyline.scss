@@ -246,26 +246,26 @@
 
 	@keyframes moveBuildings1 {
 		0%, 100% {
+			transform: translateX(-7%);
+		}
+		50% {
+			transform: translateX(calc(100vw - 93%));
+		}
+	}
+	@keyframes moveBuildings2 {
+		0%, 100% {
 			transform: translateX(-6%);
 		}
 		50% {
 			transform: translateX(calc(100vw - 94%));
 		}
 	}
-	@keyframes moveBuildings2 {
+	@keyframes moveBuildings3 {
 		0%, 100% {
 			transform: translateX(-5%);
 		}
 		50% {
 			transform: translateX(calc(100vw - 95%));
-		}
-	}
-	@keyframes moveBuildings3 {
-		0%, 100% {
-			transform: translateX(-4%);
-		}
-		50% {
-			transform: translateX(calc(100vw - 96%));
 		}
 	}
 	@keyframes moveBuildings4 {
