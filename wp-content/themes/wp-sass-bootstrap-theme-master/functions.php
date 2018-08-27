@@ -5,9 +5,7 @@ function theme_styles() {
 	wp_enqueue_style( 'bootstrap_css', get_template_directory_uri() . '/bootstrap/css/styles.css' );
 	wp_enqueue_style('print_css', get_template_directory_uri() . '/bootstrap/css/print.css' );
 	wp_enqueue_style('fontawesome.css', get_template_directory_uri() . '/fontawesome/web-fonts-with-css/css/fontawesome-all.min.css');
-	//wp_enqueue_style('pagepiling.css', get_template_directory_uri() . '/css/jquery.pagepiling.css');
 	wp_enqueue_style('style.css', get_template_directory_uri() . '/css/style.css');
-	//wp_enqueue_style('septa.css', get_template_directory_uri() . '/septa-fare-calculator/style.css');
 }
 
 	add_action('wp_enqueue_scripts', 'theme_styles' );
@@ -27,14 +25,12 @@ function theme_js() {
 	$wp_scripts->add_data( 'html5_shiv', 'conditional', 'lt IE 9' );
 	$wp_scripts->add_data( 'respond_js', 'conditional', 'lt IE 9' );
 
-	wp_enqueue_script( 'bootstrap_js', get_template_directory_uri() . '/bootstrap/js/bootstrap.min.js', array('jquery'), '', true );
+	wp_enqueue_script('bootstrap_js', get_template_directory_uri() . '/bootstrap/js/bootstrap.min.js');
 	wp_enqueue_script('waypoint.js', get_template_directory_uri() . '/js/jquery.waypoints.min.js');
 	wp_enqueue_script('matchheight.js', get_template_directory_uri() . '/js/jquery-match-height.js');
 	wp_enqueue_script('isotope', get_template_directory_uri() . '/js/isotope.min.js');
 	wp_enqueue_script('tweenmax', get_template_directory_uri() . '/js/TweenMax.min.js');
-	//wp_enqueue_script('pagepiling.js', get_template_directory_uri() . '/js/jquery.pagepiling.js');
 	wp_enqueue_script('custom.js', get_template_directory_uri() . '/js/custom.js');
-	//wp_enqueue_script('septa.js', get_template_directory_uri() . '/septa-fare-calculator/custom.js');
 }
 
 	add_action('wp_enqueue_scripts', 'theme_js' );
