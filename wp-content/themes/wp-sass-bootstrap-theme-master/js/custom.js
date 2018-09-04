@@ -100,7 +100,7 @@ function slideBlock() {
         //Set the offset
         offset: '90%'
     });
-    var waypoint3 = $('.sort-by-button-group').waypoint(function(direction) {
+    var waypoint4 = $('.sort-by-button-group').waypoint(function(direction) {
         //check the direction
         if(direction == 'down') {
             //add the class to start the animation
