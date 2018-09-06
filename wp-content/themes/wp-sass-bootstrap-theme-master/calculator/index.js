@@ -68,7 +68,7 @@ var Calculator = function (_React$Component) {
           this.handleOperationClick('=');
           break;
         case 'Enter':
-          this.handleOperationClick('Enter');
+          this.handleOperationClick('=');
           break;
         case '+':
           this.handleOperationClick('+');
@@ -126,7 +126,9 @@ var Calculator = function (_React$Component) {
   }, {
     key: 'handleNumberClick',
     value: function handleNumberClick(i) {
-      if (this.state.currentNum == 0 || this.state.currentNum == null) {
+      if (this.state.currentOp == '=') {
+        this.setState({ result: null, previousNum: null, currentOp: null, currentNum: "" + i });
+      } else if (this.state.currentNum == null || this.state.currentNum === 0 || this.state.currentNum.toString().length < 1) {
         this.setState({
           currentNum: "" + i
         });
@@ -139,8 +141,12 @@ var Calculator = function (_React$Component) {
   }, {
     key: 'handleRemoveNumberClick',
     value: function handleRemoveNumberClick() {
-      if (this.state.currentNum != 0 && this.state.currentNum != null) {
-        this.setState({ currentNum: this.state.currentNum.slice(0, -1) });
+      if (this.state.currentNum != null) {
+        if (this.state.currentNum.toString().length > 1) {
+          this.setState({ currentNum: this.state.currentNum.slice(0, -1) });
+        } else {
+          this.setState({ currentNum: 0 });
+        }
       }
     }
   }, {
@@ -181,10 +187,11 @@ var Calculator = function (_React$Component) {
   }, {
     key: 'changeSign',
     value: function changeSign() {
-      this.setState({
-        result: -1 * this.state.result,
-        currentNum: -1 * this.state.currentNum
-      });
+      if (this.state.currentNum != null) {
+        this.setState({ currentNum: -1 * this.state.currentNum });
+      } else {
+        this.setState({ result: -1 * this.state.result });
+      }
     }
   }, {
     key: 'render',
@@ -200,7 +207,7 @@ var Calculator = function (_React$Component) {
           React.createElement(
             'p',
             null,
-            this.state.currentNum ? this.state.currentNum : this.state.result
+            this.state.currentNum != null ? this.state.currentNum : this.state.result
           )
         ),
         React.createElement(Grid, { onClick: function onClick(i) {
