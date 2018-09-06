@@ -17,7 +17,7 @@ $(document).ready( function() {
     }
 
     if($('.page-template-template-calc').length){
-        ReactDom.render(
+        ReactDOM.render(
           React.createElement(Calculator, null),
           document.getElementById("calculator-widget")
         );
