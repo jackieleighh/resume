@@ -27,8 +27,8 @@ function theme_js() {
 	$wp_scripts->add_data( 'respond_js', 'conditional', 'lt IE 9' );
 
 	// for react project
-	wp_enqueue_script('react', 'https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react.js', '','',false);
-	wp_enqueue_script('react-dom', 'https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react-dom.js', '','',false);
+	wp_enqueue_script('react', 'https://unpkg.com/react@15.6.1/dist/react.js', '','',false);
+	wp_enqueue_script('react-dom', 'https://unpkg.com/react-dom@15.6.1/dist/react-dom.js', '','',false);
 	wp_enqueue_script('babel', 'https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.21.1/babel.min.js', '','',false);
 	wp_enqueue_script('calculator', get_template_directory_uri() . '/calculator/index.js'); 
 
