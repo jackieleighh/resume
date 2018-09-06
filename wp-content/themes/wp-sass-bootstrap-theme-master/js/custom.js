@@ -15,6 +15,10 @@ $(document).ready( function() {
     if($('.page-template-template-pgh').length) {
         //walkingAnimation();
     }
+
+    if($('.page-template-template-calc').length){
+        ReactDom.render(<Calculator />, document.getElementById('calculator-widget'));
+    }
 });
 
 function walkingAnimation() {
