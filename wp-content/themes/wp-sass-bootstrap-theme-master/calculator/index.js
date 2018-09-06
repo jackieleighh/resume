@@ -348,7 +348,7 @@ var Button = (function(_React$Component3) {
       value: function render() {
         return React.createElement(
           "button",
-          { onClick: this.props.onClick, class: this.props.classVal },
+          { onClick: this.props.onClick, className: this.props.classVal },
           this.props.value
         );
       }

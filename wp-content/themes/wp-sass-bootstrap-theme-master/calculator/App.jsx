@@ -168,7 +168,7 @@ class Grid extends React.Component {
 class Button extends React.Component {
 	render() {
 		return(
-			<button onClick={this.props.onClick} class={this.props.classVal}>
+			<button onClick={this.props.onClick} className={this.props.classVal}>
 				{this.props.value}
 			</button>
 		);
