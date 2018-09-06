@@ -409,10 +409,11 @@ a {
 
 .page-template-template-calc {
 	text-align: center;
-	margin-top: 200px;
-	margin-bottom: 100px;
+	margin-top: 150px;
 	@media(max-width: 768px) {
 		margin-top: 100px;
-		margin-bottom: 50px;
+	}
+	#contact {
+		margin-top: 50px;
 	}
 } 
