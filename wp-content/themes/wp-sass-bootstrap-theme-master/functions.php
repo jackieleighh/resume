@@ -29,7 +29,7 @@ function theme_js() {
 	// for react project
 	wp_enqueue_script('react', 'https://unpkg.com/react@16/umd/react.development.js', '','',false);
 	wp_enqueue_script('react-dom', 'https://unpkg.com/react-dom@16/umd/react-dom.development.js', '','',false);
-	wp_enqueue_script('calculator', get_template_directory_uri() . '/calculator/index.js');
+	wp_enqueue_script('calculator', get_template_directory_uri() . '/calculator/index.js'); 
 
 	wp_enqueue_script('bootstrap_js', get_template_directory_uri() . '/bootstrap/js/bootstrap.min.js');
 	wp_enqueue_script('waypoint.js', get_template_directory_uri() . '/js/jquery.waypoints.min.js');
