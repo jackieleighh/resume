@@ -17,14 +17,6 @@ var _createClass = (function() {
   };
 })();
 
-var _react = require("react");
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
-
 function _classCallCheck(instance, Constructor) {
   if (!(instance instanceof Constructor)) {
     throw new TypeError("Cannot call a class as a function");
@@ -186,19 +178,19 @@ var Calculator = (function(_React$Component) {
       value: function render() {
         var _this2 = this;
 
-        return _react2.default.createElement(
+        return React.createElement(
           "div",
           { className: "calc" },
-          _react2.default.createElement(
+          React.createElement(
             "div",
             { className: "result" },
-            _react2.default.createElement(
+            React.createElement(
               "p",
               null,
               this.state.currentNum ? this.state.currentNum : this.state.result
             )
           ),
-          _react2.default.createElement(Grid, {
+          React.createElement(Grid, {
             onClick: function onClick(i) {
               return _this2.handleNumberClick(i);
             },
@@ -221,7 +213,7 @@ var Calculator = (function(_React$Component) {
   ]);
 
   return Calculator;
-})(_react2.default.Component);
+})(React.Component);
 
 var Grid = (function(_React$Component2) {
   _inherits(Grid, _React$Component2);
@@ -242,7 +234,7 @@ var Grid = (function(_React$Component2) {
         var _this4 = this;
 
         if (i == 0) {
-          return _react2.default.createElement(Button, {
+          return React.createElement(Button, {
             value: i,
             onClick: function onClick() {
               return _this4.props.onClick(i);
@@ -250,7 +242,7 @@ var Grid = (function(_React$Component2) {
             classVal: "zero"
           });
         } else {
-          return _react2.default.createElement(Button, {
+          return React.createElement(Button, {
             value: i,
             onClick: function onClick() {
               return _this4.props.onClick(i);
@@ -264,7 +256,7 @@ var Grid = (function(_React$Component2) {
       value: function renderOpButton(x) {
         var _this5 = this;
 
-        return _react2.default.createElement(Button, {
+        return React.createElement(Button, {
           value: x,
           onClick: function onClick() {
             return _this5.props.onOpClick(x);
@@ -276,30 +268,30 @@ var Grid = (function(_React$Component2) {
     {
       key: "render",
       value: function render() {
-        return _react2.default.createElement(
+        return React.createElement(
           "div",
           { className: "grid" },
-          _react2.default.createElement(
+          React.createElement(
             "div",
             { className: "row" },
-            _react2.default.createElement(Button, {
+            React.createElement(Button, {
               value: "AC",
               classVal: "top-op",
               onClick: this.props.clearClick
             }),
-            _react2.default.createElement(Button, {
+            React.createElement(Button, {
               value: "C",
               classVal: "top-op",
               onClick: this.props.clearCurrentClick
             }),
-            _react2.default.createElement(Button, {
+            React.createElement(Button, {
               value: "+/-",
               classVal: "top-op",
               onClick: this.props.changeSign
             }),
             this.renderOpButton("/")
           ),
-          _react2.default.createElement(
+          React.createElement(
             "div",
             { className: "row" },
             this.renderButton(7),
@@ -307,7 +299,7 @@ var Grid = (function(_React$Component2) {
             this.renderButton(9),
             this.renderOpButton("*")
           ),
-          _react2.default.createElement(
+          React.createElement(
             "div",
             { className: "row" },
             this.renderButton(4),
@@ -315,7 +307,7 @@ var Grid = (function(_React$Component2) {
             this.renderButton(6),
             this.renderOpButton("-")
           ),
-          _react2.default.createElement(
+          React.createElement(
             "div",
             { className: "row" },
             this.renderButton(1),
@@ -323,7 +315,7 @@ var Grid = (function(_React$Component2) {
             this.renderButton(3),
             this.renderOpButton("+")
           ),
-          _react2.default.createElement(
+          React.createElement(
             "div",
             { className: "row" },
             this.renderButton(0),
@@ -336,7 +328,7 @@ var Grid = (function(_React$Component2) {
   ]);
 
   return Grid;
-})(_react2.default.Component);
+})(React.Component);
 
 var Button = (function(_React$Component3) {
   _inherits(Button, _React$Component3);
@@ -354,7 +346,7 @@ var Button = (function(_React$Component3) {
     {
       key: "render",
       value: function render() {
-        return _react2.default.createElement(
+        return React.createElement(
           "button",
           { onClick: this.props.onClick, class: this.props.classVal },
           this.props.value
@@ -364,4 +356,4 @@ var Button = (function(_React$Component3) {
   ]);
 
   return Button;
-})(_react2.default.Component);
+})(React.Component);
