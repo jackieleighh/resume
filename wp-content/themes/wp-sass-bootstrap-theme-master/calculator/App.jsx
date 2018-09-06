@@ -97,6 +97,9 @@ class Calculator extends React.Component {
 			case '/':
 				res = this.state.previousNum / num;
 				break;
+			case '=':
+				res = parseFloat(this.state.result);
+				break;
 		}
 		this.setState({ result: res, previousNum: res, currentNum: null });
 	}
@@ -148,10 +151,9 @@ class Calculator extends React.Component {
 		});
 	}
 	changeSign() {
-		this.calculateResult();
 		this.setState({
-			result: this.state.result*-1, 
-			previousNum: this.state.previousNum*-1
+			result: -1*this.state.result, 
+			currentNum: -1*this.state.currentNum
 		});
 	}
 	render() {
