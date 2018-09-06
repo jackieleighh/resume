@@ -199,8 +199,8 @@ class Grid extends React.Component {
 			<div className="grid">
 				<div className="row">
 					<Button value="AC" classVal="top-op" onClick={this.props.clearClick} />
-					<Button value="C" classVal="top-op" onClick={this.props.clearCurrentClick} />
 					<Button value="+/-" classVal="top-op" onClick={this.props.changeSign} />
+					<Button value="⌫" classVal="top-op" onClick={this.props.clearCurrentClick} />
 					{ this.renderOpButton('/') }
 				</div>
 				<div className="row">

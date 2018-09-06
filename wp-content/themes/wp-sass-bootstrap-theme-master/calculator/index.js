@@ -349,14 +349,14 @@ var Grid = (function(_React$Component2) {
               onClick: this.props.clearClick
             }),
             React.createElement(Button, {
-              value: "C",
-              classVal: "top-op",
-              onClick: this.props.clearCurrentClick
-            }),
-            React.createElement(Button, {
               value: "+/-",
               classVal: "top-op",
               onClick: this.props.changeSign
+            }),
+            React.createElement(Button, {
+              value: "\u232B",
+              classVal: "top-op",
+              onClick: this.props.clearCurrentClick
             }),
             this.renderOpButton("/")
           ),
