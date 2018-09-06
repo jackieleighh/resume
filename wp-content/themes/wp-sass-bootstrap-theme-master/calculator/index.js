@@ -1,3 +1,4 @@
+
 class Calculator extends React.Component {
 	constructor() {
 		super();
@@ -172,3 +173,5 @@ class Button extends React.Component {
 		);
 	}
 }
+
+ReactDom.render(<Calculator />, document.getElementById('calculator-widget'));
