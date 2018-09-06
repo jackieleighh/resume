@@ -72,10 +72,76 @@ var Calculator = (function(_React$Component) {
       currentNum: null,
       previousNum: null
     };
+
+    document.addEventListener("keydown", _this.handleKeyDown.bind(_this));
     return _this;
   }
 
   _createClass(Calculator, [
+    {
+      key: "handleKeyDown",
+      value: function handleKeyDown(e) {
+        switch (e.key) {
+          case "0":
+            this.handleNumberClick(0);
+            break;
+          case "1":
+            this.handleNumberClick(1);
+            break;
+          case "2":
+            this.handleNumberClick(2);
+            break;
+          case "3":
+            this.handleNumberClick(3);
+            break;
+          case "4":
+            this.handleNumberClick(4);
+            break;
+          case "5":
+            this.handleNumberClick(5);
+            break;
+          case "6":
+            this.handleNumberClick(6);
+            break;
+          case "7":
+            this.handleNumberClick(7);
+            break;
+          case "8":
+            this.handleNumberClick(8);
+            break;
+          case "9":
+            this.handleNumberClick(9);
+            break;
+          case ".":
+            this.handleNumberClick(".");
+            break;
+          case "=":
+            this.handleOperationClick("=");
+            break;
+          case "+":
+            this.handleOperationClick("+");
+            break;
+          case "-":
+            this.handleOperationClick("-");
+            break;
+          case "*":
+            this.handleOperationClick("*");
+            break;
+          case "/":
+            this.handleOperationClick("/");
+            break;
+          case "C":
+            this.clearClick();
+            break;
+          case "c":
+            this.clearClick();
+            break;
+          case "Backspace":
+            this.handleRemoveNumberClick();
+            break;
+        }
+      }
+    },
     {
       key: "calculateResult",
       value: function calculateResult() {
@@ -119,6 +185,14 @@ var Calculator = (function(_React$Component) {
       }
     },
     {
+      key: "handleRemoveNumberClick",
+      value: function handleRemoveNumberClick() {
+        if (this.state.currentNum != 0 && this.state.currentNum != null) {
+          this.setState({ currentNum: this.state.currentNum.slice(0, -1) });
+        }
+      }
+    },
+    {
       key: "handleOperationClick",
       value: function handleOperationClick(op) {
         if (this.state.currentNum != null) {
@@ -152,14 +226,6 @@ var Calculator = (function(_React$Component) {
           currentOp: null,
           currentNum: 0,
           previousNum: null
-        });
-      }
-    },
-    {
-      key: "clearCurrentClick",
-      value: function clearCurrentClick() {
-        this.setState({
-          currentNum: 0
         });
       }
     },
@@ -201,7 +267,7 @@ var Calculator = (function(_React$Component) {
               return _this2.clearClick();
             },
             clearCurrentClick: function clearCurrentClick() {
-              return _this2.clearCurrentClick();
+              return _this2.handleRemoveNumberClick();
             },
             changeSign: function changeSign() {
               return _this2.changeSign();
