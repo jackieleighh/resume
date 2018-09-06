@@ -1,5 +1,7 @@
 "use strict";
 
+// CONVERTED FROM AJX USING http://babeljs.io/
+
 var _createClass = (function() {
   function defineProperties(target, props) {
     for (var i = 0; i < props.length; i++) {
@@ -357,8 +359,3 @@ var Button = (function(_React$Component3) {
 
   return Button;
 })(React.Component);
-
-ReactDom.render(
-  React.createElement(Calculator, null),
-  document.getElementById("calculator-widget")
-);

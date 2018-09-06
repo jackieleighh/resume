@@ -17,8 +17,10 @@ $(document).ready( function() {
     }
 
     if($('.page-template-template-calc').length){
-        var target = document.getElementById('calculator-widget');
-        ReactDom.render(<Calculator />, target);
+        ReactDom.render(
+          React.createElement(Calculator, null),
+          document.getElementById("calculator-widget")
+        );
     }
 });
 
