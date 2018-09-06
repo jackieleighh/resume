@@ -118,6 +118,9 @@ var Calculator = (function(_React$Component) {
           case "=":
             this.handleOperationClick("=");
             break;
+          case "Enter":
+            this.handleOperationClick("Enter");
+            break;
           case "+":
             this.handleOperationClick("+");
             break;
