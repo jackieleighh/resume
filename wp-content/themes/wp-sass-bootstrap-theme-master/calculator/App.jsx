@@ -51,7 +51,7 @@ class Calculator extends React.Component {
 				this.handleOperationClick('=');
 				break;
 			case 'Enter':
-				this.handleOperationClick('Enter');
+				this.handleOperationClick('=');
 				break;
 			case '+':
 				this.handleOperationClick('+');
@@ -97,11 +97,17 @@ class Calculator extends React.Component {
 			case '/':
 				res = this.state.previousNum / num;
 				break;
+			case '=':
+				res = parseFloat(this.state.result);
+				break;
 		}
 		this.setState({ result: res, previousNum: res, currentNum: null });
 	}
 	handleNumberClick(i) {
-		if(this.state.currentNum == 0 || this.state.currentNum == null) {
+		if(this.state.currentOp == '=') {
+			this.setState({ result: null, previousNum: null, currentOp: null, currentNum: "" + i });
+		}
+		else if(this.state.currentNum == null || this.state.currentNum === 0 || this.state.currentNum.toString().length < 1) {
 			this.setState({
 				currentNum: "" + i
 			});
@@ -112,8 +118,12 @@ class Calculator extends React.Component {
 		}
 	}
 	handleRemoveNumberClick() {
-		if(this.state.currentNum != 0 && this.state.currentNum != null) {
-			this.setState({ currentNum: this.state.currentNum.slice(0, -1) });
+		if(this.state.currentNum != null) {
+			if(this.state.currentNum.toString().length > 1) {
+				this.setState({ currentNum: this.state.currentNum.slice(0, -1) });
+			} else {
+				this.setState({ currentNum: 0 });
+			}
 		}
 	}
 	handleOperationClick(op) {
@@ -148,17 +158,17 @@ class Calculator extends React.Component {
 		});
 	}
 	changeSign() {
-		this.calculateResult();
-		this.setState({
-			result: this.state.result*-1, 
-			previousNum: this.state.previousNum*-1
-		});
+		if(this.state.currentNum != null) {
+			this.setState({ currentNum: -1*this.state.currentNum });
+		} else {
+			this.setState({ result: -1*this.state.result });
+		}
 	}
 	render() {
 		return (
 			<div className="calc">
 				<div className="result">
-					<p>{this.state.currentNum ? this.state.currentNum : this.state.result}</p>
+					<p>{this.state.currentNum != null ? this.state.currentNum : this.state.result}</p>
 				</div>
 				<Grid onClick={i => this.handleNumberClick(i)} onOpClick={x => this.handleOperationClick(x)} clearClick={() => this.clearClick()} clearCurrentClick={() => this.handleRemoveNumberClick()} changeSign={() => this.changeSign()} />
 			</div>
