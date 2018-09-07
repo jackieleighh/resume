@@ -320,6 +320,18 @@ a {
 				}
 				&:hover {
 					color: #4fb58f;
+					i {
+						transform: scale(1.1);
+						-webkit-transform: scale(1.1);
+						-moz-transform: scale(1.1);
+						-ms-transform: scale(1.1);
+						-o-transform: scale(1.1);
+						transition: .3s all ease-in-out;
+						-webkit-transition: .3s all ease-in-out;
+						-moz-transition: .3s all ease-in-out;
+						-ms-transition: .3s all ease-in-out;
+						-o-transition: .3s all ease-in-out; 
+					}
 				}
 			}
 		}
